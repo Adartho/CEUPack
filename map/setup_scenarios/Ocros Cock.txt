@@ -2,7 +2,7 @@ setup_scenario = {
 	name = "ocros-cock"
 	priority = 0					#priority decides in which order the scenarios are listed
 	num_stars = 50
-	radius = 50					#should be less than 500, preferably less than ~460
+	radius = 30					#should be less than 500, preferably less than ~460
 	num_empires = { min = 0 max = 3 }	#limits player customization
 	num_empire_default = 1
 	fallen_empire_default = 0
