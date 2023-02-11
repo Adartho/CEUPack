@@ -1,37 +1,37 @@
 setup_scenario = {
-	name = "Ocros Cock"
-	priority = 8			#priority decides in which order the scenarios are listed
-	num_stars = 12
-	radius = 6					#should be less than 500, preferably less than ~460
-	num_empires = { min = 0 max = 2 }	#limits player customization
-	num_empire_default = 2
+	name = "ocros-cock"
+	priority = 0					#priority decides in which order the scenarios are listed
+	num_stars = 50
+	radius = 50					#should be less than 500, preferably less than ~460
+	num_empires = { min = 0 max = 3 }	#limits player customization
+	num_empire_default = 1
 	fallen_empire_default = 0
 	fallen_empire_max = 0
-	marauder_empire_default = 0
-	marauder_empire_max = 0
+	marauder_empire_default = 1
+	marauder_empire_max = 1
 	advanced_empire_default = 0
 	colonizable_planet_odds = 1.0
 	primitive_odds = 1.0
-	crisis_strength = 0.1
+	crisis_strength = 0.10
 	extra_crisis_strength = { 10 25 }
-	
+
 	cluster_count = {
 		method = one_every_x_empire
 		#method = constant
 		value = 1
-		max = 1
+		max = 3
 	}
-	cluster_radius = 5
-	cluster_distance_from_core = 2
-	
+	cluster_radius = 45
+	cluster_distance_from_core = 60
+
 	max_hyperlane_distance = 50
-	
+
 	home_system_partitions = {
-		max_systems = 2
-		min_systems= 1
+		max_systems = 15
+		min_systems= 8
 
 		min_bridges = 2
-		max_bridges = 2
+		max_bridges = 4
 
 		method = breadth_first
 	}
@@ -41,13 +41,13 @@ setup_scenario = {
 		min_systems= 4
 
 		min_bridges = 2
-		max_bridges = 12
+		max_bridges = 4
 
 		method = depth_first
 	}
 
 	num_nebulas	= 1
-	nebula_size = 10
+	nebula_size = 60
 	nebula_min_dist = 100
 
 	num_wormhole_pairs = { min = 0 max = 5 }
@@ -56,9 +56,6 @@ setup_scenario = {
 	num_gateways_default = 1
 	num_hyperlanes = { min=0.5 max= 3 }
 	num_hyperlanes_default = 1
-	
+
 	supports_shape = elliptical
-	#supports_shape = spiral_2
-	#supports_shape = spiral_4
 	supports_shape = ring
-}

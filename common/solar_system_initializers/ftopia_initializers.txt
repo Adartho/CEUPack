@@ -22,12 +22,7 @@ hgfta_natural_system_initializer = {
 	}
 
 	usage_odds = {
-		base = 1
-		modifier = {
-			NOT = { any_system = { has_star_flag = sol } }
-			NOT = { has_star_flag = empire_cluster }
-			add = 99999
-		}
+		base = 0 #disabled
 	}
 
 	max_instances = 1
