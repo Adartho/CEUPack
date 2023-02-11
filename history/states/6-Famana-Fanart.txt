@@ -1,0 +1,38 @@
+
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		8 164 252 329 372 386 400 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	resources={
+		steel=25
+		aluminium=6
+		chromium=2
+		oil=20
+	}
+	history={
+		owner = SUN
+		add_core_of = SUN
+		victory_points = {
+			252 10 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+		1936.2.2 = {
+			owner = CHZ
+		    add_core_of = CHZ
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+
+	}
+}

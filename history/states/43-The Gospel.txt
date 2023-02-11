@@ -1,0 +1,26 @@
+
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		20 21 61 94 95 239 287 339 404 515 526 538 
+	}
+	manpower=1800000
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = KCM
+		add_core_of = KCM
+		victory_points = { 20 20 }
+		victory_points = { 21 10 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

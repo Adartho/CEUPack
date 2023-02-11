@@ -1,0 +1,23 @@
+
+state={
+	id=29
+	name="STATE_29"
+	provinces={
+		202 213 229 289 497 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = FRB
+		add_core_of = FRB
+		victory_points = { 289 20 }
+		buildings = {
+			infrastructure = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

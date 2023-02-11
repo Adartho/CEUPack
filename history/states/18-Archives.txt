@@ -1,0 +1,36 @@
+
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		91 104 123 219 236 245 254 347 410 422 443 461 464 466 
+	}
+	manpower=160000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = SUN
+		add_core_of = SUN
+		victory_points = { 236 5 }
+		victory_points = { 104 5 }
+		victory_points = { 464 5 }
+		victory_points = { 91 5 }
+		victory_points = { 254 5 }
+		victory_points = { 347 5 }
+		buildings = {
+			infrastructure = 1
+			123 = {
+				naval_base = 2
+			}
+		}
+		1936.2.2 = {
+			owner = CHM
+		    add_core_of = CHM
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+	}
+}

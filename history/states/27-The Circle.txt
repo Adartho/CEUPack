@@ -1,0 +1,33 @@
+
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		39 189 235 344 402 511 517 
+	}
+	manpower=24200000
+	buildings_max_level_factor=1.000
+	state_category=town
+	resources={
+		steel=30
+		aluminium=10
+		rubber=10
+		oil=20
+		tungsten=10
+		chromium=10
+	}
+	history={
+		owner = FRB
+		add_core_of = FRB
+		victory_points = { 344 20 }
+		victory_points = { 39 20  }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

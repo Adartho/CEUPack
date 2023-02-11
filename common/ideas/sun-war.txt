@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		SUN_fanmade_priority = {
+			picture = SUN_fanmade_priority
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+                production_factory_max_efficiency_factor = -0.1
+			}
+		}
+
+		SUN_canon_priority = {
+			picture = SUN_canon_priority
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.1
+                production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		SCW_sunsetian_civil_war = {
+			picture = tfv_can_conscription_crisis
+			modifier = {
+	            join_faction_tension = 1
+	            request_lease_tension = 1
+	            war_support_weekly = 0.01
+			}
+		}
+		NCC_civil_war = {
+			picture = tfv_can_conscription_crisis
+			targeted_modifier = {
+				tag = FRB
+				defense_bonus_against = 0.2
+				attack_bonus_against = 0.1
+			}
+		}
+	}
+}

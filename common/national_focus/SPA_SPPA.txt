@@ -1,0 +1,1805 @@
+focus_tree = {
+	id = SPPA_Independence
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPA
+		}
+	}
+
+	continuous_focus_position = { x = 0 y = 15 }
+
+
+	#Focus for Our Trotsky
+	focus = {
+		id = SPA_our_trotsky
+		icon = GFX_SPA_our_trotsky-102674
+		x = 11
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_the_green_army 
+		}
+		prerequisite = { 
+			focus = SPA_distribute_leaflets 
+		}
+		mutually_exclusive = { focus = SPA_our_pilsudski }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_corps_commander = {
+				name = "Novvan"
+				picture = "Portrait_SCW_Novvan.dds"
+				traits = { infantry_officer }
+				skill = 3
+			
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			add_to_variable = { blues_vote = 5 }
+			add_to_variable = { greens_vote = -5 }
+			custom_effect_tooltip = SPA_a_light_in_the_dark_tooltip
+			add_ideas = SPA_our_trotsky_idea
+		}
+	}
+
+	#Focus for Dig into the Forests
+	focus = {
+		id = SPA_dig_into_the_forests
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		x = 4
+		y = 6
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_coexistence }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			10 = {
+				add_building_construction = { type = bunker province = 267 level = 1 instant_build = yes }
+				add_building_construction = { type = bunker province = 223 level = 1 instant_build = yes }
+				add_building_construction = { type = bunker province = 207 level = 1 instant_build = yes }
+			}
+			19 = {
+				add_building_construction = { type = bunker province = 152 level = 1 instant_build = yes }
+				add_building_construction = { type = bunker province = 325 level = 1 instant_build = yes }
+				add_building_construction = { type = bunker province = 371 level = 1 instant_build = yes }
+				add_building_construction = { type = bunker province = 37 level = 1 instant_build = yes }
+				add_building_construction = { type = bunker province = 222 level = 1 instant_build = yes }
+				add_building_construction = { type = bunker province = 259 level = 1 instant_build = yes }
+			}
+
+			add_ideas = SPA_forest_warfare
+		}
+	}
+
+	#Focus for Construction Technology
+	focus = {
+		id = SPA_construction_technology
+		icon = GFX_focus_generic_industry_2
+		x = 4
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_status_quo 
+			focus = SPA_protection_for_land 
+			focus = SPA_desert_campaign 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+
+	#Focus for National Development
+	focus = {
+		id = SPA_national_development
+		icon = GFX_focus_generic_industry_1
+		x = 2
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_protection_for_land 
+			focus = SPA_desert_campaign 
+			focus = SPA_status_quo 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Status Quo
+	focus = {
+		id = SPA_status_quo
+		icon = GFX_goal_generic_neutrality_focus
+		x = 3
+		y = 11
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_question_of_vrp }
+		mutually_exclusive = { 
+			focus = SPA_protection_for_land 
+		}
+		mutually_exclusive = { 
+			focus = SPA_desert_campaign 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conlangian Technology
+	focus = {
+		id = SPA_conlangian_technology
+		icon = GFX_goal_generic_scientific_exchange
+		x = 10
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_sing_to_the_soldiers 
+		}
+		prerequisite = { 
+			focus = SPA_the_green_army 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_variable = { blues_vote = -5 }
+			add_to_variable = { greens_vote = 5 }
+			custom_effect_tooltip = SPA_green_inf_tooltop
+		}
+	}
+
+	#Focus for The Eternal Struggle
+	focus = {
+		id = SPA_the_eternal_struggle
+		icon = GFX_SPA_the_eternal_struggle-102441
+		x = 11
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			10 = {
+				add_extra_state_shared_building_slots = 1 
+			}
+			19 = {
+				add_extra_state_shared_building_slots = 2 
+			}
+			add_manpower = 10000
+			add_war_support = 0.05
+		}
+	}
+
+	#Focus for They Shall Not Pass
+	focus = {
+		id = SPA_they_shall_not_pass
+		icon = GFX_goal_generic_fortify_city
+		x = 9
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_eternal_struggle }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			10 = {
+				add_building_construction = { type = bunker province = 267 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 223 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 207 level = 2 instant_build = yes }
+			}
+			19 = {
+				add_building_construction = { type = bunker province = 152 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 325 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 371 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 37 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 222 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 259 level = 2 instant_build = yes }
+			}
+		}
+	}
+
+	#Focus for Build up an Industry
+	focus = {
+		id = SPA_build_up_an_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 13
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_eternal_struggle }
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for The People under our Control
+	focus = {
+		id = SPA_the_people_under_our_control
+		icon = GFX_focus_generic_self_management
+		x = 11
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_they_shall_not_pass 
+		}
+		prerequisite = { 
+			focus = SPA_build_up_an_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = SPA_our_people
+		}
+	}
+
+	#Focus for Everyone must Serve
+	focus = {
+		id = SPA_everyone_must_serve
+		icon = GFX_SPA_everyone_must_serve-102442
+		x = 15
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_people_under_our_control }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = SPA_mandatory_service
+		}
+	}
+
+	#Focus for A Light in the Dark
+	focus = {
+		id = SPA_a_light_in_the_dark
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 3
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_people_under_our_control }
+		mutually_exclusive = { focus = SPA_the_green_army }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_variable = { blues_vote = 5 }
+			add_to_variable = { greens_vote = -5 }
+			custom_effect_tooltip = SPA_a_light_in_the_dark_tooltip
+		}
+	}
+
+	#Focus for The Green Army
+	focus = {
+		id = SPA_the_green_army
+		icon = GFX_focus_generic_little_entente
+		x = 9
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_support_from_conlangia }
+		mutually_exclusive = { focus = SPA_a_light_in_the_dark }
+		ai_will_do = {
+			factor = 0
+		}
+		historical_ai = {
+			NOT = {
+				is_historical_focus_on = yes
+			}
+		}
+		completion_reward = {
+			set_cosmetic_tag = green_army
+			remove_ideas = SPA_divided_command
+			add_ideas = SPA_green_army
+			add_ideas = SPA_temporary_consolidation
+			add_ideas = SCW_sunsetian_civil_war
+			hidden_effect = {
+				country_event = SCW.17
+			}
+			news_event = SCW.18
+			add_to_variable = { blues_vote = -20 }
+			add_to_variable = { greens_vote = 20 }
+			custom_effect_tooltip = SPA_the_green_army_tooltip
+		}
+	}
+
+	#Focus for Support from Conlangia
+	focus = {
+		id = SPA_support_from_conlangia
+		icon = GFX_SPA_support_from_conlangia-102444
+		x = 9
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_people_under_our_control }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_variable = { blues_vote = -5 }
+			add_to_variable = { greens_vote = 5 }
+			custom_effect_tooltip = SPA_support_from_conlangia_tooltip
+			set_country_flag = spa_conlang
+			set_variable = { nc_cost = 75 }
+		}
+	}
+
+	#Focus for Coexistence
+	focus = {
+		id = SPA_coexistence
+		icon = GFX_goal_generic_national_unity
+		x = 3
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_a_light_in_the_dark }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = -0.05
+			reverse_add_opinion_modifier = {
+				target = SOC
+				modifier = sanctions_relations
+			}
+			reverse_add_opinion_modifier = {
+				target = SAD
+				modifier = sanctions_relations
+			}
+			reverse_add_opinion_modifier = {
+				target = SHA
+				modifier = sanctions_relations
+			}
+			reverse_add_opinion_modifier = {
+				target = SGL
+				modifier = sanctions_relations
+			}
+			reverse_add_opinion_modifier = {
+				target = SHM
+				modifier = sanctions_relations
+			}
+		}
+	}
+
+	#Focus for Home Defence
+	focus = {
+		id = SPA_home_defence
+		icon = GFX_goal_generic_construct_military
+		x = 19
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_everyone_must_serve }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = SPA_home_defence
+		}
+	}
+
+	#Focus for Sing to the Soldiers
+	focus = {
+		id = SPA_sing_to_the_soldiers
+		icon = GFX_goal_generic_propaganda
+		x = 12
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_everyone_must_serve }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Focus for A Theory of Helvania
+	focus = {
+		id = SPA_a_theory_of_helvania
+		icon = GFX_focus_TUR_ratify_the_six_arrows
+		x = 17
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_everyone_must_serve }
+		mutually_exclusive = { focus = SPA_suppress_normalcy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_variable = { blues_vote = -5 }
+			add_to_variable = { greens_vote = 5 }
+			custom_effect_tooltip = SPA_green_inf_tooltop
+			add_stability = 0.05
+			add_popularity= { 
+                ideology = discord_dem
+                popularity = 0.1
+            }
+		}
+	}
+
+	#Focus for Suppress Normalcy
+	focus = {
+		id = SPA_suppress_normalcy
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 15
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_everyone_must_serve }
+		mutually_exclusive = { focus = SPA_a_theory_of_helvania }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_variable = { blues_vote = 5 }
+			add_to_variable = { greens_vote = -5 }
+			custom_effect_tooltip = SPA_a_light_in_the_dark_tooltip
+			add_war_support = 0.05
+			add_popularity= { 
+                ideology = despotism
+                popularity = 0.1
+            }
+		}
+	}
+
+	#Focus for Fire up our Factories
+	focus = {
+		id = SPA_fire_up_our_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 19
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_home_defence }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+	}
+
+	#Focus for Our Pilsudski
+	focus = {
+		id = SPA_our_pilsudski
+		icon = GFX_SPA_our_pilsudski-102672
+		x = 9
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_green_army }
+		mutually_exclusive = { focus = SPA_our_trotsky }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_corps_commander = {
+				name = "Novvan"
+				picture = "Portrait_SCW_Novvan.dds"
+				traits = { infantry_officer }
+				skill = 3
+			
+				attack_skill = 1
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			add_to_variable = { blues_vote = -5 }
+			add_to_variable = { greens_vote = 5 }
+			custom_effect_tooltip = SPA_green_inf_tooltop
+			add_ideas = SPA_our_pilsudski_idea
+		}
+	}
+
+	#Focus for Distribute Leaflets
+	focus = {
+		id = SPA_distribute_leaflets
+		icon = GFX_goal_generic_forceful_treaty
+		x = 13
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_sing_to_the_soldiers 
+		}
+		prerequisite = { 
+			focus = SPA_suppress_normalcy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea = { idea = SPA_propoganda days = 45 }
+		}
+	}
+
+	#Focus for Green Grass, Red Fields
+	focus = {
+		id = SPA_green_grass_red_fields
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		x = 15
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_suppress_normalcy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+			add_political_power = 100
+			add_to_variable = { blues_vote = 5 }
+			add_to_variable = { greens_vote = -5 }
+			custom_effect_tooltip = SPA_a_light_in_the_dark_tooltip
+		}
+	}
+
+	#Focus for The Northern Offensive
+	focus = {
+		id = SPA_the_northern_offensive
+		icon = GFX_focus_generic_manpower
+		x = 7
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_green_army }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea = { idea = SPA_northern_offensive days = 90 }
+		}
+	}
+
+	#Focus for Air Equipment
+	focus = {
+		id = SPA_air_equipment
+		icon = GFX_goal_generic_air_fighter2
+		x = 21
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_home_defence }
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			air_experience = 25
+			if = { limit = { has_country_flag = aviation_effort_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}			
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}			
+		}
+
+		completion_reward = {
+			air_experience = 25
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	#Focus for Soldier Councils
+	focus = {
+		id = SPA_soldier_councils
+		icon = GFX_focus_generic_military_academy
+		x = 7
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_northern_offensive }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Focus for War Machines
+	focus = {
+		id = SPA_war_machines
+		icon = GFX_focus_generic_combined_arms
+		x = 19
+		y = 6
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_fire_up_our_factories }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+	#Focus for Slave Labour
+	focus = {
+		id = SPA_slave_labour
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 13
+		y = 7
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_green_grass_red_fields 
+		}
+		prerequisite = { 
+			focus = SPA_our_trotsky 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+                ideology = despotism
+                popularity = 0.1
+            }
+			add_manpower = -5000
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+	}
+
+	#Focus for Chemical Weapons
+	focus = {
+		id = SPA_chemical_weapons
+		icon = GFX_goal_generic_CAS
+		x = 15
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_slave_labour }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 2
+				category = nuclear
+				category = rocketry
+			}
+		}
+	}
+
+	#Focus for Vanguard of Liberty
+	focus = {
+		id = SPA_vanguard_of_liberty
+		icon = GFX_goal_generic_defence
+		x = 8
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_our_pilsudski 
+		}
+		prerequisite = { 
+			focus = SPA_soldier_councils 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	#Focus for The Eternal Alliance
+	focus = {
+		id = SPA_the_eternal_alliance
+		icon = GFX_SPA_the_eternal_alliance-102678
+		x = 10
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_our_pilsudski
+			focus = SPA_our_trotsky 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = NCC
+				modifier = same_ruling_party
+			}
+			reverse_add_opinion_modifier = {
+				target = NCC
+				modifier = same_ruling_party
+			}
+		}
+	}
+
+	#Focus for Winners of the Civil War
+	focus = {
+		id = SPA_winners_of_the_civil_war
+		icon = GFX_focus_generic_military_mission
+		x = 10
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_the_eternal_alliance
+			focus = SPA_slave_labour
+		}
+		prerequisite = { 
+			focus = SPA_the_eternal_alliance
+			focus = SPA_vanguard_of_liberty
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Learn from the Civil War
+	focus = {
+		id = SPA_learn_from_the_civil_war
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 2
+		y = 6
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_coexistence }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Focus for Help a Faction
+	focus = {
+		id = SPA_help_a_faction
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 2
+		y = 7
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_learn_from_the_civil_war }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = SCW.22
+		}
+	}
+
+	#Focus for The Roaring of our Industry
+	focus = {
+		id = SPA_the_roaring_of_our_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 4
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_dig_into_the_forests }
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for A Guarantee
+	focus = {
+		id = SPA_a_guarantee
+		icon = GFX_SPA_a_guarantee-102681
+		x = 3
+		y = 8
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_the_roaring_of_our_industry 
+		}
+		prerequisite = { 
+			focus = SPA_help_a_faction 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = NCC
+				modifier = same_ruling_party
+			}
+			reverse_add_opinion_modifier = {
+				target = NCC
+				modifier = same_ruling_party
+			}
+		}
+	}
+
+	#Focus for Extract Resources
+	focus = {
+		id = SPA_extract_resources
+		icon = GFX_goal_generic_oil_refinery
+		x = 1
+		y = 9
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_a_guarantee }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 3.0
+				uses = 1
+				category = synth_resources
+			}
+			add_tech_bonus = {
+				name = MAN_develop_aluminum_sources
+				bonus = 1.0
+				uses = 1
+				category = excavation_tech
+			}
+		}
+	}
+
+	#Focus for Restrictions on Reproduction
+	focus = {
+		id = SPA_restrictions_on_reproduction
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 5
+		y = 9
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_a_guarantee }
+		mutually_exclusive = { focus = SPA_boost_our_population }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower = -10000
+			add_to_variable = { greens_vote = 5 }
+			add_to_variable = { blues_vote = -5 }
+			custom_effect_tooltip = SPA_green_inf_tooltop
+		}
+	}
+
+	#Focus for Boost our Population
+	focus = {
+		id = SPA_boost_our_population
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 3
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_a_guarantee }
+		mutually_exclusive = { focus = SPA_restrictions_on_reproduction }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower = 10000
+			add_to_variable = { greens_vote = -5 }
+			add_to_variable = { blues_vote = 5 }
+			custom_effect_tooltip = SPA_a_light_in_the_dark_tooltip
+		}
+	}
+
+	#Focus for The Question of VRP
+	focus = {
+		id = SPA_the_question_of_vrp
+		icon = GFX_SPA_the_question_of_vrp-102682
+		x = 3
+		y = 10
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_extract_resources }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = SCW.19
+		}
+	}
+
+	#Focus for Desert Campaign
+	focus = {
+		id = SPA_desert_campaign
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 11
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_question_of_vrp }
+		mutually_exclusive = { 
+			focus = SPA_protection_for_land 
+		}
+		mutually_exclusive = { 
+			focus = SPA_desert_campaign 
+		}
+		mutually_exclusive = { 
+			focus = SPA_status_quo 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Protection for Land
+	focus = {
+		id = SPA_protection_for_land
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 5
+		y = 11
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_the_question_of_vrp }
+		mutually_exclusive = { 
+			focus = SPA_desert_campaign 
+		}
+		mutually_exclusive = { 
+			focus = SPA_status_quo 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Election
+	focus = {
+		id = SPA_a_new_election
+		icon = GFX_goal_support_democracy
+		x = 4
+		y = 13
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_national_development 
+		}
+		prerequisite = { 
+			focus = SPA_construction_technology 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = SCW.23
+		}
+	}
+
+	#Focus for Yinayush Victory!
+	focus = {
+		id = SPA_yinayush_victory
+		icon = GFX_SPA_yinayush_victory-102683
+		x = 7
+		y = 14
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_a_new_election }
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { 
+			focus = SPA_novvan_victory 
+		}
+	}
+
+	#Focus for Novvan Victory!
+	focus = {
+		id = SPA_novvan_victory
+		icon = GFX_SPA_novvan_victory-102685
+		x = 2
+		y = 14
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_a_new_election }
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = { 
+			focus = SPA_yinayush_victory 
+		}
+	}
+
+	#Focus for New Sunset
+	focus = {
+		id = SPA_new_sunset
+		icon = GFX_SPA_new_sunset-102699
+		x = 7
+		y = 15
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_yinayush_victory }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_cosmetic_tag = newsunset
+			news_event = SCW.26
+		}
+	}
+
+	#Focus for Sunsetian Union
+	focus = {
+		id = SPA_sunsetian_union
+		icon = GFX_SPA_sunsetian_union-102700
+		x = 2
+		y = 15
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_novvan_victory }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_cosmetic_tag = sunsetunion
+			news_event = SCW.27
+		}
+	}
+
+	#Focus for Seize Power
+	focus = {
+		id = SPA_seize_power
+		icon = GFX_goal_anti_comintern_pact
+		x = 7
+		y = 16
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_new_sunset }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+				ideology = despotism
+				popularity = 0.4
+			}
+		}
+	}
+
+	#Focus for Preserve the People's Councils
+	focus = {
+		id = SPA_preserve_the_peoples_councils
+		icon = GFX_focus_por_workers_of_iberia
+		x = 2
+		y = 16
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_sunsetian_union }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+				ideology = discord_dem
+				popularity = 0.4
+			}
+		}
+	}
+
+	#Focus for The Southern Invasion
+	focus = {
+		id = SPA_the_southern_invasion
+		icon = GFX_goal_generic_air_bomber
+		x = 1
+		y = 17
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_preserve_the_peoples_councils }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = CEU
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SAU
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = LAS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NYA
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = MPL
+			}
+			SPA = {
+				add_state_core = 50
+				add_state_core = 49
+				add_state_core = 52
+				add_state_core = 57
+				add_state_core = 53
+				add_state_core = 46
+			}
+		}
+	}
+
+	#Focus for Join the Conlang Pact
+	focus = {
+		id = SPA_join_the_conlang_pact
+		icon = GFX_goal_generic_dangerous_deal
+		x = 3
+		y = 17
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_preserve_the_peoples_councils }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			FRB = {
+				country_event = SCW.28
+			}
+		}
+	}
+
+	#Focus for War in the Desert
+	focus = {
+		id = SPA_war_in_the_desert
+		icon = GFX_focus_generic_army_tanks2
+		x = 2
+		y = 18
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_the_southern_invasion 
+		}
+		prerequisite = { 
+			focus = SPA_join_the_conlang_pact 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas = SPA_forest_warfare
+			add_ideas = SPA_mixed_warfare
+		}
+	}
+
+	#Focus for Sunseto-Conlangian Commonwealth
+	focus = {
+		id = SPA_sunsetoconlangian_commonwealth
+		icon = GFX_SPA_sunsetoconlangian_commonwealth-102444
+		x = 2
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_war_in_the_desert }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			date > 1945.1.1
+		}
+		completion_reward = {
+			NCC = {
+				country_event = SCW.29
+			}
+			SPA = {
+				add_state_core = 36
+				add_state_core = 35
+				add_state_core = 37
+				add_state_core = 38
+			}
+		}
+	}
+
+	#Focus for NAP with Sunset?
+	focus = {
+		id = SPA_nap_with_sunset
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 5
+		y = 17
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_seize_power }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			12 = {
+				owner = {
+					country_event = SCW.30
+					remove_opinion_modifier = {
+						target = PREV
+						modifier = sanctions_relations
+					}
+					add_opinion_modifier = {
+						target = PREV
+						modifier = POR_portuguese_trade
+					}
+					reverse_add_opinion_modifier = {
+						target = PREV
+						modifier = POR_portuguese_trade
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for War Technology
+	focus = {
+		id = SPA_war_technology
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 9
+		y = 17
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_seize_power }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 10
+		}
+	}
+
+	#Focus for The Sunsetian Caesar
+	focus = {
+		id = SPA_the_sunsetian_caesar
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 7
+		y = 18
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_seize_power }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+	#Focus for A Grand Coalition
+	focus = {
+		id = SPA_a_grand_coalition
+		icon = GFX_goal_generic_alliance
+		x = 5
+		y = 19
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_nap_with_sunset 
+		}
+		prerequisite = { 
+			focus = SPA_war_technology 
+		}
+		prerequisite = { 
+			focus = SPA_the_sunsetian_caesar 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			12 = {
+				owner = {
+					country_event = SCW.31
+				}
+			}
+		}
+	}
+
+	#Focus for Poison the Primus
+	focus = {
+		id = SPA_poison_the_primus
+		icon = GFX_focus_rom_parties_end
+		x = 9
+		y = 19
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_nap_with_sunset 
+		}
+		prerequisite = { 
+			focus = SPA_war_technology 
+		}
+		prerequisite = { 
+			focus = SPA_the_sunsetian_caesar 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			FRB = {
+				add_ideas = FRB_Poison
+			}
+		}
+	}
+
+	#Focus for War Plan Rodessil
+	focus = {
+		id = SPA_war_plan_rodessil
+		icon = GFX_focus_BUL_condemn_macedonian_organizations
+		x = 7
+		y = 20
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_poison_the_primus 
+		}
+		prerequisite = { 
+			focus = SPA_a_grand_coalition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = FRB
+			}
+		}
+	}
+
+	#Focus for Build up our air infrastructure
+	focus = {
+		id = SPA_build_up_our_air_infrastructure
+		icon = GFX_goal_poland_goal
+		x = 21
+		y = 6
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_air_equipment }
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			if = { limit = { has_country_flag = aviation_effort_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}	
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		}	
+	}
+
+	#Focus for A Liberated Army
+	focus = {
+		id = SPA_a_liberated_army
+		icon = GFX_SPA_a_liberated_army-102441
+		x = 18
+		y = 7
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_a_theory_of_helvania 
+		}
+		prerequisite = { 
+			focus = SPA_war_machines 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_to_variable = { greens_vote = 5 }
+			add_to_variable = { blues_vote = -5 }
+			custom_effect_tooltip = SPA_green_inf_tooltop
+		}
+	}
+
+	#Focus for Military Drills
+	focus = {
+		id = SPA_military_drills
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 20
+		y = 7
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_war_machines }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			manpower = -1000
+			remove_ideas = SPA_mandatory_service
+			add_ideas = SPA_nation_of_soldiers
+		}
+	}
+
+	#Focus for Material Testing Lab
+	focus = {
+		id = SPA_material_testing_lab
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 22
+		y = 7
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_war_machines }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 2.0
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	#Focus for Our Doctrine
+	focus = {
+		id = SPA_our_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		x = 20
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_military_drills }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Focus for Extra Research Slot
+	focus = {
+		id = SPA_extra_research_slot
+		icon = GFX_goal_generic_scientific_exchange
+		x = 22
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SPA_material_testing_lab }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	#Focus for Deterrence
+	focus = {
+		id = SPA_deterrence
+		icon = GFX_focus_wonderweapons
+		x = 21
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPA_our_doctrine 
+		}
+		prerequisite = { 
+			focus = SPA_extra_research_slot 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 2
+				category = nuclear
+			}
+		}
+	}
+
+#End of focuses 
+ }

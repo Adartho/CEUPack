@@ -1,0 +1,25 @@
+
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		220 294 434 530 537 
+	}
+	manpower=840000
+	buildings_max_level_factor=2.000
+	state_category=town
+	history={
+		owner = SAU
+		add_core_of = SAU
+		victory_points = { 537 30 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

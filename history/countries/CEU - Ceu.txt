@@ -1,0 +1,46 @@
+capital = 46
+
+OOB = "unlock_tanks"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+}
+
+set_politics = {
+	ruling_party = libertarianism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	libertarianism = 60
+	constitutional_oli = 40
+}
+
+set_convoys = 30
+
+#Victor Emmanuel III of Italy after 39
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_CL_DESC"
+	picture = "Portrait_Ceu_CL.dds"
+	expire = "1965.1.1"
+	ideology = weak_staff
+	traits = {
+		#
+	}
+}
+set_research_slots = 2
+set_stability = 0.9
+set_war_support = 0.5

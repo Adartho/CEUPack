@@ -1,0 +1,54 @@
+﻿l_english:
+ the_power_stuggle:0 "The Power Stuggle"
+ the_power_stuggle_desc:0 "Following the announcement of Nico's resignation, several candidates have emerged as possible successors. §BHasona§!, §YGLR§!, §RAdartho§! and §GOcros§! are the main candidates, being high administrators. Additionally, many dissidents unhappy with the current government have banded together to form the §CSHM (Sunsetia Helvania Movement)§!. It is necessary to win over support, expand paramilitaries and gain approval from the lower staff.\n\n\n§LNico§! §Oresigns on the§! §L1st of January, 1937§!§O. We must act fast.§!\n\nCurrently playing as: $CURRENTLY_PLAYING$\n\n[SHA.GetFlag] §BHasona§!: [?hasona_popularity|+0] ([?hasona_troops|0] extra divisions, [?hasona_guns|§0]K extra guns)\n[SGL.GetFlag] §YGLR§!: [?glr_popularity|+0] ([?glr_troops|0] extra divisions, [?glr_guns|§0]K extra guns)\n[SAD.GetFlag] §RAdartho§!: [?adartho_popularity|+0] ([?adartho_troops|0] extra divisions, [?adartho_guns|§0]K extra guns)\n[SOC.GetFlag] §GOcros§!: [?ocros_popularity|+0] ([?ocros_troops|0] extra divisions, [?ocros_guns|§0]K extra guns)\n[SHM.GetFlag] §CSHM§!: [?shm_popularity|+0] ([?shm_troops|0] extra divisions, [?shm_guns|§0]K extra guns)\n\n§ORag§!: Supporting $RAG_CHOICE$ ([?rag_hasona|B0] - [?rag_glr|Y0] - [?rag_adartho|R0] - [?rag_ocros|G0] - [?rag_shm|C0])\n§OHugo§!: Supporting $HUGO_CHOICE$ ([?hugo_hasona|B0] - [?hugo_glr|Y0] - [?hugo_adartho|R0] - [?hugo_ocros|G0] - [?hugo_shm|C0])\n§OBacon§!: Supporting $BACON_CHOICE$ ([?bacon_hasona|B0] - [?bacon_glr|Y0] - [?bacon_adartho|R0] - [?bacon_ocros|G0] - [?bacon_shm|C0])"
+
+ CURRENTLY_PLAYING:0 "[GetSuccessorloc]"
+
+ RAG_CHOICE:0 "[GetCandidateRagloc]"
+ BACON_CHOICE:0 "[GetCandidateBaconloc]"
+ HUGO_CHOICE:0 "[GetCandidateHugoloc]"
+
+ HASONA_KEY:0 "§BHasona§!"
+ GLR_KEY:0 "§YGLR§!"
+ ADARTHO_KEY:0 "§RAdartho§!"
+ OCROS_KEY:0 "§GOcros§!"
+ SHM_KEY:0 "§CSHM§!"
+ CONTEST_KEY:0 "§Lnobody.§!"
+
+ expand_paramilitaries:0 "Expand Paramilitaries"
+ look_for_opportunity:0 "Look for opportunities"
+ stockpile_weapons:0 "Stockpile Weapons"
+ influence_rag:0 "Influence Rag"
+ influence_hugo:0 "Influence Hugo"
+ influence_bacon:0 "Influence Bacon"
+
+ expand_paramilitaries_desc:0 "Spend 5 influence for 2 extra divisions."
+ look_for_opportunity_desc:0 "Spend political power to try and find a way to increase our influence."
+ stockpile_weapons_desc:0 "Spend 5 influence for 2000 extra guns."
+
+ five_influence:0 "5 influence"
+ five_influence_blocked:0 "5 influence"
+
+ SCW_sunsetian_civil_war:0 "Sunsetian Civil War"
+
+
+ a_split_army:0 "A Split Army"
+ a_split_army_desc:0 "The SPPA is an unorganised mess of soldiers, militias, rioters, foreign support and revolutionaries. It is deeply ideologically divided as well, between the soldiers. However, there are decisively two factions which have formed. \n\n§GNovvan's Greens§! are violent revolutionaries, much like the SHM. Novvan himself comes from New Conlangia, where he has temporarily resigned his position to free Sunset. They want to influence Yin to intervene in the civil war, and they want to create a liberal, democratic state inspired by socialist tendancies. \n\nOn the contrary, §CYinayush's Blues§! are a highly organised paramilitary force, and hold most of the proffessional assets of the army. They campaign for isolation, and to make a new nation which shan't follow the same mistakes. Yinayush himself, however, is deeply annoyed with the democratic system he is being forced to lead, wishing he could just §Lreplace it with something more powerful...§!\n\n\n§LCurrently, the§! $SPAA_FACTION$ §Lare the most dominant force.§!\n§GThe Greens§! hold approximately [?greens_vote|G0]% of the soldier's vote.\n§CThe Blues§! hold approximately [?blues_vote|C0]% of the soldier's vote."
+
+ SPAA_FACTION:0 "[GetSPPAloc]"
+
+ BLUES_KEY:0 "§CBlues§!"
+ GREENS_KEY:0 "§GGreens§!"
+ STATUS_QUO:0 "Status Quo"
+
+ debug_cat:0 "Debug"
+ debug_cat_desc:0 "what is blowjob horologium style\n\n\n\n\n\n"
+ kill_nico:0 "Kill Nico"
+ make_majestaz_wholesome:0 "Make Fifth Rebirth Wholesome"
+ sablin_frb:0 "Fifth Chungus"
+ sablin_frb_DEF:0 "The Fifth Chungus"
+ sablin_frb_ADJ:0 "Fifth Chungian"
+ super_cat:0 "Superevent Debug"
+
+ foreign_aid_sppa:0 "Foreign Aid"
+ foreign_aid_sppa_desc:0 "Although officially a state organised by an army, the actual army of the \"Sunsetian People's Protection Army\" is pitiful. It is unexperienced, undersupplied, and plagued by internal infighting. As a result, the state relies mostly on foreign support in order to keep the peace and survive.\n\n\n[KCM.GetFlag]Support from §BKCM§!: [?KCM_guns|B0] guns, [?KCM_tanks|B0] tanks, [?KCM_planes|B0] planes, [?KCM_men|B0] men\n[NCC.GetFlag]Support from §LNew Conlangia§!: [?NCC_guns|L0] guns, [?NCC_tanks|L0] tanks, [?NCC_planes|L0] planes, [?NCC_planes|L0] men"

@@ -1,0 +1,98 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SCW_custom"
+		textureFile = "gfx//superevent_pictures//SCW_custom.tga"
+	}
+
+	spriteType = {
+		name = "GFX_continuationwar_super"
+		textureFile = "gfx//superevent_pictures//continuationwar_super.tga"
+	}
+
+	spriteType = {
+		name = "GFX_sablin_chungus_super"
+		textureFile = "gfx//superevent_pictures//sablin_chungus_super.tga"
+	}
+
+	spriteType = {
+		name = "GFX_redcoat_invasion_super"
+		textureFile = "gfx//superevent_pictures//redcoat_invasion_super.tga"
+	}
+
+	spriteType = {
+		name = "GFX_hasona_owner_absoli"
+		textureFile = "gfx//superevent_pictures//hasona_owner_absoli.tga"
+	}
+
+	spriteType = {
+		name = "GFX_hasona_owner_conoli"
+		textureFile = "gfx//superevent_pictures//hasona_owner_conoli.tga"
+	}
+
+	spriteType = {
+		name = "GFX_hasona_owner_despotism"
+		textureFile = "gfx//superevent_pictures//hasona_owner_despotism.tga"
+	}
+
+	spriteType = {
+		name = "GFX_yin_despotism"
+		textureFile = "gfx//superevent_pictures//yin_despotism.tga"
+	}
+
+	spriteType = {
+		name = "GFX_novvan_super"
+		textureFile = "gfx//superevent_pictures//novvan_super.tga"
+	}
+
+	spriteType = {
+		name = "GFX_yin_conoli"
+		textureFile = "gfx//superevent_pictures//yin_conoli.tga"
+	}
+
+	spriteType = {
+		name = "GFX_skm_super"
+		textureFile = "gfx//superevent_pictures//skm_super.tga"
+	}
+
+	spriteType = {
+		name = "GFX_chaos_enter"
+		textureFile = "gfx//superevent_pictures//chaos_enter.tga"
+	}
+
+	spriteType = {
+		name = "GFX_chaos_end"
+		textureFile = "gfx//superevent_pictures//chaos_end.tga"
+	}
+
+	spriteType = {
+		name = "GFX_chaos_end"
+		textureFile = "gfx//superevent_pictures//chaos_end.tga"
+	}
+
+	spriteType = {
+		name = "GFX_ncw_super"
+		textureFile = "gfx//superevent_pictures//ncw_super.tga"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_bigevent_border"
+		size= { x=192 y=243 }
+		textureFile = "gfx/interface/tiles/tiled_window_bigevent_border.dds"
+		borderSize = { x=64 y=71 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+	    name = "GFX_superevent_text_underlay"
+	    textureFile = "gfx/interface/superevent_text_underlay.dds"
+    }
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_1b_no_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}

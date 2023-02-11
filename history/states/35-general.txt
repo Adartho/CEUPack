@@ -1,0 +1,33 @@
+
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		60 136 154 214 387 390 417 433 533 
+	}
+	manpower=4800000
+	buildings_max_level_factor=1.000
+	state_category=city
+	resources={
+		steel=20
+		oil=10
+	}
+	history={
+		owner = NCC
+		add_core_of = NCC
+		victory_points = { 390 30 }
+		victory_points = { 433 20 }
+		victory_points = { 417 10 }
+		victory_points = { 60 10 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

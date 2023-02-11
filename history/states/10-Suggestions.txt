@@ -1,0 +1,31 @@
+
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		97 105 135 195 207 223 267 274 337 370 493 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+			owner = SUN
+			add_core_of = SUN
+			victory_points = { 195 15 }
+			victory_points = { 493 5 }
+			victory_points = { 135 5 }
+			buildings = {
+				infrastructure = 1
+			}
+			1936.2.2 = {
+				owner = SPA
+				add_core_of = SPA
+				buildings = {
+					infrastructure = 3
+					industrial_complex = 2
+					arms_factory = 2
+				}
+			}
+	
+		}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=16
+	name="STATE_16"
+
+	history={
+		owner = SUN
+		add_core_of = SUN
+		victory_points = {
+			133 35 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+
+		1936.2.2 = {
+			owner = CHF
+		    add_core_of = CHF
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+
+	}
+
+	provinces={
+		114 133 271 331 368 436 439 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

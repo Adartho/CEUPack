@@ -1,0 +1,41 @@
+
+state={
+	id=23
+	name="STATE_23"
+	provinces={
+		31 36 69 118 122 146 177 211 224 261 270 354 406 496 499 506 508 510 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+
+	state_category = town
+
+	resources={
+		steel=15
+		aluminium=2
+	}
+
+	history={
+		owner = SUN
+		add_core_of = SUN
+		victory_points = { 117 10 }
+		victory_points = { 510 10 }
+		victory_points = { 146 5 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			499 = {
+				naval_base = 2
+			}
+		}
+		1936.2.2 = {
+			owner = CHH
+		    add_core_of = CHH
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+	}
+}

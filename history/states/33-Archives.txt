@@ -1,0 +1,25 @@
+
+state={
+	id=33
+	name="STATE_33"
+	provinces={
+		5 19 163 432 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = FRB
+		add_core_of = FRB
+		victory_points = { 432 10 }
+		victory_points = { 19 10  }
+		victory_points = { 5 10  }
+		buildings = {
+			infrastructure = 1
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

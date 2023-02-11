@@ -1,0 +1,28 @@
+
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		65 191 415 423 
+	}
+	manpower=880000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	resources={
+		steel=20
+		oil=20
+	}
+	history={
+		owner = CLD
+		add_core_of = CLD
+		victory_points = { 65 10 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

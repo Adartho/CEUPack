@@ -1,0 +1,152 @@
+division_template = {
+	name = "Frame Slave"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Inner Circle Conscripts"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Exposition"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Frame Slave"
+		location = 478
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Frame Slave"
+		location = 478
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Frame Slave"
+		location = 478
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Frame Slave"
+		location = 81
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Frame Slave"
+		location = 81
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Frame Slave"
+		location = 147
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Frame Slave"
+		location = 151
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Rian Division"
+		location = 151
+		division_template = "Inner Circle Conscripts"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ora Malda Division"
+		location = 344
+		division_template = "Inner Circle Conscripts"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ora Malda Division"
+		location = 344
+		division_template = "Inner Circle Conscripts"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ora Malda Division"
+		location = 39
+		division_template = "Inner Circle Conscripts"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Framemaker 1"
+		location = 326
+		division_template = "Exposition"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Framemaker 2"
+		location = 289
+		division_template = "Exposition"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Frame Slave"
+		location = 289
+		division_template = "Frame Slave"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

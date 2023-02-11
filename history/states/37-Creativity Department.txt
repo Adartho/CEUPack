@@ -1,0 +1,31 @@
+
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		190 281 296 395 520 522 527 
+	}
+	manpower=3200000
+	buildings_max_level_factor=1.000
+	state_category=town
+	resources={
+		steel=15
+		chromium=5
+		rubber=5
+	}
+	history={
+		owner = NCC
+		add_core_of = NCC
+		victory_points = { 520 20 }
+		victory_points = { 522 20 }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

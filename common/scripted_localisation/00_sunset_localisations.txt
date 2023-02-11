@@ -1,0 +1,254 @@
+defined_text = {
+	name = GetSuccessorloc
+	text = {
+		trigger = {
+			check_variable = { successor = 1 }
+		}
+		localization_key = HASONA_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = { successor = 2 }
+		}
+		localization_key = GLR_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = { successor = 3 }
+		}
+		localization_key = ADARTHO_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = { successor = 4 }
+		}
+		localization_key = OCROS_KEY
+	}
+	text = {
+		localization_key = SHM_KEY
+	}
+}
+
+defined_text = {
+	name = GetSPPAloc
+	text = {
+		trigger = {
+			check_variable = { blues_vote > greens_vote }
+		}
+		localization_key = BLUES_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = { blues_vote < greens_vote }
+		}
+		localization_key = GREENS_KEY
+	}
+	text = {
+		localization_key = STATUS_QUO
+	}
+}
+
+defined_text = {
+	name = GetCandidateRagloc
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { rag_hasona > rag_glr }
+				check_variable = { rag_hasona > rag_ocros }
+				check_variable = { rag_hasona > rag_adartho }
+				check_variable = { rag_hasona > rag_shm }
+			}
+		}
+		localization_key = HASONA_KEY
+		set_variable = { rag_candidate = 1 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { rag_glr > rag_hasona }
+				check_variable = { rag_glr > rag_ocros }
+				check_variable = { rag_glr > rag_adartho }
+				check_variable = { rag_glr > rag_shm }
+			}
+		}
+		localization_key = GLR_KEY
+		set_variable = { rag_candidate = 2 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { rag_adartho > rag_hasona }
+				check_variable = { rag_adartho > rag_ocros }
+				check_variable = { rag_adartho > rag_glr }
+				check_variable = { rag_adartho > rag_shm }
+			}
+		}
+		localization_key = ADARTHO_KEY
+		set_variable = { rag_candidate = 3 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { rag_ocros > rag_hasona }
+				check_variable = { rag_ocros > rag_adartho }
+				check_variable = { rag_ocros > rag_glr }
+				check_variable = { rag_ocros > rag_shm }
+			}
+		}
+		localization_key = OCROS_KEY
+		set_variable = { rag_candidate = 4 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { rag_shm > rag_hasona }
+				check_variable = { rag_shm > rag_adartho }
+				check_variable = { rag_shm > rag_glr }
+				check_variable = { rag_shm > rag_ocros }
+			}
+		}
+		localization_key = SHM_KEY
+		set_variable = { rag_candidate = 5 }
+	}
+	text = {
+		localization_key = CONTEST_KEY
+		set_variable = { rag_candidate = 6 }
+	}
+}
+
+defined_text = {
+	name = GetCandidateBaconloc
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { bacon_hasona > bacon_glr }
+				check_variable = { bacon_hasona > bacon_ocros }
+				check_variable = { bacon_hasona > bacon_adartho }
+				check_variable = { bacon_hasona > bacon_shm }
+			}
+		}
+		localization_key = HASONA_KEY
+		set_variable = { bacon_candidate = 1 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { bacon_glr > bacon_hasona }
+				check_variable = { bacon_glr > bacon_ocros }
+				check_variable = { bacon_glr > bacon_adartho }
+				check_variable = { bacon_glr > bacon_shm }
+			}
+		}
+		localization_key = GLR_KEY
+		set_variable = { bacon_candidate = 2 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { bacon_adartho > bacon_hasona }
+				check_variable = { bacon_adartho > bacon_ocros }
+				check_variable = { bacon_adartho > bacon_glr }
+				check_variable = { bacon_adartho > bacon_shm }
+			}
+		}
+		localization_key = ADARTHO_KEY
+		set_variable = { bacon_candidate = 3 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { bacon_ocros > bacon_hasona }
+				check_variable = { bacon_ocros > bacon_adartho }
+				check_variable = { bacon_ocros > bacon_glr }
+				check_variable = { bacon_ocros > bacon_shm }
+			}
+		}
+		localization_key = OCROS_KEY
+		set_variable = { bacon_candidate = 4 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { bacon_shm > bacon_hasona }
+				check_variable = { bacon_shm > bacon_adartho }
+				check_variable = { bacon_shm > bacon_glr }
+				check_variable = { bacon_shm > bacon_ocros }
+			}
+		}
+		localization_key = SHM_KEY
+		set_variable = { bacon_candidate = 5 }
+	}
+	text = {
+		localization_key = CONTEST_KEY
+		set_variable = { bacon_candidate = 6 }
+	}
+}
+
+defined_text = {
+	name = GetCandidateHugoloc
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { hugo_hasona > hugo_glr }
+				check_variable = { hugo_hasona > hugo_ocros }
+				check_variable = { hugo_hasona > hugo_adartho }
+				check_variable = { hugo_hasona > hugo_shm }
+			}
+		}
+		localization_key = HASONA_KEY
+		set_variable = { hugo_candidate = 1 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { hugo_glr > hugo_hasona }
+				check_variable = { hugo_glr > hugo_ocros }
+				check_variable = { hugo_glr > hugo_adartho }
+				check_variable = { hugo_glr > hugo_shm }
+			}
+		}
+		localization_key = GLR_KEY
+		set_variable = { hugo_candidate = 2 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { hugo_adartho > hugo_hasona }
+				check_variable = { hugo_adartho > hugo_ocros }
+				check_variable = { hugo_adartho > hugo_glr }
+				check_variable = { hugo_adartho > hugo_shm }
+			}
+		}
+		localization_key = ADARTHO_KEY
+		set_variable = { hugo_candidate = 3 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { hugo_ocros > hugo_hasona }
+				check_variable = { hugo_ocros > hugo_adartho }
+				check_variable = { hugo_ocros > hugo_glr }
+				check_variable = { hugo_ocros > hugo_shm }
+			}
+		}
+		localization_key = OCROS_KEY
+		set_variable = { hugo_candidate = 4 }
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { hugo_shm > hugo_hasona }
+				check_variable = { hugo_shm > hugo_adartho }
+				check_variable = { hugo_shm > hugo_glr }
+				check_variable = { hugo_shm > hugo_ocros }
+			}
+		}
+		localization_key = SHM_KEY
+		set_variable = { hugo_candidate = 5 }
+	}
+	text = {
+		localization_key = CONTEST_KEY
+		set_variable = { hugo_candidate = 6 }
+
+	}
+}

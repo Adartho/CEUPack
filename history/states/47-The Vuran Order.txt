@@ -1,0 +1,23 @@
+
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		90 411 549 
+	}
+	manpower=480000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = TVO
+		add_core_of = TVO
+		victory_points = { 549 10 }
+		buildings = {
+			infrastructure = 1
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

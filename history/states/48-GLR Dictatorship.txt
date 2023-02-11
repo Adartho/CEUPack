@@ -1,0 +1,26 @@
+
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		53 127 141 155 158 160 241 338 361 377 380 554 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = GLR
+		add_core_of = GLR
+		victory_points = { 554 10 }
+		victory_points = { 53 10 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

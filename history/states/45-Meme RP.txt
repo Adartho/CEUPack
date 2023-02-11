@@ -1,0 +1,26 @@
+
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		64 96 120 257 306 359 366 441 535 536 542 
+	}
+	manpower=1400000
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = MRP
+		add_core_of = MRP
+		victory_points = { 306 20 }
+		victory_points = { 257 10 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

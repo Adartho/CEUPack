@@ -1,0 +1,143 @@
+division_template = {
+	name = "Mercenary"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Paramilitary"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tank Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Paramilitary"
+		location = 195
+		division_template = "Paramilitary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Paramilitary"
+		location = 135
+		division_template = "Paramilitary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Paramilitary"
+		location = 195
+		division_template = "Paramilitary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Paramilitary"
+		location = 195
+		division_template = "Paramilitary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mercenary"
+		location = 315
+		division_template = "Mercenary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mercenary"
+		location = 315
+		division_template = "Mercenary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mercenary"
+		location = 315
+		division_template = "Mercenary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mercenary"
+		location = 315
+		division_template = "Mercenary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mercenary"
+		location = 315
+		division_template = "Mercenary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mercenary"
+		location = 315
+		division_template = "Mercenary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mercenary"
+		location = 315
+		division_template = "Mercenary"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Tank Division"
+		location = 231
+		division_template = "Tank Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

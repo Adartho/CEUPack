@@ -1,0 +1,363 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZ_NAME"
+		desc = "BLITZ_DESC"
+		date = 1937.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "SGL"
+		default = yes
+		
+		"SGL"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"SOC"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"SHA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"SAD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"SPA"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"SHM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"FRB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"CHI"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"CHN"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"CHO"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"CHS"={
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			set_global_flag = chaos
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+			SGL = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Cinammon"
+					picture = "Portrait_SCW_Cinammon.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			SOC = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Tee"
+					picture = "Portrait_SCW_Tee.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			SHA = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Xcyiterr"
+					picture = "Portrait_SCW_Xcyiterr.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			SAD = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Marselo"
+					picture = "Portrait_SCW_Marselo.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			SPA = {
+				load_focus_tree = SCW_all
+				set_cosmetic_tag = yinsunset
+				create_corps_commander = {
+					name = "Cilria"
+					picture = "Portrait_SCW_Cilria.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			SHM = {
+				load_focus_tree = SCW_all
+				set_cosmetic_tag = westzsunset
+				create_corps_commander = {
+					name = "Xpiss"
+					picture = "Portrait_SCW_Xpiss.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			FRB = {
+				load_focus_tree = SCW_all
+				set_cosmetic_tag = majestazsunset
+				create_corps_commander = {
+					name = "Sammy"
+					picture = "Portrait_SCW_Sammy.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+
+			CHN = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Quieres"
+					picture = "Portrait_SCW_Quieres.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHI = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Firestar"
+					picture = "Portrait_SCW_Firestar.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHO = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "FUCK LITHUANIA FUCK LATVIA"
+					picture = "Portrait_SCW_FLFL.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHS = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Silas"
+					picture = "Portrait_SCW_Silas.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHR = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Marvin"
+					picture = "Portrait_SCW_Marvin.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHH = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Cemelotzwart"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHF = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Zakytan"
+					picture = "Portrait_SCW_Zaky.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHK = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Kaseter"
+					picture = "Portrait_SCW_Kaseter.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHA = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Palmy"
+					picture = "Portrait_SCW_Palmy.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHB = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Ninny"
+					picture = "Portrait_SCW_Ninny.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHM = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Fire"
+					picture = "Portrait_SCW_Fire.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHE = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Denatidum"
+					picture = "Portrait_SCW_Dendatidum.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHL = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Filip"
+					picture = "Portrait_SCW_Filip.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHZ = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Rovad"
+					picture = "Portrait_SCW_Rovad.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+			CHC = {
+				load_focus_tree = SCW_all
+				create_corps_commander = {
+					name = "Grant"
+					picture = "Portrait_SCW_Grant.dds"
+					traits = { infantry_officer }
+					skill = 3
+				
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+				}
+			}
+		}
+	}
+}

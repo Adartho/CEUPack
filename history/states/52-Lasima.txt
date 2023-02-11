@@ -1,0 +1,24 @@
+
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		57 128 212 276 309 416 503 
+	}
+	manpower=880000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = LAS
+		add_core_of = LAS
+		victory_points = { 128 10 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

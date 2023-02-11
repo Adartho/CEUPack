@@ -1,0 +1,28 @@
+
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		62 70 74 203 217 268 388 471 
+	}
+	manpower=2800000
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = SUN
+		add_core_of = SUN
+		victory_points = { 268 10 }
+		buildings = {
+			infrastructure = 2
+		}
+		1936.2.2 = {
+			owner = CHB
+		    add_core_of = CHB
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+	}
+}

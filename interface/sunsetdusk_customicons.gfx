@@ -1,0 +1,58 @@
+spriteTypes = { 
+	##Icon For: Hasona announced to be Nico's successor!
+	SpriteType = { 
+		name = "GFX_hasona_announced_to_be_nicos_successor"
+		texturefile = "gfx/event_pictures/hasona_announced_to_be_nicos_successor.dds"
+	}
+
+	##Icon For: GLR announced to be Nico's successor!
+	SpriteType = { 
+		name = "GFX_glr_announced_to_be_nicos_successor"
+		texturefile = "gfx/event_pictures/glr_announced_to_be_nicos_successor.dds"
+	}
+
+	##Icon For: Adartho announced to be Nico's successor!
+	SpriteType = { 
+		name = "GFX_adartho_announced_to_be_nicos_successor"
+		texturefile = "gfx/event_pictures/adartho_announced_to_be_nicos_successor.dds"
+	}
+
+	##Icon For: Ocros announced to be Nico's successor!
+	SpriteType = { 
+		name = "GFX_ocros_announced_to_be_nicos_successor"
+		texturefile = "gfx/event_pictures/ocros_announced_to_be_nicos_successor.dds"
+	}
+
+	##Icon For: Nico refuses to announce a successor!
+	SpriteType = { 
+		name = "GFX_nico_refuses_to_announce_a_successor"
+		texturefile = "gfx/event_pictures/nico_refuses_to_announce_a_successor.dds"
+	}
+
+	##Icon For: The Sunsetian Stock Crash
+	SpriteType = { 
+		name = "GFX_the_sunsetian_stock_crash"
+		texturefile = "gfx/event_pictures/the_sunsetian_stock_crash.dds"
+	}
+
+	##sus
+	SpriteType = { 
+		name = "GFX_sablin_wholesome"
+		texturefile = "gfx/event_pictures/sablin_wholesome.dds"
+	}
+
+	##sus
+	SpriteType = { 
+		name = "GFX_decision_cat_humorig_apfel"
+		texturefile = "gfx/interface/decisions/decision_cat_humorig_apfel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_select_date_1936"
+		texturefile = "gfx/interface/select_date_1936.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_1939"
+		texturefile = "gfx/interface/select_date_1939.dds"
+	}
+ }

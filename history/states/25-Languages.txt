@@ -1,0 +1,26 @@
+
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		6 27 29 45 144 151 272 312 401 431 438 483 486 487 491 495 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = FRB
+		add_core_of = FRB
+		victory_points = { 151 20 }
+		victory_points = { 312 10  }
+		victory_points = { 6 10  }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

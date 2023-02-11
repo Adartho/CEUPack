@@ -1,0 +1,167 @@
+soundeffect = {
+	name = sunset_super
+	loop = no
+	sounds = {
+		sound = sunset_super
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = CW_super
+	loop = no
+	sounds = {
+		sound = CW_super
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 2
+}
+
+soundeffect = {
+	name = sablin_chungus
+	loop = no
+	sounds = {
+		sound = sablin_chungus
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = british_invasion
+	loop = no
+	sounds = {
+		sound = british_invasion
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = hasona_owner_conoli
+	loop = no
+	sounds = {
+		sound = hasona_owner_conoli
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = hasona_owner_absoli
+	loop = no
+	sounds = {
+		sound = hasona_owner_absoli
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = hasona_owner_despotism
+	loop = no
+	sounds = {
+		sound = hasona_owner_despotism
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = yin_despotism
+	loop = no
+	sounds = {
+		sound = yin_despotism
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = novvan_super
+	loop = no
+	sounds = {
+		sound = novvan_super
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = yin_conoli
+	loop = no
+	sounds = {
+		sound = yin_conoli
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = skm_super
+	loop = no
+	sounds = {
+		sound = skm_super
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = chaos_enter
+	loop = no
+	sounds = {
+		sound = chaos_enter
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = chaos_end
+	loop = no
+	sounds = {
+		sound = chaos_end
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}
+
+soundeffect = {
+	name = ncw_super
+	loop = no
+	sounds = {
+		sound = ncw_super
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.5
+}

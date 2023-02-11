@@ -1,0 +1,34 @@
+
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		10 42 73 112 173 218 263 288 300 334 379 509 512 516 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+
+	state_category = rural
+
+	history={
+		owner = SUN
+		add_core_of = SUN
+		victory_points = { 379 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			379 = {
+				naval_base = 2
+			}
+		}
+		1936.2.2 = {
+			owner = CHR
+		    add_core_of = CHR
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+	}
+}

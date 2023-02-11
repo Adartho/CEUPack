@@ -1,0 +1,26 @@
+
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		78 86 150 228 373 385 435 473 477 478 
+	}
+	manpower=3200000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	history={
+		owner = FRB
+		add_core_of = FRB
+		victory_points = { 478 20 }
+		victory_points = { 477 10  }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

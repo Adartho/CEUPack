@@ -1,0 +1,33 @@
+
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		2 50 52 56 139 167 209 283 314 321 333 343 365 447 457 458 
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = SUN
+		add_core_of = SUN
+		victory_points = { 139 5 }
+		victory_points = { 209 5 }
+		victory_points = { 52 5 }
+		buildings = {
+			infrastructure = 1
+			52 = {
+				naval_base = 1
+			}
+		}
+		1936.2.2 = {
+			owner = CHE
+		    add_core_of = CHE
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+	}
+}

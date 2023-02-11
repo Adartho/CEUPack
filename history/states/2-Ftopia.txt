@@ -1,0 +1,36 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		555 424 548 106 391 552 301 109 393 376 556 92
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+
+	state_category = rural
+
+	history={
+		owner = FTP
+		add_core_of = FTP
+		victory_points = { 301 20 }
+		victory_points = { 391 10 }
+		victory_points = { 424 10 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			556 = {
+				naval_base = 2
+			}
+			391 = {
+				naval_base = 1
+			}
+			
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

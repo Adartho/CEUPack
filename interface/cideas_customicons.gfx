@@ -1,0 +1,13 @@
+spriteTypes = { 
+	##Icon For: Fanmade Priority
+	SpriteType = { 
+		name = "GFX_SUN_fanmade_priority"
+		texturefile = "gfx/interface/ideas/SUN_fanmade_priority-100787.dds"
+	}
+
+	##Icon For: Canon Priority
+	SpriteType = { 
+		name = "GFX_SUN_canon_priority"
+		texturefile = "gfx/interface/ideas/SUN_canon_priority-100786.dds"
+	}
+}

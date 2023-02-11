@@ -1,0 +1,32 @@
+
+state={
+	id=40
+	name="STATE_40"
+	provinces={
+		47 49 103 121 330 367 389 544 545 550 
+	}
+	manpower=880000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	resources={
+		steel=20
+		aluminium=10
+	}
+	history={
+		owner = MSR
+		add_core_of = MSR
+		victory_points = { 47 30 }
+		victory_points = { 330 10 }
+		victory_points = { 389 10 }
+		victory_points = { 550 10 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 4
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

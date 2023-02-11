@@ -1,0 +1,28 @@
+
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		18 25 59 75 205 215 398 421 427 547 
+	}
+	resources={
+		steel=20
+		aluminium=4
+	}
+	manpower=480000
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = EUM
+		add_core_of = EUM
+		victory_points = { 398 10 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}

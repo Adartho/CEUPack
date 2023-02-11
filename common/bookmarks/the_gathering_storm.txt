@@ -1,0 +1,46 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_NAME"
+		desc = "GATHERING_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SUN"
+		default = yes
+		
+		"SUN"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"FRB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"MSR"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"NCC"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+			FRB = {
+				create_faction = Language_Pact
+				add_to_faction = FRB
+				add_to_faction = NCC
+				add_to_faction = CLD
+			
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = CLD
+						autonomous_state = autonomy_integrated_puppet
+					}
+					else = {
+						puppet = CLD
+					}
+				}
+			}
+		}
+	}
+}

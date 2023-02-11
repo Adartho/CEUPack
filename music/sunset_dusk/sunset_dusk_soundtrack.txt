@@ -1,0 +1,38 @@
+
+music_station = "sunset_dusk_station"
+
+music = {
+	song = "Sunset Dusk"
+	chance = {
+		modifier = {
+			factor = 2
+		}		
+	}
+}
+
+music = {
+	song = "Lightless Ecumenopolis"
+	chance = {
+		modifier = {
+			factor = 2
+		}		
+	}
+}
+
+music = {
+	song = "Nafa's Theme"
+	chance = {
+		modifier = {
+			factor = 2
+		}		
+	}
+}
+
+music = {
+	song = "Silent Apocalypse"
+	chance = {
+		modifier = {
+			factor = 2
+		}		
+	}
+}

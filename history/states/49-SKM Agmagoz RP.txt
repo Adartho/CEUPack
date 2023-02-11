@@ -1,0 +1,23 @@
+
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		77 83 93 505 507 
+	}
+	manpower=480000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = SAR
+		add_core_of = SAR
+		victory_points = { 77 10 }
+		buildings = {
+			infrastructure = 1
+		}
+		1936.2.2 = {
+			owner = NEU
+		    add_core_of = NEU
+		}
+	}
+}
