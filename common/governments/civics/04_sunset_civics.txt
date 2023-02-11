@@ -1,0 +1,27 @@
+
+civic_frame_slavery = {
+	icon = gfx/interface/icons/governments/civics/civic_police_state.dds
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	possible = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_free_haven
+			}
+		}
+	}
+	random_weight = { base = 5 }
+	modifier = {
+		pop_amenities_usage_mult = -0.10
+		pop_category_slave_upkeep_mult = -0.25
+	}
+}

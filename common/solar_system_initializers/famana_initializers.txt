@@ -1,0 +1,598 @@
+@distance = 50
+@base_moon_distance = 10
+@jumps = 3
+
+### um System
+um_system_initializer = {
+	name = "NAME_Um"
+	class = "sc_g"
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 290
+	}
+
+	usage = custom_empire
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+
+	flag = { famana_system empire_home_system }
+	
+	planet = {
+		name = "NAME_Um"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Ankoo"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Tarkoo"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Famana"
+		class = "pc_continental"
+		orbit_distance = 25
+		orbit_angle = 120
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		entity = "continental_planet_famana_entity"
+		deposit_blockers = none
+		modifiers = none
+		flags = { planet_famana }
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "NAME_Halogan"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+		}
+		moon = {
+			name = "NAME_Nivolo"
+			class = "pc_barren_cold"
+			size = 4
+			orbit_distance = 12.5
+			orbit_angle = 35
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "NAME_Fiskoo"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 60
+		size = 13
+		has_ring = no
+		entity = "barren_planet_mars_entity"	
+	}
+
+	planet = {
+		name = "NAME_Yarka"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 30
+		size = 7
+		has_ring = no
+		entity = "barren_planet_mars_entity"	
+	}
+	
+	planet = {
+		name = "NAME_Yastkoo"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -160
+		size = 35
+		has_ring = yes
+		change_orbit = 6
+		
+		moon = {
+			name = "NAME_Eyath"
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Onyopa"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Latoka"
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Jiastin"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "NAME_Phamsa"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 170
+		size = 35
+		has_ring = yes
+		entity = "gas_giant_02_entity"
+		change_orbit = 7
+	}
+	
+	planet = {
+		name = "NAME_Unema"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		name = "NAME_Yakool"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_05_entity"
+		change_orbit = 4
+		
+		moon = {
+			name = "NAME_Yorlox"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+}
+
+um_natural_system_initializer = {
+	name = "NAME_Um"
+	
+	class = "sc_g"
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 290
+	}
+	
+	usage = misc_system_init
+
+	flag = { empire_home_system famana_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+
+	usage_odds = {
+		base = 1
+		modifier = {
+			NOT = { any_system = { has_star_flag = sol } }
+			NOT = { has_star_flag = empire_cluster }
+			add = 99999
+		}
+	}
+
+	max_instances = 1
+	
+	planet = {
+		name = "NAME_Um"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Ankoo"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Tarkoo"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Famana"
+		class = "pc_continental"
+		orbit_distance = 25
+		orbit_angle = 120
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		entity = "continental_planet_famana_entity"
+		deposit_blockers = none
+		modifiers = none
+		flags = { planet_famana }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			random_list = {
+				# Industrial Age
+				25 = {
+					create_species = {
+						name = Amatanian
+						plural = Amatanians
+						class = "HUM"
+						portrait = "human"
+						traits = {
+							trait = "trait_adaptive"
+							trait = "trait_nomadic"	
+							trait = "trait_wasteful"
+						}
+						homeworld = this
+					}
+					create_species = {
+						name = Yomtanian
+						plural = Yomtanians
+						class = "REP"
+						portrait = "rep1"
+						traits = {
+							trait = "trait_very_strong"
+							trait = "trait_unruly"	
+							trait = "trait_deviants"
+							trait = "trait_adaptive"
+						}
+						homeworld = this
+					}
+					create_country = {
+						name = random
+						authority = random
+						civics = {
+							civic = civic_increasing_urbanization
+							civic = civic_atmospheric_pollution
+						}
+						species = last_created
+						ethos = { 
+							ethic = "ethic_materialist"
+							ethic = "ethic_fanatic_militarist"
+						}
+						origin = "origin_enlightened" # Should only be visible if they become spacefaring
+						flag = {
+							icon = {
+								category = "human"
+								file = "flag_human_7.dds"
+							}
+							background= {
+								category = "backgrounds"
+								file = "circle.dds"
+							}
+							colors={
+								"dark_blue"
+								"red"
+								"null"
+								"null"
+							}
+						}
+						day_zero_contact = no
+						type = primitive
+					}
+					last_created_country = {
+						set_graphical_culture = industrial_01
+						set_country_flag = machine_age
+						set_primitive_age = machine_age
+					}
+					set_owner = last_created_country
+					
+					create_primitive_blockers = yes
+	
+					while = {
+						count = 18
+						create_pop = {
+							species = Amatanian
+						}				
+					}
+					while = {
+						count = 6
+						create_pop = {
+							species = Yomtanian
+						}				
+					}
+					add_building = building_primitive_farm
+					add_building = building_primitive_factory
+					add_building = building_primitive_mine
+					add_building = building_primitive_power_plant
+					add_building = building_primitive_capital
+					add_building = building_urban_dwellings
+					
+					create_army = {
+						name = "NAME_Vuran_Army"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+					create_army = {
+						name = "NAME_Geopyopian_Army"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+					create_army = {
+						name = "NAME_Gacin_Army"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+				}
+				# Medieval
+				25 = {
+					create_species = {
+						name = Amatanian
+						plural = Amatanians
+						class = "HUM"
+						portrait = "human"
+						homeworld = THIS
+						traits = {
+							trait = "trait_adaptive"
+							trait = "trait_nomadic"	
+							trait = "trait_wasteful"
+						}
+					}
+					create_species = {
+						name = Yomtanian
+						plural = Yomtanians
+						class = "REP"
+						portrait = "rep1"
+						traits = {
+							trait = "trait_very_strong"
+							trait = "trait_unruly"	
+							trait = "trait_deviants"
+							trait = "trait_adaptive"
+						}
+						homeworld = this
+					}
+					create_country = {
+						name = random
+						authority = random
+						civics = {
+							civic = civic_landed_nobility
+							civic = civic_flat_world_theory
+						}
+						species = last_created
+						ethos = { 
+							ethic = "ethic_xenophobe"
+							ethic = "ethic_spiritualist"
+							ethic = "ethic_authoritarian"
+						}
+						origin = "origin_enlightened" # Should only be visible if they become spacefaring
+						flag = {
+							icon = {
+								category = "ornate"
+								file = "flag_ornate_11.dds"
+							}
+							background = {
+								category = "backgrounds"
+								file = "00_solid.dds"
+							}
+							colors = {
+								"dark_blue"
+								"dark_blue"
+								"null"
+								"null"
+							}
+						}
+						day_zero_contact = no
+						type = primitive
+					}
+					last_created_country = {
+						set_graphical_culture = preindustrial_01
+						set_country_flag = late_medieval_age
+						set_primitive_age = late_medieval_age
+					}
+					
+					set_owner = last_created_country		
+										
+					while = {
+						count = 10
+						create_pop = {
+							species = Amatanian
+						}					
+					}
+					while = {
+						count = 2
+						create_pop = {
+							species = Yomtanian
+						}				
+					}
+					add_building = building_primitive_dwellings
+					add_building = building_primitive_dwellings
+					add_building = building_stone_palace			
+					
+					while = {
+						count = 3
+						create_army = {
+							name = "NAME_Feudal_Levies"
+							owner = last_created
+							species = last_created
+							type = "primitive_army"
+						}
+					}
+				}
+			}
+		}
+		
+		moon = {
+			name = "NAME_Halogan"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+		}
+		moon = {
+			name = "NAME_Nivolo"
+			class = "pc_barren_cold"
+			size = 4
+			orbit_distance = 12.5
+			orbit_angle = 35
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "NAME_Fiskoo"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 60
+		size = 13
+		has_ring = no
+		entity = "barren_planet_mars_entity"	
+	}
+
+	planet = {
+		name = "NAME_Yarka"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 30
+		size = 7
+		has_ring = no
+		entity = "barren_planet_mars_entity"	
+	}
+	
+	planet = {
+		name = "NAME_Yastkoo"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -160
+		size = 35
+		has_ring = yes
+		change_orbit = 6
+		
+		moon = {
+			name = "NAME_Eyath"
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Onyopa"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Latoka"
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Jiastin"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "NAME_Phamsa"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 170
+		size = 35
+		has_ring = yes
+		entity = "gas_giant_02_entity"
+		change_orbit = 7
+	}
+	
+	planet = {
+		name = "NAME_Unema"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		name = "NAME_Yakool"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_05_entity"
+		change_orbit = 4
+		
+		moon = {
+			name = "NAME_Yorlox"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+}

@@ -1,0 +1,23 @@
+﻿l_english:
+ #Flag category keys are generated like "FLAG_CATEGORY_" + <name of folder in common/flags/>
+ FLAG_CATEGORY_ornate:0 "Ornate"
+ FLAG_CATEGORY_pirate:0 "Pirate"
+ FLAG_CATEGORY_blocky:0 "Blocky"
+ FLAG_CATEGORY_spherical:0 "Round"
+ FLAG_CATEGORY_legion:0 "Legion"
+ FLAG_CATEGORY_pointy:0 "Pointy"
+ FLAG_CATEGORY_zoological:0 "Zoological"
+ FLAG_CATEGORY_no_category:0 "Misc"
+ FLAG_CATEGORY_bg_no_category:0 "Backgrounds"
+ FLAG_CATEGORY_human:0 "Human"
+ FLAG_CATEGORY_smooth_simple:0 "Smooth"
+ FLAG_CATEGORY_paradox:0 "Paradox"
+ FLAG_CATEGORY_domination:0 "Domination"
+ FLAG_CATEGORY_corporate:0 "Corporate"
+ FLAG_CATEGORY_sunset:0 "Sunset"
+
+ um_system_initializer_NAME:0 "Um System"
+ um_system_initializer_DESC:0 "System based on Um, the star system of which Famana is a member.\n\n$system_initializer_DESC$"
+
+ civic_frame_slavery:0 "Frame Slavery"
+ civic_frame_slavery_desc:0 "This society believes that people should all collectively have a role in producing entertainement, usually through state-forced slavery."
