@@ -250,7 +250,6 @@ civic_technocracy = {
 	}
 	modifier = {
 		num_tech_alternatives_add = 1
-		planet_jobs_unity_produces_mult = -0.15
 	}
 	random_weight = { base = 5 }
 }
