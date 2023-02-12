@@ -624,7 +624,7 @@ um_system_nuked = {
 	flag = { famana_system empire_home_system }
 
 	usage_odds = {
-		base = 0.5
+		base = 0.25
 		modifier = {
 			NOT = { any_system = { has_star_flag = sol } }
 			NOT = { has_star_flag = empire_cluster }
@@ -670,7 +670,7 @@ um_system_nuked = {
 		class = "pc_nuked"
 		orbit_distance = 25
 		orbit_angle = 120
-		size = 16
+		size = 15
 		has_ring = no
 		entity = "continental_planet_famana_entity"
 		deposit_blockers = none
@@ -679,6 +679,14 @@ um_system_nuked = {
 		
 		init_effect = {
 			prevent_anomaly = yes
+			add_deposit = d_society_10
+			create_ambient_object = {
+				type = "derelict_particle_accelerator"
+			}
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = THIS
+			}
 		}
 		
 		moon = {
