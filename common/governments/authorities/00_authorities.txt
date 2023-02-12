@@ -40,7 +40,8 @@ auth_democratic = {
 	}
 
 	country_modifier = {
-		planet_resettlement_unemployed_mult = 0.50
+		planet_resettlement_unemployed_mult = 0.33
+		country_leader_pool_size = 1
 	}
 
 	random_weight = {
