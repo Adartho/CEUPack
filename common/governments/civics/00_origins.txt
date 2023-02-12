@@ -229,6 +229,10 @@ origin_life_seeded = {
 		}
 	}
 
+	modifier = {
+		pop_environment_tolerance = 0.15
+	}
+
 	description = "civic_tooltip_life_seeded_effects"
 
 	random_weight = {
@@ -414,6 +418,7 @@ origin_scion = {
 	max_once_global = yes
 
 	playable = {
+		always = no
 		host_has_dlc = Federations
 	}
 
@@ -483,6 +488,10 @@ origin_tree_of_life = {
 		civics = {
 			NOT = { value = civic_hive_devouring_swarm }
 		}
+	}
+
+	modifier = {
+		planet_structures_cost_mult = 0.10
 	}
 
 	description = "origin_tooltip_tree_effects"
@@ -583,6 +592,10 @@ origin_machine = {
 	#flags = { custom_start_screen }
 
 	traits = {
+	}
+
+	modifier = {
+		species_empire_size_mult = 0.10
 	}
 
 	advanced_start = yes
@@ -720,6 +733,11 @@ origin_doomsday = {
 	}
 
 	possible = {
+	}
+
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.50
+		species_leader_exp_gain = 0.25
 	}
 
 	description = "origin_tooltip_doomsday_effects"
