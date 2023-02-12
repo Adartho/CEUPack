@@ -389,10 +389,10 @@ origin_void_dwellers = {
 	}
 
 	modifier = {
-		#planet_jobs_physics_research_produces_mult = -0.10
-		#planet_jobs_society_research_produces_mult = -0.10
-		#planet_jobs_engineering_research_produces_mult = -0.10
-		#country_starbase_influence_cost_mult = -0.10
+		planet_jobs_physics_research_produces_mult = -0.10
+		planet_jobs_society_research_produces_mult = -0.10
+		planet_jobs_engineering_research_produces_mult = -0.10
+		country_starbase_influence_cost_mult = -0.10
 	}
 
 	description = "origin_tooltip_void_dwellers_effects"
