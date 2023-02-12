@@ -1,0 +1,360 @@
+﻿### United Nations of Earth
+### Created by Henrik Thyrwall
+
+FAMANA = {
+	category = "Humanoid"
+	randomized = no
+	alias = "Famanan"
+
+	ship_names = {
+
+		corvette = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		destroyer = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		cruiser = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		battleship = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		titan = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		colossus = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		juggernaut = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		constructor = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		colonizer = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+		FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		science = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		transport = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		military_station_small = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+
+		ion_cannon = {
+			FAMANA_SHIP_Cosmicbavatis FAMANA_SHIP_Xon FAMANA_SHIP_Halogan FAMANA_SHIP_Fiskoo FAMANA_SHIP_Nivolo FAMANA_SHIP_Quanex FAMANA_SHIP_Olopoka FAMANA_SHIP_Diagya
+		}
+	}
+
+	fleet_names = {
+		sequential_name = HUMAN1_FLEET
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = HUMAN1_PLANETARYGUARD
+		}
+
+		machine_assault_1 = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		machine_assault_2 = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		machine_assault_3 = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		defense_army = {
+			sequential_name = HUMAN1_PLANETARYGUARD
+		}
+
+		assault_army = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		slave_army = {
+			sequential_name = HUMAN1_INDENTUREDRIFLES
+		}
+
+		clone_army = {
+			sequential_name = HUMAN1_CLONEARMY
+		}
+
+		undead_army = {
+			sequential_name = HUMAN1_DREADCOMMANDO
+		}
+
+		robotic_army = {
+			sequential_name = HUMAN1_HUNTERKILLERGROUP
+		}
+
+		robotic_defense_army = {
+			sequential_name = HUMAN1_GROUNDDEFENSEMATRIX
+		}
+
+		psionic_army = {
+			sequential_name = HUMAN1_PSICOMMANDO
+		}
+
+		xenomorph_army = {
+			sequential_name = HUMAN1_BIOWARFAREDIVISION
+		}
+
+		gene_warrior_army = {
+			random_names = {
+				HUMAN1_ARMY_SARC-AGladiators HUMAN1_ARMY_SARC-BWidowmakers HUMAN1_ARMY_SARC-CImmortals HUMAN1_ARMY_SARC-DBerserkers HUMAN1_ARMY_SARC-EAssassins
+				HUMAN1_ARMY_SARC-FReapers HUMAN1_ARMY_SARC-GNighthawks HUMAN1_ARMY_SARC-HDesperados HUMAN1_ARMY_SARC-IGreyKnights HUMAN1_ARMY_SARC-JRoughnecks
+			}
+			sequential_name = HUMAN1_BIOENGINEEREDSQUADRON
+		}
+
+		occupation_army = {
+			sequential_name = HUMAN1_GARRISONFORCE
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUMAN1_MECHANIZEDGARRISON
+		}
+
+		primitive_army = {
+			sequential_name = HUMAN1_PRIMITIVEARMY
+		}
+		industrial_army = {
+			sequential_name = HUMAN1_INDUSTRIALARMY
+		}
+		postatomic_army = {
+			sequential_name = HUMAN1_POSTATOMICARMY
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_desert = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_arid = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_continental = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				HUMAN1_PLANET_Oppia HUMAN1_PLANET_GaXal HUMAN1_PLANET_Jasua HUMAN1_PLANET_Geopyopia HUMAN1_PLANET_Estal HUMAN1_PLANET_Maky HUMAN1_PLANET_Qamon HUMAN1_PLANET_Tomba HUMAN1_PLANET_Saka HUMAN1_PLANET_Ordica HUMAN1_PLANET_Pextum HUMAN1_PLANET_Emastalia
+			}
+		}
+
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = { #maxan
+			weight = 20
+			first_names_male = {
+				FAMANA_CHR_Dymio FAMANA_CHR_Agixadar FAMANA_CHR_Ratonasha FAMANA_CHR_Tormi FAMANA_CHR_Dorren FAMANA_CHR_Giun FAMANA_CHR_Tamar FAMANA_CHR_Paro FAMANA_CHR_Bamal FAMANA_CHR_Dorron FAMANA_CHR_Nokhes FAMANA_CHR_Amilian FAMANA_CHR_Camiclar FAMANA_CHR_Relambi FAMANA_CHR_Melze FAMANA_CHR_Yenat FAMANA_CHR_Zandar FAMANA_CHR_Ratelar FAMANA_CHR_Lunpikisa FAMANA_CHR_Sonon FAMANA_CHR_Tamander FAMANA_CHR_Lokis FAMANA_CHR_Lemi FAMANA_CHR_Romal FAMANA_CHR_Opyu FAMANA_CHR_Ifrel FAMANA_CHR_Asifsya FAMANA_CHR_Malav FAMANA_CHR_Nan FAMANA_CHR_Runor FAMANA_CHR_Rak FAMANA_CHR_Zyc FAMANA_CHR_Cony FAMANA_CHR_Kulai FAMANA_CHR_Nena FAMANA_CHR_Papaid FAMANA_CHR_Nykabum FAMANA_CHR_Cysas FAMANA_CHR_Aimakat FAMANA_CHR_Rima FAMANA_CHR_Bydug FAMANA_CHR_Cutyonob FAMANA_CHR_Coz FAMANA_CHR_Zakrag FAMANA_CHR_Okon
+			}
+			first_names_female = {
+				FAMANA_CHR_Zemei FAMANA_CHR_Loqa FAMANA_CHR_Talova FAMANA_CHR_Pinar FAMANA_CHR_Opyu FAMANA_CHR_Edla FAMANA_CHR_Bruri FAMANA_CHR_Nabu FAMANA_CHR_Meira FAMANA_CHR_Ris FAMANA_CHR_Bignor FAMANA_CHR_Donu FAMANA_CHR_Yopropomi FAMANA_CHR_Ciz FAMANA_CHR_Tuducad FAMANA_CHR_Cig FAMANA_CHR_Rotyu FAMANA_CHR_Dec FAMANA_CHR_Gir FAMANA_CHR_Okylirei FAMANA_CHR_Bura FAMANA_CHR_Kiz FAMANA_CHR_Sarni FAMANA_CHR_Pek FAMANA_CHR_Cit 
+			}
+			second_names = {
+				FAMANA_CHR_Ratonasha FAMANA_CHR_Loviaz FAMANA_CHR_Lekaux FAMANA_CHR_Jantada FAMANA_CHR_Jakar FAMANA_CHR_Deli FAMANA_CHR_Dijon FAMANA_CHR_Nedu FAMANA_CHR_Wamadera FAMANA_CHR_Manu FAMANA_CHR_Kanaz FAMANA_CHR_Sunek FAMANA_CHR_Uchlir FAMANA_CHR_Dramra FAMANA_CHR_Mibsko FAMANA_CHR_Bohika FAMANA_CHR_Teitu FAMANA_CHR_Byobup FAMANA_CHR_Eigin FAMANA_CHR_Zep FAMANA_CHR_Imyba FAMANA_CHR_Tatuzro FAMANA_CHR_Bukym FAMANA_CHR_Ocnog FAMANA_CHR_Osy FAMANA_CHR_Tig FAMANA_CHR_Zir FAMANA_CHR_Kersai FAMANA_CHR_Anenry FAMANA_CHR_Nupem FAMANA_CHR_Etrit FAMANA_CHR_Cor FAMANA_CHR_Aitnut FAMANA_CHR_Zicas FAMANA_CHR_Bunyz FAMANA_CHR_Basy FAMANA_CHR_Zab FAMANA_CHR_Bony FAMANA_CHR_Yuksom FAMANA_CHR_Eicu FAMANA_CHR_Ecotonair FAMANA_CHR_Ikug FAMANA_CHR_Cynap FAMANA_CHR_Ainezod FAMANA_CHR_Pyk FAMANA_CHR_Cyd FAMANA_CHR_Cacec FAMANA_CHR_Domo FAMANA_CHR_Kyp FAMANA_CHR_Ebid
+			}
+			regnal_first_names_male = {
+				FAMANA_CHR_Dymio FAMANA_CHR_Agixadar FAMANA_CHR_Ratonasha FAMANA_CHR_Tormi FAMANA_CHR_Dorren
+			}
+			regnal_first_names_female = {
+				FAMANA_CHR_Zemei FAMANA_CHR_Loqa FAMANA_CHR_Talova
+			}
+			regnal_second_names = {
+				FAMANA_CHR_Ratonasha FAMANA_CHR_Loviaz
+			}
+		}
+
+		names2 = { #makyan
+			weight = 10
+			first_names_male = {
+				AMANA_CHR_Lesnara FAMANA_CHR_Mares FAMANA_CHR_Bamal FAMANA_CHR_Alkan FAMANA_CHR_Fyse FAMANA_CHR_Eriof FAMANA_CHR_Salmo FAMANA_CHR_Makona FAMANA_CHR_Makia FAMANA_CHR_Ti FAMANA_CHR_Yulven FAMANA_CHR_Oddu FAMANA_CHR_Zalos FAMANA_CHR_Muja FAMANA_CHR_Doran FAMANA_CHR_Atlas FAMANA_CHR_Lonlan 
+			}
+			first_names_female = {
+				FAMANA_CHR_Chalesh FAMANA_CHR_Ceona FAMANA_CHR_Talova FAMANA_CHR_Essa FAMANA_CHR_Namevy FAMANA_CHR_Tarina FAMANA_CHR_Tashy FAMANA_CHR_Algada FAMANA_CHR_Naza FAMANA_CHR_Ista
+			}
+			second_names = {
+				FAMANA_CHR_Kutsh FAMANA_CHR_Mokay FAMANA_CHR_Ezim FAMANA_CHR_Lacin FAMANA_CHR_Cipon FAMANA_CHR_Filol FAMANA_CHR_Eziai FAMANA_CHR_Vahal FAMANA_CHR_Kayrom FAMANA_CHR_Strazim FAMANA_CHR_Estecish
+			}
+			regnal_first_names_male = {
+				AMANA_CHR_Lesnara FAMANA_CHR_Mares FAMANA_CHR_Bamal
+			}
+			regnal_first_names_female = {
+				FAMANA_CHR_Chalesh FAMANA_CHR_Ceona
+			}
+			regnal_second_names = {
+				FAMANA_CHR_Kutsh FAMANA_CHR_Mokay FAMANA_CHR_Ezim FAMANA_CHR_Lacin
+			}
+		}
+
+		names3 = { #pextoglazian
+			weight = 20
+			first_names_male = {
+				FAMANA_CHR_Ranyaf FAMANA_CHR_Romal FAMANA_CHR_Eyath FAMANA_CHR_Goloro FAMANA_CHR_Erio FAMANA_CHR_Norek FAMANA_CHR_Kaylan FAMANA_CHR_Ashdad FAMANA_CHR_Poro FAMANA_CHR_Pisto FAMANA_CHR_Mokok FAMANA_CHR_Rokon FAMANA_CHR_Asio FAMANA_CHR_Kayyaf FAMANA_CHR_Thirel FAMANA_CHR_Kamir
+			}
+			first_names_female = {
+				FAMANA_CHR_Adaro FAMANA_CHR_Loviaz
+			}
+			second_names = {
+				FAMANA_CHR_Anohar FAMANA_CHR_Loviaz FAMANA_CHR_Mayetas FAMANA_CHR_Kakin FAMANA_CHR_Kel FAMANA_CHR_Carvell FAMANA_CHR_Estina FAMANA_CHR_Polsti FAMANA_CHR_Ismaldi FAMANA_CHR_Pester
+			}
+			regnal_first_names_male = {
+				FAMANA_CHR_Ranyaf FAMANA_CHR_Romal FAMANA_CHR_Eyath FAMANA_CHR_Goloro
+			}
+			regnal_first_names_female = {
+				FAMANA_CHR_Adaro FAMANA_CHR_Loviaz
+			}
+			regnal_second_names = {
+				FAMANA_CHR_Anohar FAMANA_CHR_Loviaz FAMANA_CHR_Mayetas
+			}
+		}
+
+		names4 = { #geopyopian
+			weight = 30
+			first_names_male = {
+				FAMANA_CHR_Haromiam FAMANA_CHR_Diajalo FAMANA_CHR_Loozamiar FAMANA_CHR_Akil FAMANA_CHR_Harmiar FAMANA_CHR_Toman FAMANA_CHR_Tolatar FAMANA_CHR_Yako 
+			}
+			first_names_female = {
+				FAMANA_CHR_Jalolo FAMANA_CHR_Washu FAMANA_CHR_Ziri FAMANA_CHR_Vida FAMANA_CHR_Acren
+			}
+			second_names = {
+				FAMANA_CHR_Gastoor FAMANA_CHR_Nutia FAMANA_CHR_Jora FAMANA_CHR_Qyva FAMANA_CHR_Red FAMANA_CHR_Ligori FAMANA_CHR_Onsh FAMANA_CHR_Natigua FAMANA_CHR_Zimn FAMANA_CHR_Viden FAMANA_CHR_Apak
+			}
+			regnal_first_names_male = {
+				FAMANA_CHR_Haromiam FAMANA_CHR_Diajalo FAMANA_CHR_Loozamiar FAMANA_CHR_Akil
+			}
+			regnal_first_names_female = {
+				FAMANA_CHR_Jalolo FAMANA_CHR_Washu
+			}
+			regnal_second_names = {
+				FAMANA_CHR_Gastoor FAMANA_CHR_Nutia
+			}
+		}
+
+		names5 = { #oppian
+			weight = 30
+			first_names_male = {
+				FAMANA_CHR_Galag FAMANA_CHR_Anaslu FAMANA_CHR_Omba FAMANA_CHR_Tagoul FAMANA_CHR_Yalu FAMANA_CHR_Laughe FAMANA_CHR_Pate FAMANA_CHR_Apetounpo FAMANA_CHR_Bade FAMANA_CHR_Dupe FAMANA_CHR_Flyane FAMANA_CHR_Asghiado FAMANA_CHR_Niado FAMANA_CHR_Oudo FAMANA_CHR_Ndalma FAMANA_CHR_Isju FAMANA_CHR_Fumbol FAMANA_CHR_Buwu FAMANA_CHR_Hulep FAMANA_CHR_Outhu FAMANA_CHR_Maugja FAMANA_CHR_Fiawed FAMANA_CHR_Tulset FAMANA_CHR_Ugud FAMANA_CHR_Gubnu FAMANA_CHR_Lado FAMANA_CHR_Fouled FAMANA_CHR_Sungo FAMANA_CHR_Lolibu FAMANA_CHR_Muhputa FAMANA_CHR_Olibe FAMANA_CHR_Elapmo FAMANA_CHR_Agam FAMANA_CHR_Outsube FAMANA_CHR_Tsoumu FAMANA_CHR_Lliawo FAMANA_CHR_Groman FAMANA_CHR_Ayubais FAMANA_CHR_Div FAMANA_CHR_Galiv FAMANA_CHR_Menus FAMANA_CHR_Randos FAMANA_CHR_Vanaia FAMANA_CHR_Bodalf
+			}
+			first_names_female = {
+				FAMANA_CHR_Phauop FAMANA_CHR_Wdusa FAMANA_CHR_Pilu FAMANA_CHR_Amediamo FAMANA_CHR_Tuhe FAMANA_CHR_Gija FAMANA_CHR_Wifa FAMANA_CHR_Soofi
+			}
+			second_names = {
+				FAMANA_CHR_Seowbam FAMANA_CHR_Momunouf FAMANA_CHR_Hantou FAMANA_CHR_Accaci FAMANA_CHR_Sar FAMANA_CHR_Maspop FAMANA_CHR_Iba FAMANA_CHR_Thaul FAMANA_CHR_Labe FAMANA_CHR_Gojotujlo FAMANA_CHR_Nehoulpo FAMANA_CHR_Outhlud FAMANA_CHR_Lunuwta FAMANA_CHR_Fautut FAMANA_CHR_Arli
+			}
+			regnal_first_names_male = {
+				FAMANA_CHR_Galag FAMANA_CHR_Anaslu FAMANA_CHR_Omba FAMANA_CHR_Tagoul
+			}
+			regnal_first_names_female = {
+				FAMANA_CHR_Phauop FAMANA_CHR_Wdusa
+			}
+			regnal_second_names = {
+				FAMANA_CHR_Accaci FAMANA_CHR_Sar FAMANA_CHR_Maspop FAMANA_CHR_Iba FAMANA_CHR_Thaul FAMANA_CHR_Lab
+			}
+		}
+
+		names6 = { #fashran
+			weight = 10
+			first_names_male = {
+				FAMANA_CHR_Nozvoujo FAMANA_CHR_Vukoufon FAMANA_CHR_Fikhen FAMANA_CHR_Lelpa FAMANA_CHR_Fousokis FAMANA_CHR_Lazevy FAMANA_CHR_Pravet FAMANA_CHR_Fycfen FAMANA_CHR_Anyjaz FAMANA_CHR_Kecy FAMANA_CHR_Povu FAMANA_CHR_Viqhok FAMANA_CHR_Opluco FAMANA_CHR_Vatah FAMANA_CHR_Vefik FAMANA_CHR_Lupo FAMANA_CHR_Hupuluz FAMANA_CHR_Vaza FAMANA_CHR_Sleve FAMANA_CHR_Ikounozum FAMANA_CHR_Meqhaz FAMANA_CHR_Trivoptom FAMANA_CHR_Tosoun FAMANA_CHR_Mupo FAMANA_CHR_Ivumof FAMANA_CHR_Qhocfu FAMANA_CHR_Miqya FAMANA_CHR_Pref FAMANA_CHR_Caini FAMANA_CHR_Claf FAMANA_CHR_Miptus FAMANA_CHR_Slukhri FAMANA_CHR_Qhilyj FAMANA_CHR_Maje FAMANA_CHR_Nyhsfa FAMANA_CHR_Naqhhe FAMANA_CHR_Lapnai FAMANA_CHR_Oupo FAMANA_CHR_Nuzovit FAMANA_CHR_Concu FAMANA_CHR_Cilzri
+			}
+			first_names_female = {
+				FAMANA_CHR_Epy FAMANA_CHR_Uvo FAMANA_CHR_Viqyly FAMANA_CHR_Hoquc FAMANA_CHR_Onu FAMANA_CHR_Aset FAMANA_CHR_Ovo FAMANA_CHR_Vehin FAMANA_CHR_Iseqhly FAMANA_CHR_Qhousoqho FAMANA_CHR_Zohi FAMANA_CHR_Ysa
+			}
+			second_names = {
+				FAMANA_CHR_Qoqfil FAMANA_CHR_Qhufqhu FAMANA_CHR_Trecrai FAMANA_CHR_Vynmaita FAMANA_CHR_Muklocfi FAMANA_CHR_Qhetai FAMANA_CHR_Clenyne FAMANA_CHR_Kovpouk FAMANA_CHR_Trupluvu FAMANA_CHR_Tfecai FAMANA_CHR_Fourukh FAMANA_CHR_Qaizaqamil FAMANA_CHR_Zyqhlymaj FAMANA_CHR_Lucfom FAMANA_CHR_Colzruhoup FAMANA_CHR_Plikozvo FAMANA_CHR_Kynvy FAMANA_CHR_Sralicyh
+			}
+			regnal_first_names_male = {
+				FAMANA_CHR_Nozvoujo FAMANA_CHR_Vukoufon FAMANA_CHR_Fikhen
+			}
+			regnal_first_names_female = {
+				FAMANA_CHR_Epy FAMANA_CHR_Uvo FAMANA_CHR_Viqyly
+			}
+			regnal_second_names = {
+				FAMANA_CHR_Qoqfil FAMANA_CHR_Qhufqhu
+			}
+		}
+	}
+}
