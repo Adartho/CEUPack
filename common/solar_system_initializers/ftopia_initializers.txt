@@ -6,6 +6,10 @@ hgfta_natural_system_initializer = {
 	name = "NAME_hgfta"
 	
 	class = "sc_g"
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 225
+	}
 	
 	usage = misc_system_init
 
@@ -22,7 +26,12 @@ hgfta_natural_system_initializer = {
 	}
 
 	usage_odds = {
-		base = 0 #disabled
+		base = 0
+		modifier = {
+			NOT = { any_system = { has_star_flag = famana_system } }
+			NOT = { has_star_flag = empire_cluster }
+			add = 99999
+		}
 	}
 
 	max_instances = 1
@@ -32,185 +41,48 @@ hgfta_natural_system_initializer = {
 		class = "pc_g_star"
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 25
+		size = 30
 		has_ring = no
 	}
 
 	planet = {
-		name = "NAME_D1"
+		name = "NAME_Tashoam"
 		class = "pc_desert"
-		orbit_distance = 15
-		orbit_angle = 30
-		size = 13
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
 		has_ring = no
-		entity = "desert_planet_01_entity"
 		deposit_blockers = none
 		modifiers = none
 	}
 	
 	planet = {
 		name = "NAME_varsel"
-		class = "pc_continental"
+		class = "pc_broken"
 		orbit_distance = 20
 		orbit_angle = 120
-		size = 14
-		starting_planet = yes
+		size = 25
 		has_ring = no
-		entity = "continental_planet_04_entity"
-		deposit_blockers = none
 		modifiers = none
 		flags = { planet_varsel }
 		
 		init_effect = {
 			prevent_anomaly = yes
-			random_list = {
-				25 = {
-					create_species = {
-						name = Woosan
-						plural = Woosans
-						class = "HUM"
-						portrait = "human"
-						homeworld = THIS
-						traits = {
-							trait = "trait_adaptive"
-							trait = "trait_intelligent"	
-							trait = "trait_wasteful"
-						}
-					}
-					create_species = {
-						name = Garhthre
-						plural = Garhthreans
-						class = "HUM"
-						portrait = "humanoid_03"
-						homeworld = THIS
-						traits = {
-							trait = "trait_traditional"
-							trait = "trait_nomadic"	
-							trait = "trait_thrifty"
-						}
-					}
-					create_species = {
-						name = Pareoon
-						plural = Pareoons
-						class = "HUM"
-						portrait = "humanoid_05"
-						homeworld = THIS
-						traits = {
-							trait = "trait_traditional"
-							trait = "trait_nomadic"	
-							trait = "trait_docile"
-						}
-					}
-					create_species = {
-						name = Pochle
-						plural = Pochles
-						class = "HUM"
-						portrait = "humanoid_02"
-						homeworld = THIS
-						traits = {
-							trait = "trait_traditional"
-							trait = "trait_nomadic"	
-							trait = "trait_docile"
-						}
-					}
-					create_species = {
-						name = Dakren
-						plural = Dakrens
-						class = "HUM"
-						portrait = "humanoid_04"
-						homeworld = THIS
-						traits = {
-							trait = "trait_traditional"
-							trait = "trait_nomadic"	
-							trait = "trait_docile"
-						}
-					}
-					create_country = {
-						name = random
-						authority = random
-						civics = {
-							civic = civic_landed_nobility
-							civic = civic_flat_world_theory
-						}
-						species = last_created
-						ethos = { 
-							ethic = "ethic_xenophobe"
-							ethic = "ethic_spiritualist"
-							ethic = "ethic_authoritarian"
-						}
-						origin = "origin_enlightened" # Should only be visible if they become spacefaring
-						flag = {
-							icon = {
-								category = "ornate"
-								file = "flag_ornate_11.dds"
-							}
-							background = {
-								category = "backgrounds"
-								file = "00_solid.dds"
-							}
-							colors = {
-								"dark_blue"
-								"dark_blue"
-								"null"
-								"null"
-							}
-						}
-						day_zero_contact = no
-						type = primitive
-					}
-					last_created_country = {
-						set_graphical_culture = preindustrial_01
-						set_country_flag = late_medieval_age
-						set_primitive_age = late_medieval_age
-					}
-					
-					set_owner = last_created_country		
-										
-					while = {
-						count = 3
-						create_pop = {
-							species = Woosan
-						}					
-					}
-					while = {
-						count = 3
-						create_pop = {
-							species = Garhthre
-						}				
-					}
-					while = {
-						count = 3
-						create_pop = {
-							species = Dakren
-						}				
-					}
-					while = {
-						count = 3
-						create_pop = {
-							species = Pareoon
-						}				
-					}
-					while = {
-						count = 3
-						create_pop = {
-							species = Pochle
-						}				
-					}
-					add_building = building_primitive_dwellings
-					add_building = building_primitive_dwellings
-					add_building = building_stone_palace			
-					
-					while = {
-						count = 3
-						create_army = {
-							name = "NAME_Feudal_Levies"
-							owner = last_created
-							species = last_created
-							type = "primitive_army"
-						}
-					}
+			create_ambient_object = {
+				type = "large_debris_object"
+				location = THIS
+			}
+			create_ambient_object = {
+				type = "derelict_particle_accelerator"
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = THIS
+					distance = 5
+					angle = random
 				}
 			}
+			clear_deposits = yes
 		}
 		
 		moon = {
@@ -222,124 +94,43 @@ hgfta_natural_system_initializer = {
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 		}
-		moon = {
-			name = "NAME_D2b"
-			class = "pc_barren_cold"
-			size = 4
-			orbit_distance = 10
-			orbit_angle = 15
-			has_ring = no
-		}
 	}
 	
 	planet = {
 		name = "NAME_erox"
-		class = "pc_continental"
-		orbit_distance = 22
-		orbit_angle = 120
-		size = 12
+		class = "pc_broken"
+		orbit_distance = 25
+		orbit_angle = 180
+		size = 18
 		has_ring = no
-		entity = "continental_planet_03_entity"
-		deposit_blockers = none
 		modifiers = none
-		flags = { planet_erox }
+		flags = { planet_varsel }
 		
 		init_effect = {
 			prevent_anomaly = yes
-			random_list = {
-				25 = {
-					create_species = {
-						name = Eroxian
-						plural = Eroxian
-						class = "HUM"
-						portrait = "human"
-						homeworld = THIS
-						traits = {
-							trait = "trait_adaptive"
-							trait = "trait_intelligent"	
-							trait = "trait_wasteful"
-						}
-					}
-					create_country = {
-						name = random
-						authority = random
-						civics = {
-							civic = civic_landed_nobility
-							civic = civic_flat_world_theory
-						}
-						species = last_created
-						ethos = { 
-							ethic = "ethic_xenophobe"
-							ethic = "ethic_spiritualist"
-							ethic = "ethic_authoritarian"
-						}
-						origin = "origin_enlightened" # Should only be visible if they become spacefaring
-						flag = {
-							icon = {
-								category = "ornate"
-								file = "flag_ornate_12.dds"
-							}
-							background = {
-								category = "backgrounds"
-								file = "00_solid.dds"
-							}
-							colors = {
-								"dark_blue"
-								"dark_blue"
-								"null"
-								"null"
-							}
-						}
-						day_zero_contact = no
-						type = primitive
-					}
-					last_created_country = {
-						set_graphical_culture = preindustrial_01
-						set_country_flag = late_medieval_age
-						set_primitive_age = late_medieval_age
-					}
-					
-					set_owner = last_created_country		
-										
-					while = {
-						count = 8
-						create_pop = {
-							species = Eroxian
-						}					
-					}
-					add_building = building_primitive_dwellings
-					add_building = building_primitive_dwellings
-					add_building = building_stone_palace			
-					
-					while = {
-						count = 3
-						create_army = {
-							name = "NAME_Feudal_Levies"
-							owner = last_created
-							species = last_created
-							type = "primitive_army"
-						}
-					}
+			create_ambient_object = {
+				type = "large_debris_object"
+				location = THIS
+			}
+			create_ambient_object = {
+				type = "abandoned_starbase_01_object"
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = THIS
+					distance = 5
+					angle = random
 				}
 			}
-		}
-		
-		moon = {
-			name = "NAME_D3a"
-			class = "pc_barren_cold"
-			size = 5
-			orbit_distance = 10
-			orbit_angle = 40
-			has_ring = no
-			entity = "barren_planet_02_entity"
+			clear_deposits = yes
 		}
 	}
 
 	planet = {
 		name = "NAME_loorcha"
-		class = "pc_continental"
-		orbit_distance = 25
-		orbit_angle = -15
+		class = "pc_nuked"
+		orbit_distance = 35
+		orbit_angle = -60
 		size = 12
 		has_ring = no
 		entity = "continental_planet_02_entity"
@@ -352,8 +143,8 @@ hgfta_natural_system_initializer = {
 			random_list = {
 				25 = {
 					create_species = {
-						name = Loorchan
-						plural = Loorchan
+						name = Human
+						plural = Human
 						class = "HUM"
 						portrait = "human"
 						homeworld = THIS
@@ -405,9 +196,9 @@ hgfta_natural_system_initializer = {
 					set_owner = last_created_country		
 										
 					while = {
-						count = 5
+						count = 4
 						create_pop = {
-							species = Loorchan
+							species = Human
 						}					
 					}
 					add_building = building_primitive_dwellings
@@ -427,110 +218,69 @@ hgfta_natural_system_initializer = {
 			}
 		}
 		
-		moon = {
-			name = "NAME_D4a"
-			class = "pc_barren_cold"
-			size = 5
-			orbit_distance = 10
-			orbit_angle = 40
-			has_ring = yes
-			entity = "barren_planet_03_entity"
-		}
 	}
 
 	planet = {
-		name = "NAME_D5"
-		class = "pc_barren"
+		name = "NAME_Pinquils"
+		class = "pc_toxic"
 		orbit_distance = 30
 		orbit_angle = -90
-		size = 10
+		size = 20
 		has_ring = no
-		entity = "barren_planet_01_entity"	
 	}
 
 	planet = {
-		name = "NAME_D6"
-		class = "pc_toxic"
-		orbit_distance = 35
+		name = "NAME_Yihinis"
+		class = "pc_barren"
+		orbit_distance = 40
 		orbit_angle = 15
 		size = 10
 		has_ring = no
 	}
 
 	planet = {
-		name = "NAME_D7"
-		class = "pc_barren"
-		orbit_distance = 37
+		name = "Sanoar"
+		class = "pc_gas_giant"
+		orbit_distance = 60
 		orbit_angle = -125
-		size = 5
-		has_ring = yes
+		size = 20
+		has_ring = no
 	}
 
 	planet = {
-		name = "NAME_D8"
-		class = "pc_barren"
-		orbit_distance = 40
-		orbit_angle = 90
-		size = 5
-		has_ring = yes
-	}
-	
-	planet = {
-		name = "NAME_D9"
+		name = "Mexizo"
 		class = "pc_gas_giant"
-		orbit_distance = 55
-		orbit_angle = -160
-		size = 20
-		has_ring = yes
-		change_orbit = 6
-		
-		moon = {
-			name = "NAME_D9a"
-			class = "pc_molten"
-			size = 6
-			orbit_distance = 10
-			orbit_angle = 110
-			has_ring = no
-		}
-		moon = {
-			name = "NAME_D9b"
-			class = "pc_frozen"
-			size = 6
-			orbit_distance = 2.5
-			orbit_angle = 10
-			has_ring = no
-		}
-	}
-	
-	planet = {
-		name = "NAME_D10"
-		class = "pc_gas_giant"
-		orbit_distance = 60
-		orbit_angle = 170
+		entity = "gas_giant_02_entity"
+		orbit_distance = 65
+		orbit_angle = 80
 		size = 35
 		has_ring = yes
-		entity = "gas_giant_02_entity"
-		change_orbit = 7
 	}
 	
 	planet = {
-		name = "NAME_D11"
+		name = "Ézen"
 		class = "pc_gas_giant"
-		orbit_distance = 62
-		orbit_angle = 125
-		size = 15
+		orbit_distance = 70
+		orbit_angle = -200
+		size = 20
 		has_ring = yes
-		entity = "gas_giant_03_entity"
 	}
 	
 	planet = {
-		name = "NAME_D12"
+		name = "Orul"
 		class = "pc_gas_giant"
-		orbit_distance = 65
-		orbit_angle = -195
+		orbit_distance = 75
+		orbit_angle = 160
+		size = 25
+		has_ring = no
+	}
+
+	planet = {
+		name = "Thalmanou"
+		class = "pc_gas_giant"
+		orbit_distance = 100
+		orbit_angle = 10
 		size = 15
 		has_ring = no
-		entity = "gas_giant_05_entity"
-		change_orbit = 4
 	}
 }
