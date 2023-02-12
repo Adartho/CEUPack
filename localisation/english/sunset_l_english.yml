@@ -18,7 +18,7 @@
  FLAG_CATEGORY_sunset_discontinued:0 "DISCONTINUED"
 
  um_system_initializer_NAME:0 "Um System"
- um_system_initializer_DESC:0 "System based on Um, the star system of which Famana is a member.\n\n$system_initializer_DESC$"
+ um_system_initializer_DESC:0 "System based on Um, the star system of Famana.\n\n$system_initializer_DESC$"
 
  civic_frame_slavery:0 "Frame Slavery"
  civic_frame_slavery_desc:0 "This society believes that people should all collectively have a role in producing entertainement, usually through state-forced slavery."
