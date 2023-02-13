@@ -1,4 +1,4 @@
-buff:
+Buff:
 - harmony tradition
 - synchronicity tradition
 - unyielding tradition
@@ -13,17 +13,12 @@ buff:
 - galactic contender AP
 - psionic ascension (slightly)
 - synthetic ascension (slightly)
-- lithoids in general (slightly)
+#- lithoids in general (slightly)
 
-
-
-
-nerf:
-- materialist
+Nerf:
+#- materialist
 - technological ascendancy AP (?)
 
-
-
-change:
+Change:
 - make imperial prerogative AP available to megacorps (?)
 - the crisis (idk how, maybe make it unavailable until later in the game)
