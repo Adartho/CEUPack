@@ -205,6 +205,7 @@ ap_enigmatic_engineering = {
 
 	modifier = {
 		intel_encryption_add = 2
+		planet_jobs_engineering_research_produces_mult = 0.10
 	}
 
 	ai_weight = {
@@ -341,7 +342,7 @@ ap_world_shaper = {
 	}
 
 	modifier = {
-		terraforming_cost_mult = -0.25
+		terraforming_cost_mult = -0.33
 	}
 
 	on_enabled = {
@@ -401,7 +402,7 @@ ap_galactic_force_projection = {
 	}
 	modifier = {
 		country_naval_cap_add = 80
-		country_command_limit_add = 20
+		country_command_limit_add = 40
 	}
 
 	potential = {
@@ -563,7 +564,7 @@ ap_grasp_the_void = {
 	}
 
 	modifier = {
-		country_starbase_capacity_add = 5
+		country_starbase_capacity_add = 12
 	}
 
 	potential = {
@@ -594,10 +595,10 @@ ap_eternal_vigilance = {
 	}
 
 	modifier = {
-		shipclass_starbase_damage_mult = 0.25
-		shipclass_starbase_hull_mult = 0.25
-		shipclass_military_station_damage_mult = 0.25
-		starbase_defense_platform_capacity_add = 5
+		shipclass_starbase_damage_mult = 0.50
+		shipclass_starbase_hull_mult = 0.50
+		shipclass_military_station_damage_mult = 0.50
+		starbase_defense_platform_capacity_add = 10
 	}
 
 	potential = {
@@ -636,9 +637,9 @@ ap_galactic_contender = {
 	}
 	modifier = {
 		diplo_weight_mult = 0.2
-		damage_vs_country_type_fallen_empire_mult = 0.33
-		damage_vs_country_type_awakened_fallen_empire_mult = 0.33
-		damage_vs_country_type_gate_builders_mult = 0.33
+		damage_vs_country_type_fallen_empire_mult = 0.50
+		damage_vs_country_type_awakened_fallen_empire_mult = 0.50
+		damage_vs_country_type_gate_builders_mult = 0.50
 	}
 
 	potential = {
@@ -678,7 +679,7 @@ ap_galactic_contender = {
 
 ap_technological_ascendancy = {
 	modifier = {
-		all_technology_research_speed = 0.1
+		all_technology_research_speed = 0.075
 	}
 
 	potential = {
@@ -766,7 +767,8 @@ ap_mastery_of_nature = {
 		custom_tooltip = "describe_decision_mastery_of_nature"
 	}
 	modifier = {
-		deposit_blockers_cost_mult = -0.33
+		deposit_blockers_cost_mult = -0.50
+		terraform_speed_mult = 1.5
 	}
 
 	potential = {
@@ -800,6 +802,7 @@ ap_mastery_of_nature = {
 ap_imperial_prerogative = {
 	modifier = {
 		empire_size_colonies_mult = -0.50
+		tech_cost_empire_size_mult = -0.15
 	}
 
 	potential = {
@@ -860,7 +863,7 @@ ap_shared_destiny = {
 	}
 
 	modifier = {
-		envoys_add = 2
+		envoys_add = 3
 	}
 
 	potential = {

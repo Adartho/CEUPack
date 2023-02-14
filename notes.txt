@@ -2,22 +2,23 @@ Buff:
 - harmony tradition
 - synchronicity tradition
 - unyielding tradition
-- eternal vigilance AP
-- mastery of nature AP
-- shared destiny AP
-- enigmatic engineering AP
-- grasp the void AP
-- world shaper AP (slightly)
-- galactic force projection AP (slightly)
-- machine worlds AP (slightly)
-- galactic contender AP
+#- eternal vigilance AP
+#- consecrated worlds
+#- mastery of nature AP
+#- shared destiny AP
+#- enigmatic engineering AP
+#- grasp the void AP
+#-imperial prerogative
+#- world shaper AP (slightly)
+#- galactic force projection AP (slightly)
+#- galactic contender AP
 - psionic ascension (slightly)
 - synthetic ascension (slightly)
 #- lithoids in general (slightly)
 
 Nerf:
 #- materialist
-- technological ascendancy AP (?)
+#- technological ascendancy AP (?)
 
 Change:
 - make imperial prerogative AP available to megacorps (?)
