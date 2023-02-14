@@ -499,7 +499,7 @@ um_natural_system_initializer = {
 		orbit_angle = 60
 		size = 13
 		has_ring = no
-		entity = "barren_planet_mars_entity"	
+		entity = "barren_planet_01_entity"	
 	}
 
 	planet = {
@@ -509,7 +509,7 @@ um_natural_system_initializer = {
 		orbit_angle = 30
 		size = 7
 		has_ring = no
-		entity = "barren_planet_mars_entity"	
+		entity = "barren_planet_02_entity"	
 	}
 	
 	planet = {
