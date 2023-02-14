@@ -612,6 +612,7 @@ origin_common_ground = {
 	max_once_global = yes
 
 	playable = {
+		always = no
 		host_has_dlc = "Federations"
 	}
 
@@ -669,6 +670,7 @@ origin_hegemon = {
 	max_once_global = yes
 
 	playable = {
+		always = no
 		host_has_dlc = "Federations"
 	}
 
