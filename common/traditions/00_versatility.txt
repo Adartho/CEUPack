@@ -1,12 +1,13 @@
 tr_versatility_adopt = {
 	modifier = {
-		planet_pop_assemblers_upkeep_mult = -0.10
+		planet_pop_assemblers_upkeep_mult = -0.20
 	}
 }
 
 tr_versatility_finish = {
 	custom_tooltip = tr_versatility_finish_desc
 	modifier = {
+		pop_job_amenities_mult = 0.20
 		ascension_perks_add = 1
 	}
 }
@@ -39,7 +40,7 @@ tr_versatility_adaptive_programming = {
 tr_versatility_spatial_optimization = {
 
 	modifier = {
-		pop_housing_usage_mult = -0.10
+		pop_housing_usage_mult = -0.25
 	}
 
 	ai_weight = {
