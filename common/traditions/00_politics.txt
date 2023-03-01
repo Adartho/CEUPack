@@ -1,0 +1,86 @@
+tr_politics_adopt = {
+
+	possible = {
+		is_galactic_community_formed = yes
+	}
+	
+	custom_tooltip = tr_politics_adopt_desc
+	modifier = {
+		envoys_add = 1
+		#Envoys generate influence, handled in the leaders script
+	}
+}
+
+tr_politics_finish = {
+	modifier = {
+		custom_tooltip = tr_politics_finish_desc
+		diplo_weight_mult = 0.10
+		ascension_perks_add = 1
+		#Also unlocks 4 special resolutions
+	}
+}
+
+tr_politics_quid_pro_quo = {
+	#Handled through galcom.300
+	custom_tooltip = tr_politics_quid_pro_quo_desc
+
+	ai_weight = {
+		factor = 10000
+	}
+}
+
+tr_politics_gravitas = {
+
+	custom_tooltip = tr_politics_gravitas_desc
+
+	modifier = {
+		resolutions_cost_mult = -0.25
+		diplo_weight_envoys_mult = 0.025
+	}
+
+	ai_weight = {
+		factor = 10000
+	}
+}
+
+tr_politics_national_agenda = {
+	possible = {
+		has_tradition = tr_politics_quid_pro_quo
+	}
+
+	custom_tooltip = tr_politics_national_agenda_desc
+	#Handled through galcom.305
+
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+tr_politics_persistent_petitioners = {
+	possible = {
+		has_tradition = tr_politics_gravitas
+	}
+
+	custom_tooltip = tr_politics_persistent_petitioners_desc
+	#Handled through galcom.310-315
+
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+tr_politics_extraordinary_powers = {
+	possible = {
+		has_tradition = tr_politics_national_agenda
+		has_tradition = tr_politics_persistent_petitioners
+	}
+
+	modifier = {
+		veto_cooldown_mult = -0.25
+		emergency_measures_cooldown_mult = -0.25
+	}
+
+	ai_weight = {
+		factor = 5000
+	}
+}
