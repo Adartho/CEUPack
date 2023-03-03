@@ -20,7 +20,7 @@
 #
 #	tags = { <key> <key2> }							# add these translation tags to the description
 #}
-
+ 
 
 auth_democratic = {
 	election_term_years = 10
