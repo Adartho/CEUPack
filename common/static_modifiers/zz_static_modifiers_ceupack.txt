@@ -1,0 +1,4 @@
+
+ceupack_war_exhaustion_modifier = {
+	country_war_exhaustion_mult = -1
+}

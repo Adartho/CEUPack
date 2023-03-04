@@ -1,0 +1,37 @@
+# NB: all these values are also communicated to the player in custom tooltips for the sacrifice events, and so any changes should also be reflected there.
+
+sacrifice_togetherness_mod = {
+	country_unity_produces_mult = 0.3
+	icon = "gfx/interface/icons/modifiers/mod_resource_unity_mult.dds"
+}
+
+sacrifice_harmony_mod = {
+	pop_happiness = 0.5
+	icon = "gfx/interface/icons/modifiers/mod_pop_happiness.dds"
+}
+
+sacrifice_bounty_mod = {
+	country_minerals_produces_mult = 0.3
+	country_energy_produces_mult = 0.3
+	icon = "gfx/interface/icons/modifiers/mod_produces_mult.dds"
+}
+
+sacrifice_togetherness_mod_overlord = {
+	country_unity_produces_mult = 0.1
+	icon = "gfx/interface/icons/modifiers/mod_resource_unity_mult.dds"
+}
+
+sacrifice_harmony_mod_overlord = {
+	pop_happiness = 0.2
+	icon = "gfx/interface/icons/modifiers/mod_pop_happiness.dds"
+}
+
+sacrifice_bounty_mod_overlord = {
+	country_minerals_produces_mult = 0.1
+	country_energy_produces_mult = 0.1
+	icon = "gfx/interface/icons/modifiers/mod_produces_mult.dds"
+}
+
+zombie_contract_manipulation = {
+	pop_ethic_authoritarian_attraction_mult = 0.5
+}

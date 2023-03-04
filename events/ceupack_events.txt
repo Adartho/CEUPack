@@ -1,0 +1,39 @@
+
+
+namespace = ceupack
+
+#country_event = {
+#	id = ceupack.1
+#	hide_window = yes
+#	#is_test_event = yes
+#
+#	trigger = {
+#        NOT = {
+#            has_country_flag = ceupack_had_player_war_exhaustion_event
+#        }
+#        is_ai = no
+#    }
+#
+#	immediate = {
+#		set_country_flag = ceupack_had_player_war_exhaustion_event
+#		add_modifier = {
+#            modifier = ceupack_war_exhaustion_modifier
+#        }
+#	}
+#}
+
+#country_event = {
+#	id = ceupack.2
+#	hide_window = yes
+#	#is_test_event = yes
+#
+#	trigger = {
+#        has_country_flag = ceupack_had_player_war_exhaustion_event
+#        is_ai = yes
+#    }
+#
+#	immediate = {
+#		remove_country_flag = ceupack_had_player_war_exhaustion_event
+#		remove_modifier = ceupack_war_exhaustion_modifier
+#	}
+#}
