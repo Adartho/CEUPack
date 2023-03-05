@@ -1,7 +1,7 @@
 
 tr_adaptability_adopt = {
 	modifier = {
-		pop_housing_usage_mult = -0.10
+		pop_housing_usage_mult = -0.25
 	}
 }
 
@@ -76,7 +76,7 @@ tr_adaptability_adaptive_ecology = {
 	}
 
 	modifier = {
-		planet_max_buildings_add = 1
+		planet_max_buildings_add = 2
 	}
 
 	ai_weight = {
