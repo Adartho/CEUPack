@@ -60,6 +60,7 @@ civic_hive_divided_attention = {
 	random_weight = { base = 5 }
 	modifier = {
 		empire_size_colonies_mult = -0.50
+		country_command_limit_add = 25
 	}
 }
 
@@ -90,8 +91,8 @@ civic_hive_pooled_knowledge = {
 	random_weight = { base = 5 }
 	modifier = {
 		leader_skill_levels = 1
-		species_leader_exp_gain = 0.1
-		intel_encryption_add = 1
+		species_leader_exp_gain = 0.25
+		intel_encryption_add = 2
 	}
 }
 
@@ -242,7 +243,7 @@ civic_hive_ascensionists = {
 	modifier = {
 		planetary_ascension_effect_mult = 0.25
 		planetary_ascension_cost_mult = -0.1
-		tradition_cost_empire_size_mult = -0.25
+		tradition_cost_empire_size_mult = -0.60
 	}
 }
 
@@ -386,8 +387,8 @@ civic_machine_factory_overclock = {
 	potential = { authority = { value = auth_machine_intelligence } }
 	random_weight = { base = 5 }
 	modifier = {
-		leader_skill_levels = 1
-		species_leader_exp_gain = 0.1
+		leader_skill_levels = 2
+		species_leader_exp_gain = 0.25
 	}
 }
 
@@ -412,6 +413,7 @@ civic_machine_zero_waste_protocols = {
 	random_weight = { base = 5 }
 	modifier = {
 		planet_pops_robotics_upkeep_mult = -0.10
+		planet_jobs_simple_drone_produces_mult = 0.10
 	}
 }
 
@@ -547,6 +549,6 @@ civic_machine_ascensionists = {
 	modifier = {
 		planetary_ascension_effect_mult = 0.25
 		planetary_ascension_cost_mult = -0.1
-		tradition_cost_empire_size_mult = -0.25
+		tradition_cost_empire_size_mult = -0.60
 	}
 }
