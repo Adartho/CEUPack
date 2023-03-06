@@ -900,6 +900,9 @@ civic_merchant_guilds = {
 	random_weight = {
 		base = 2
 	}
+	modifier = {
+		trade_value_mult = 0.10
+	}
 }
 
 civic_reanimated_armies = {
