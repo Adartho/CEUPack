@@ -1,0 +1,384 @@
+# Galactic Union
+
+federation_name_parts_list = {
+	key = "default_federation_names_1_1"
+	parts = {
+		Pan-Galactic = 1
+		Galactic = 1
+		Interstellar = 1
+		Star = 1
+		Stellar = 1
+		Cosmic = 1
+		MutualAssistance = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "default_federation_names_1_2"
+	parts = {
+		Alliance = 1
+		League = 1
+		Federation = 1
+		Pact = 1
+		Coalition = 1
+		Compact = 1
+		Concord = 1
+		Entente = 1
+		Partnership = 1
+		TreatyOrganization = 1
+		Accord = 1
+		Assembly = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "default_federation_names_2_1"
+	parts = {
+		Coalition_of = 1
+		Leagueof = 1
+		Allianceof = 1
+		Unionof = 1
+		Allied = 1
+		United = 1
+		Federal = 1
+		Federated = 1
+		Confederated = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "default_federation_names_2_2"
+	parts = {
+		StarNations = 1
+		InterlinkedSystems = 1
+		IndependentSystems = 1
+		SovereignNations = 1
+		AutonomousPowers = 1
+		GalacticPowers = 1
+		SovereignStars = 1
+		CivilizedWorlds = 1
+		AssociatedNations = 1
+		SapientNations = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = default_federation
+		}
+	}
+	format = "{<default_federation_names_1_1> {<default_federation_names_1_2>}}"
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = default_federation
+		}
+	}
+	format = "{<default_federation_names_2_1> {<default_federation_names_2_2>}}"
+}
+
+# Trade League
+
+federation_name_parts_list = {
+	key = "trade_federation_names_1_1"
+	parts = {
+		Pan-Galactic = 1
+		Galactic = 1
+		Interstellar = 1
+		Star = 1
+		Stellar = 1
+		Cosmic = 1
+		United = 1
+		Free = 1
+		Consolidated = 1
+		Harmonious = 1
+		Golden = 1
+		Favorable = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "trade_federation_names_1_2"
+	parts = {
+		Prosperity = 1
+		Commerce = 1
+		Trade = 1
+		Mercantile = 1
+		Monetary = 1
+		Co-Prosperity = 1
+		Economic = 1
+		FreeTrade = 1
+		Trading = 1
+		Merchant = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "trade_federation_names_1_3"
+	parts = {
+		Sphere = 1
+		Coalition = 1
+		Alliance = 1
+		Federation = 1
+		Pact = 1
+		Coalition = 1
+		Compact = 1
+		Concord = 1
+		Entente = 1
+		Partnership = 1
+		Accord = 1
+		Assembly = 1
+		Exchange = 1
+		Network = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = trade_federation
+		}
+	}
+	format = "{<trade_federation_names_1_1> {<trade_federation_names_1_2> {<trade_federation_names_1_3>}}}"
+}
+
+
+# Research Cooperative
+
+federation_name_parts_list = {
+	key = "research_federation_names_1_1"
+	parts = {
+		Pan-Galactic = 1
+		Galactic = 1
+		Interstellar = 1
+		Star = 1
+		Stellar = 1
+		Cosmic = 1
+		United = 1
+		Free = 1
+		Harmonious = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "research_federation_names_1_2"
+	parts = {
+		Science = 1
+		Research = 1
+		Information = 1
+		Knowledge = 1
+		Technologist = 1
+		Academy = 1
+		Advancement = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "research_federation_names_1_3"
+	parts = {
+		Cooperative = 1
+		Sphere = 1
+		Coalition = 1
+		Alliance = 1
+		Federation = 1
+		Pact = 1
+		Coalition = 1
+		Compact = 1
+		Concord = 1
+		Entente = 1
+		Partnership = 1
+		Accord = 1
+		Assembly = 1
+		Exchange = 1
+		Network = 1
+		Association = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = research_federation
+		}
+	}
+	format = "{<research_federation_names_1_1> {<research_federation_names_1_2> {<research_federation_names_1_3>}}}"
+}
+
+
+# Martial Alliance
+
+federation_name_parts_list = {
+	key = "military_federation_names_1_1"
+	parts = {
+		Pan-Galactic = 1
+		Galactic = 1
+		Interstellar = 1
+		Star = 1
+		Stellar = 1
+		Cosmic = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "military_federation_names_1_2"
+	parts = {
+		TreatyOrganization = 1
+		DefenseForce = 1
+		Pact = 1
+		DefenseLeague = 1
+		StrategicAlliance = 1
+		Entente = 1
+		SecurityPartnership = 1
+		DefenseInitiative = 1
+		SecurityOrganization = 1
+		CombinedForces = 1
+		MilitaryBloc = 1
+		DefenseAxis = 1
+		MutualAssistancePact = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = military_federation
+		}
+	}
+	format = "{<military_federation_names_1_1> {<military_federation_names_1_2>}}"
+}
+
+# Hegemony
+
+federation_name_parts_list = {
+	key = "hegemony_federation_names_1_1"
+	parts = {
+		StarHegemony = 1
+		StarHierarchy = 1
+		SecurityPact = 1
+		StarDominion = 1
+		AffiliationBloc = 1
+		GalacticDomain = 1
+		GalacticOrder = 1
+		InfluenceSphere = 1
+		PartnershipAlliance = 1
+		FriendshipSphere = 1
+		ControlZone = 1
+		ProtectionSphere = 1
+		DependancyUnion = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "hegemony_federation_names_2_1"
+	parts = {
+		New = 1
+		Greater = 1
+		Great = 1
+		Grand = 1
+		Exalted = 1
+		Glorious = 1
+		Supreme = 1
+		United = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "hegemony_federation_names_2_2"
+	parts = {
+		Order = 1
+		Hegemony = 1
+		Hierarchy = 1
+		Domain = 1
+		Dominion = 1
+		Sphere = 1
+		Authority = 1
+		Pact = 1
+		Bloc = 1
+		Coalition = 1
+		League = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = hegemony_federation
+		}
+	}
+	format = "{[This.Leader.GetSpeciesAdj] {<hegemony_federation_names_1_1>}}"
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = hegemony_federation
+		}
+	}
+	format = "{<hegemony_federation_names_2_1> {[This.Leader.GetSpeciesAdj] {<hegemony_federation_names_2_2>}}}"
+}
+
+# Spiritualist Covenant
+
+federation_name_parts_list = {
+	key = "spiritualist_federation_names_1_1"
+	parts = {
+		Holy = 2
+		Sacred = 2
+		Harmonious = 2
+		Consecrated = 1
+		Hallowed = 1
+		Sanctified = 1
+		Sacrosanct = 1
+		Divine = 1
+		Blessed = 2
+		Seraphic = 1
+		Elysian = 1
+		Empyreal = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "spiritualist_federation_names_1_2"
+	parts = {
+		Accord = 1
+		Covenant = 2
+		Communion = 1
+		Society = 1
+		Commonwealth = 1
+		Alliance = 1
+		Coalition = 1
+		Compact = 1
+		Concord = 1
+		Entente = 1
+		Partnership = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = spiritualist_federation
+		}
+	}
+	lookups = "{<spiritualist_federation_names_1_1> {<spiritualist_federation_names_1_2>}}"
+}
+
