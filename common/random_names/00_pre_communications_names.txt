@@ -57,6 +57,16 @@ pre_communications_name_parts_list = {
 		Res = 1
 		Sin = 1
 		Taw = 1
+		Ocros_ceu = 1
+		Cum_ceu = 1
+		British_ceu = 1
+		Kasbub_ceu = 1
+		Sussy_ceu = 1
+		Ligma_ceu = 1
+		Clerk_ceu = 1
+		Goofy_ahh_ceu = 1
+		Deutsche_ceu = 1
+		Bulgarian_ceu = 1
 	}
 }
 

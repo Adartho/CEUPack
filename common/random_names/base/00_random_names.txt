@@ -6,6 +6,7 @@ species_modification_prefix = {
 	Super-
 	Trans-
 	Ultra-
+	Giga_ceu
 }
 
 species_modification_postfix = {
@@ -84,6 +85,8 @@ black_hole_names = {
 	"Masinissas_Demise"
 	"Iskanders_Pride"
 	"Maw_of_the_Truthsayer"
+	"Essence_of_Hungary"
+	"Nitra_ceu"
 }
 
 asteroid_prefix = {
@@ -2054,6 +2057,26 @@ star_names = {
 	Hoda
 	Clochasaigh
 	Wydra
+	#CEU
+	Esto
+	Stellil
+	Wazhe-Hovrak
+	Marcisav
+	Imu
+	Alshain
+	Wazhar
+	Jonzus
+	Oratashk
+	Zal
+	Sgeld
+	Verd
+	Paloo
+	Ommors
+	Wazhawt
+	Xokon
+	Denebola
+	Celeth
+	Cuzuni
 }
 
 nebula_names = {

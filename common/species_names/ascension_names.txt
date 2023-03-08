@@ -1,0 +1,134 @@
+
+# Synthetic Evolution Species Names
+named_lists =  {
+	ascension_list =  {
+		Species_1 =  {
+			name = SPEC_Rexor
+			plural = SPEC_Rexor_pl
+		}
+		species_2 =  {
+			name = SPEC_Cylenth
+			plural = SPEC_Cylenth_pl
+		}
+		species_3 =  {
+			name = SPEC_Biotronic
+			plural = SPEC_Biotronic_pl
+		}
+		species_4 =  {
+			name = SPEC_Biometatron
+			plural = SPEC_Biometatron_pl
+		}
+		species_5 =  {
+			name = SPEC_Zeleth
+			plural = SPEC_Zeleth_pl
+		}
+		species_6 =  {
+			name = SPEC_Ascended
+			plural = SPEC_Ascended_pl
+		}
+		species_7 =  {
+			name = SPEC_Biomorph
+			plural = SPEC_Biomorph_pl
+		}
+		species_8 =  {
+			name = SPEC_Altron
+			plural = SPEC_Altron_pl
+		}
+		species_9 =  {
+			name = SPEC_Viirian
+			plural = SPEC_Viirian_pl
+		}
+		species_10 =  {
+			name = SPEC_Vooran
+			plural = SPEC_Vooran_pl
+		}
+		species_11 =  {
+			name = SPEC_Voxxar
+			plural = SPEC_Voxxar_pl
+		}
+		species_12 =  {
+			name = SPEC_Ventrilion
+			plural = SPEC_Ventrilion_pl
+		}
+		species_13 =  {
+			name = SPEC_Mechanoid
+			plural = SPEC_Mechanoid_pl
+		}
+		species_14 =  {
+			name = SPEC_Deceptor
+			plural = SPEC_Deceptor_pl
+		}
+		species_15 =  {
+			name = SPEC_Bionic
+			plural = SPEC_Bionic_pl
+		}
+		species_16 =  {
+			name = SPEC_Dominor
+			plural = SPEC_Dominor_pl
+		}
+		species_17 =  {
+			name = SPEC_Vendroid
+			plural = SPEC_Vendroid_pl
+		}
+		species_18 =  {
+			name = SPEC_Metadroid
+			plural = SPEC_Metadroid_pl
+		}
+		species_19 =  {
+			name = SPEC_Metabionic
+			plural = SPEC_Metabionic_pl
+		}
+		species_20 =  {
+			name = SPEC_Mechamorph
+			plural = SPEC_Mechamorph_pl
+		}
+		species_21 =  {
+			name = SPEC_Supravex
+			plural = SPEC_Supravex_pl
+		}
+		species_22 =  {
+			name = SPEC_Neo-Organic
+			plural = SPEC_Neo-Organic_pl
+		}
+		species_23 =  {
+			name = SPEC_Aenoic
+			plural = SPEC_Aenoic_pl
+		}
+		species_24 =  {
+			name = SPEC_Cerban
+			plural = SPEC_Cerban_pl
+		}
+		species_25 =  {
+			name = SPEC_Transitron
+			plural = SPEC_Transitron_pl
+		}
+		species_26 =  {
+			name = SPEC_Vektorian
+			plural = SPEC_Vektorian_pl
+		}
+		species_27 =  {
+			name = SPEC_Enimatronic
+			plural = SPEC_Enimatronic_pl
+		}
+		species_28 =  {
+			name = SPEC_Neomachina
+			plural = SPEC_Neomachina_pl
+		}
+		species_29 =  {
+			name = SPEC_Transitorian
+			plural = SPEC_Transitorian_pl
+		}
+		species_30 =  {
+			name = SPEC_Mimicron
+			plural = SPEC_Mimicron_pl
+		}
+		species_31 =  {
+			name = SPEC_Vortron
+			plural = SPEC_Vortron_pl
+		}
+		species_32 =  {
+			name = SPEC_Cyberion
+			plural = SPEC_Cyberion_pl
+		}
+	}
+}
