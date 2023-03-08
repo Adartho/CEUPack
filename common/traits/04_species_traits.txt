@@ -463,7 +463,7 @@ trait_unruly = {
 }
 
 trait_very_strong = {
-	cost = 3
+	cost = 2
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}
@@ -748,7 +748,7 @@ trait_deviants = {
 }
 
 trait_venerable = {
-	cost = 4
+	cost = 2
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}
@@ -773,7 +773,7 @@ trait_enduring = {
 		always = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	modifier = { leader_age = 20 }
+	modifier = { leader_age = 40 }
 	opposites = { "trait_venerable" "trait_fleeting" "trait_fleeting_lithoid" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	slave_cost = {
