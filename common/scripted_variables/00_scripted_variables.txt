@@ -263,7 +263,7 @@
 @ap_grasp_the_void_travel_tech = 1.5
 @federation_perk_factor = 2
 
-@lithoid_trait_resource_production = 0.01
+@lithoid_trait_resource_production = 0.025
 @drake_scaled_trait_resource_production = 0.025
 
 @plantoid_budding_rate = 0.02
