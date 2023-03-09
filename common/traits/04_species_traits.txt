@@ -1280,7 +1280,7 @@ trait_limited_regeneration = { #blue
 
 # lithoid specific traits
 trait_lithoid_scintillating = {
-	cost = 2
+	cost = 1
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}
@@ -1299,7 +1299,7 @@ trait_lithoid_scintillating = {
 }
 
 trait_lithoid_gaseous_byproducts = {
-	cost = 2
+	cost = 1
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}
@@ -1318,7 +1318,7 @@ trait_lithoid_gaseous_byproducts = {
 }
 
 trait_lithoid_volatile_excretions = {
-	cost = 2
+	cost = 1
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}

@@ -79,7 +79,7 @@
  TRAIT_EMOTION_EMULATORS_EFFECT:2 "£amenities_no_happiness£Amenities from £job£ Jobs: §G+20%§!"
  TRAIT_UNCANNY_EFFECT:2 "£amenities_no_happiness£Amenities from £job£ Jobs: §R-20%§!"
  TRAIT_THRIFTY_EFFECT:0 "£trade_value£ Trade Value from £job£ Jobs: §G+25%§!"
- TRAIT_LITHOID_EFFECT:2 "Consumes £minerals£ §YMinerals§! instead of £food£ §YFood§!\n\n$MOD_POP_GROWTH_SPEED$: §R-25%§!\n$MOD_POP_ASSEMBLY_SPEED$: §R-25%§!\n$MOD_POP_ENVIRONMENT_TOLERANCE$: §G+50%§!\n$MOD_ARMY_HEALTH$: §G+50%§!\n$MOD_LEADER_AGE$: §G+50§! years"
+ TRAIT_LITHOID_EFFECT:2 "Consumes £minerals£ §YMinerals§! instead of £food£ §YFood§!\n\n$MOD_POP_GROWTH_SPEED$: §R-15%§!\n$MOD_POP_ASSEMBLY_SPEED$: §R-15%§!\n$MOD_POP_ENVIRONMENT_TOLERANCE$: §G+50%§!\n$MOD_ARMY_HEALTH$: §G+50%§!\n$MOD_LEADER_AGE$: §G+50§! years"
 
  NO_SPECIES_CAN_INHABIT:0 "§RThere is no Species in our empire that can inhabit this type of planet§!"
  POP_HABITABILITY_TOO_LOW:0 "§RPlanet Habitability for Pop is below §R20%§!.§!"
