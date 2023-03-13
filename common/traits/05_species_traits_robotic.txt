@@ -436,7 +436,7 @@ trait_robot_propaganda_machines = {
 }
 
 trait_robot_streamlined_protocols = {
-	cost = 2
+	cost = 1
 	opposites = { "trait_robot_high_bandwidth" }
 	allowed_archetypes = { ROBOT MACHINE }
 	modifier = {
@@ -448,7 +448,7 @@ trait_robot_streamlined_protocols = {
 }
 
 trait_robot_high_bandwidth = {
-	cost = -2
+	cost = -1
 	opposites = { "trait_robot_streamlined_protocols" }
 	allowed_archetypes = { ROBOT MACHINE }
 	modifier = {
