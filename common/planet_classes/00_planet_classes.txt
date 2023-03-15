@@ -1220,6 +1220,11 @@ pc_ringworld_habitable = {
 	modifier = {
 		planet_max_buildings_add = 12
 		planet_resettlement_unemployed_destination_mult = 0.5
+		### BUFF
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
+		###
 	}
 
 	carry_cap_per_free_district = @carry_cap_high
