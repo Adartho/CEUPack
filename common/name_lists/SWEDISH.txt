@@ -1,0 +1,297 @@
+﻿### Swedish names
+### Created by Gustaf Gårdestig
+
+Swedish = {
+	randomized = no	
+
+	ship_names = {
+		
+		generic = {
+			Alingsås Arboga Arvika Askersund Avaskär Avesta Boden Bollnäs Borgholm Borlänge Borås Broo Brätte Båstad Djursholm Eksjö Elleholm Enköping 
+			Eskilstuna Eslöv Fagersta Falkenberg Falköping Falsterbo Falun Filipstad Flen Getakärr Gränna Gävle Göteborg Hagfors Halmstad Haparanda
+			Hedemora Helsingborg Hjo Hudiksvall Huskvarna Härnösand Hässleholm Hästholmen Höganäs Jönköping Kalmar Karlshamn Karlskoga Karlskrona Karlstad
+			Katrineholm Kiruna Kongahälla Kramfors Kristianopel Kristianstad Kristinehamn Kumla Kungsbacka Kungälv Köping Laholm Landskrona Lidingö
+			Lidköping Lindesberg Linköping Ljungby Lomma Ludvika Luleå Lund Luntertun Lycksele Lyckå Lysekil Lödöse Malmö Mariefred Mariestad Marstrand
+			Mjölby Motala Mölndal Mönsterås Nacka Nora Norrköping Norrtälje Nybro Nyköping Nynäshamn Nässjö Oskarshamn Oxelösund Piteå Ronneby Sala
+			Sandviken Sigtuna Simrishamn Skanör Skara Skellefteå Skänninge Skövde Sollefteå Solna Stockholm Strängnäs Strömstad Stäket Sundbyberg Sundsvall
+			Säffle Säter Sävsjö Söderhamn Söderköping Södertälje Sölvesborg Tidaholm Torget Torshälla Tranås Trelleborg Trollhättan Trosa Tumathorp Uddevalla
+			Ulricehamn Umeå Uppsala Vadstena Varberg Vaxholm Vetlanda Vimmerby Visby Vänersborg Värnamo Västervik Västerås Växjö Ystad Åhus Åmål Älvsborg
+			Ängelholm Öjebyn Örebro Öregrund Örnsköldsvik Östersund Östhammar
+		}
+		
+		corvette = {
+		
+		}
+		
+		destroyer = {
+		
+		}
+		
+		cruiser = {
+		
+		}
+		
+		battleship = {
+		
+		}
+
+		titan = {
+			
+		}
+
+		colossus = {
+		
+		}
+
+		constructor = {
+		
+		}
+		
+		colonizer = {
+		
+		}
+		
+		science = {		
+			
+		}
+		
+		transport = {
+			
+		}
+
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			
+		}
+		
+		starbase_outpost = {
+			sequential_name = "Stjärnbas %R%"
+		}
+		starbase_starport = {
+			sequential_name = "Stjärnbas %R%"
+		}
+		starbase_starhold = {
+			sequential_name = "Stjärnbas %R%"
+		}
+		starbase_starfortress = {
+			sequential_name = "Stjärnbas %R%"
+		}
+		starbase_citadel = {
+			sequential_name = "Stjärnbas %R%"
+		}
+	}
+	
+		ship_class_names = {
+		generic = {			 
+			Zlatan Borg Stenmark Abba Kamprad "von Sydow" Bergman Ekberg Zorn Hammarskjöld Bernadotte 
+			Kreuger Kamprad Bellman Taube Vreeswijk Waldner Beskow Boye Fröding Lagerlöf Moberg Strindberg Tranströmer
+		}
+		corvette = {
+			
+		}
+		destroyer = {
+			
+		}
+		science = {		
+			Celsius Nobel Ericsson Hasselblad Linné Rausing Rosling
+		}
+		constructor = {
+			Tordyveln Baggen Lusen Loppan Myran Snigeln Snoken Trollsländan Paddan Grodan
+		}		
+		titan = {
+			
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "Flottilj %R%"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "Gardet %R%"
+		}
+
+		assault_army = {
+			sequential_name = "Rymdjägarna %R%"
+		}
+		
+		slave_army = {
+			sequential_name = "Trälarna %R%"
+		}
+		
+		clone_army = { 
+			sequential_name = "Klonarmé %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Robotgrupp %R%"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "Försvarsmatris %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Androidgrupp %R%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Väktarna %R%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Telepatgrupp %R%"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "Biokrigare %R%"
+		}
+		
+		gene_warrior_army = {
+			random_names = {				
+			}
+			sequential_name = "Genkrigare %R%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+			"Nya Alingsås" "Nya Alvesta" "Nya Arboga" "Nya Arjeplog" "Nya Arvidsjaur" "Nya Arvika" "Nya Askersund" "Nya Avesta" "Nya Bengtsfors" "Nya Bjurholm"
+			"Nya Boden" "Nya Bollnäs" "Nya Borgholm" "Nya Borlänge" "Nya Borås" "Nya Botkyrka" "Nya Bromölla" "Nya Båstad" "Nya Danderyd" "Nya Degerfors" "Nya Emmaboda"
+			"Nya Enköping" "Nya Eskilstuna" "Nya Eslöv" "Nya Fagersta" "Nya Falkenberg" "Nya Falköping" "Nya Falun" "Nya Filipstad" "Nya Finspång" "Nya Flen"
+			"Nya Forshaga""Nya Gislaved" "Nya Gnesta" "Nya Gnosjö" "Nya Gotland" "Nya Grums" "Nya Gällivare" "Nya Gävle" "Nya Göteborg" "Nya Götene"
+			"Nya Hallsberg" "Nya Hallstahammar" "Nya Halmstad" "Nya Hammarö" "Nya Haninge" "Nya Haparanda" "Nya Hedemora" "Nya Helsingborg" "Nya Herrljunga" "Nya Hofors"
+			"Nya Huddinge" "Nya Hudiksvall" "Nya Hultsfred" "Nya Hällefors" "Nya Härjedalen" "Nya Härnösand" "Nya Hässleholm" "Nya Jokkmokk" "Nya Järfälla"
+			"Nya Jönköping" "Nya Kalix" "Nya Kalmar" "Nya Karlsborg" "Nya Karlshamn" "Nya Karlskoga" "Nya Karlskrona" "Nya Karlstad" "Nya Katrineholm" "Nya Kil"
+			"Nya Kiruna" "Nya Klippan" "Nya Knivsta" "Nya Kramfors" "Nya Kristianstad" "Nya Kristinehamn" "Nya Krokom" "Nya Kumla" "Nya Kungsbacka" "Nya Kungsör" "Nya Kungälv"
+			"Nya Köping" "Nya Laholm" "Nya Landskrona" "Nya Laxå" "Nya Lekeberg" "Nya Leksand" "Nya Lerum" "Nya Lessebo" "Nya Lidingö" "Nya Lidköping" "Nya Lilla Edet"
+			"Nya Lindesberg" "Nya Linköping" "Nya Ljungby" "Nya Ljusdal" "Nya Ljusnarsberg" "Nya Lomma" "Nya Ludvika" "Nya Luleå" "Nya Lund" "Nya Lycksele" "Nya Lysekil" "Nya Malmö"
+			"Nya Malå" "Nya Mariestad" "Nya Markaryd" "Nya Mellerud" "Nya Mjölby" "Nya Mora" "Nya Motala" "Nya Mullsjö" "Nya Munkedal" "Nya Munkfors" "Nya Mölndal" "Nya Mönsterås"
+			"Nya Mörbylånga" "Nya Nacka" "Nya Norberg" "Nya Nordanstig" "Nya Nordmaling" "Nya Norrköping" "Nya Norrtälje" "Nya Norsjö" "Nya Nykvarn" "Nya Nyköping" "Nya Nynäshamn"
+			"Nya Nässjö" "Nya Ockelbo" "Nya Orsa" "Nya Orust" "Nya Osby" "Nya Oskarshamn" "Nya Oxelösund" "Nya Pajala" "Nya Partille" "Nya Perstorp" "Nya Piteå" "Nya Rättvik" "Nya Sala"
+			"Nya Salem" "Nya Sandviken" "Nya Sigtuna" "Nya Simrishamn" "Nya Sjöbo" "Nya Skara" "Nya Skellefteå" "Nya Skinnskatteberg" "Nya Skurup" "Nya Skövde" "Nya Sollefteå"
+			"Nya Sollentuna" "Nya Solna" "Nya Staffanstorp" "Nya Stenungsund" "Nya Stockholm" "Nya Storfors" "Nya Storuman" "Nya Strängnäs" "Nya Strömstad" "Nya Strömsund" "Nya Sundbyberg"
+			"Nya Sundsvall" "Nya Sunne" "Nya Surahammar" "Nya Svedala" "Nya Svenljunga" "Nya Säffle" "Nya Säter" "Nya Sävsjö" "Nya Söderhamn" "Nya Söderköping" "Nya Södertälje"
+			"Nya Sölvesborg" "Nya Tidaholm" "Nya Tierp" "Nya Timrå" "Nya Tingsryd" "Nya Tjörn" "Nya Tomelilla" "Nya Torsby" "Nya Torså" "Nya Tranemo" "Nya Tranås"
+			"Nya Trelleborg" "Nya Trollhättan" "Nya Trosa" "Nya Tyresö" "Nya Täby" "Nya Töreboda" "Nya Uddevalla" "Nya Ulricehamn" "Nya Umeå" "Nya Upplands Väsby" "Nya Uppsala"
+			"Nya Uppvidinge" "Nya Vadstena" "Nya Vaggeryd" "Nya Valdemarsvik" "Nya Vallentuna" "Nya Varberg" "Nya Vaxholm" "Nya Vetlanda" "Nya Vilhelmina"
+			"Nya Vimmerby" "Nya Vingåker" "Nya Vårgårda" "Nya Vänersborg" "Nya Vännäs" "Nya Värmdö" "Nya Värnamo" "Nya Västervik" "Nya Västerås" "Nya Växjö" "Nya Ystad"
+			"Nya Åmål" "Nya Ånge" "Nya Åre" "Nya Årjäng" "Nya Åsele" "Nya Åstorp" "Nya Älmhult" "Nya Älvdalen" "Nya Älvsbyn" "Nya Ängelholm" "Nya Öckerö"
+			"Nya Ödeshög" "Nya Örebro" "Nya Örkelljunga" "Nya Örnsköldsvik" "Nya Östersund" "Nya Österåker" "Nya Östhammar" "Nya Överkalix" "Nya Övertorneå"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 100
+			first_names_male = {
+			Martin Andreas Stefan John Leif Mats Ulf Björn Thomas Henrik Bertil Jonas Arne Christer Axel Ingemar Robert David Kjell Emil
+			Stig Håkan Rolf Mattias Oskar Roland William Tommy Patrik Michael Gustaf Joakim Ingvar Simon Christian Roger Marcus Sebastian
+			Anton Oscar Olov Eric Tomas Viktor Johannes Tobias Ove Kent Niklas Emanuel Hugo Rune Jörgen Robin Elias Gösta Adam Kenneth Filip
+			Kurt Linus Wilhelm Sten Alf Arvid Dan Jonathan Rickard Ali Albin Börje Vilhelm Torbjörn Claes Jesper Olle Ola Henry Joel Allan
+			Oliver Christoffer Max Samuel Ivar Victor Georg Harry Markus Paul Rasmus Jens Inge Krister Bernt Gabriel Jimmy Richard Folke Edvin
+			Bror Leo Evert Pär Birger Dennis Philip Sören Pontus Ragnar Mohamed Ludvig Tore Torsten Kristian Einar Tony Yngve Harald Isak Conny
+			Jakob Knut Alfred Mathias	
+			}
+			first_names_female = {
+			Maria  Anna Margareta Elisabeth Eva Kristina Birgitta Karin Elisabet Marie Ingrid Christina Linnéa Sofia Kerstin Marianne Lena Helena Emma
+			Johanna Linnea Inger Sara Cecilia Elin Anita Ulla Louise Gunilla Viola Linda Ida Susanne Hanna Malin Katarina Jenny Carina Elsa Irene Monica
+			Barbro Ulrika Viktoria Astrid Annika Julia Alice Åsa Matilda Siv Amanda Therese Britt Yvonne Camilla Ann Ingegerd Agneta Lovisa Caroline Lisa
+			Gun  Charlotte Anette Sandra Frida Sofie Berit Margaretha Emelie Inga Charlotta Alexandra Erika Emilia Ebba Anneli Ellen Victoria Jessica Ingeborg
+			Märta Maja Birgit Gunnel Pia Olivia Madeleine Sonja Mona Agnes Felicia Karolina Josefin Monika Helen Magdalena Gerd Lina Ella Ingegärd Ingela Stina
+			Rut  Signe Maj Anne Pernilla Josefine Evelina Lisbeth Solveig Moa Marita Alva Jeanette Britt-Marie Elvira Gunvor Veronica Nina Lilian Helene Carolina
+			Margit  Kristin Mari Petra Rebecca Rebecka Linn Gudrun Klara Saga Ruth Isabelle Alma Ester Isabella Sigrid Britta Lilly Vera Susanna Wilma Martina 
+			Nathalie Mikaela Elise	
+			}
+			second_names = {
+			Bergström Lundberg Lundgren Jakobsson Berg Berglund Sandberg Fredriksson Mattsson Henriksson Sjöberg Forsberg Lindqvist Lind Engström Eklund Lundin
+			Danielsson Håkansson Holm Gunnarsson Bergman Samuelsson Fransson Nyström Lundqvist Johnsson Holmberg Björk Wallin Ali Arvidsson Söderberg Nyberg Isaksson
+			Nordström Mårtensson Lundström Björklund Eliasson Berggren Sandström Nordin Ström Åberg Hermansson Ekström Holmgren Hedlund Sundberg Sjögren Dahlberg Ahmed
+			Martinsson  Öberg Månsson Hellström Strömberg Abrahamsson Blom Ek Blomqvist Åkesson Norberg Falk Sundström Lindholm Jonasson Åström Löfgren Andreasson Dahl
+			Söderström  Jensen Ivarsson Nyman Lund Bergqvist Göransson Hansen Mohamed Möller Palm Borg Englund Hallberg Lindblom Josefsson Davidsson Sjöström Ottosson
+			Rosén Ekman Söderlund Boström Stenberg Lindahl Bäckström Adolfsson Strand Hedberg Friberg Nygren Skoglund Börjesson Holmström Höglund Hassan Strandberg
+			Björkman Nielsen Erlandsson Lindén Malm Wikström Ibrahim Johannesson Edlund Viklund Haglund Claesson Roos Lilja Aronsson Moberg
+			}
+			regnal_first_names_male = {
+				Gustav Gustaf Karl Carl Philip Valdemar Magnus Erik Olof Filip Johan Knut Birger Sverker Kristian Sigismund
+			}
+			regnal_first_names_female = {
+				Victoria Kristina Katarina Ingeborg Astrid Gunhild Helena Margareta Rikissa	Sigrid Sofia Marianne Beatrix Elisabet Hedvig
+			}
+			regnal_second_names = {
+				Bernadotte Vasa Jarl Ladulås Adolf
+			}				
+		}
+	}
+}

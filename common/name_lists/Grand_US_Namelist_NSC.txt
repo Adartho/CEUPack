@@ -1,0 +1,675 @@
+﻿### Grand US Name List NSC
+### Created by Kevin Hausner
+
+GUSNamelistNSC = {
+	randomized = no
+
+	ship_names = {
+
+		corvette = {
+			"Arleigh Burke" Bainbridge Barry Bulkeley Carney Chafee Chung-Hoon Cole "Curtis Wilbur" Decatur "Donald Cook" Farragut Fitzgerald
+			"Forrest Sherman" Gonzalez Gravely Gridley Higgins Hopper Howard "James E. Williams" "Jason Dunham" "Jennifer Lopez" "John Finn"
+			"John Paul Jones" "John S. McCain" Kidd Laboon Lassen "Lindsay Lohan" Mahan Mason McCampbell McFaul "Michael Monsoor" "Michael Murphy"
+			Milius Mitscher Momsen Mustin Nitze O'Kane "Oscar Austin" "Paul Hamilton" Pinckney Porter Preble "Rafael Peralta" "Ralph Johnson"
+			"Ralph Wiggum" Ramage Roosevelt Ross Russell "Russell Crowe" Sampson Shoup Spruance Sterett Stethem Stockdale Stout "The Sullivans"
+			"Thomas Hudner" Truxtun "Wayne E. Meyer" "William P. Lawrence" "Winston S. Churchill" Zumwalt "Randy Marsh" "Gerald Broflovski"
+			"Mel Gibson" "Ronald L. Ermey" "John P. Ryan" "John Clark" "Domingo Chavez" "Tom Clancy" "Kenny Loggins" "Roger Goodell"
+			"Steven J. McGarrett" Ortega "Catherine Rollins" "Anuhea Kamaauoha" "Kelani Mele" "Keaka Kalei" "Uilama Alamea" "Diego Garcia"
+			"Phil Dunphy" Henderson "Bob Hendley" "Jack Bauer" "Rick Sanchez" "Stan Smith" "John Oliver" "Red Foreman" "Bob Belcher" "Cleveland Brown"
+			Barracuda Bass Bonita Argonaut Narwhal Nautilus Dolphin Cachalot Cuttlefish Balao Billfish Bowfin Cabrilla Capelin Cisco Crevalle Devilfish
+			Dragonet Escolar Hackleback Lancetfish Ling Lionfish Manta Moray Roncador Sabalo Sablefish Seahorse Skate Tang Tilefish Apogon Aspro
+			Batfish Archerfish Burrfish Perch Shark Sealion Barbel Barbero Baya Becuna Bergall Besugo Blackfin Caiman Blenny Blower Blueback Boarfish
+			Charr Chub Brill Bugara Bullhead Bumper Cabezon Dentuda Capitaine Carbonero Carp Catfish Entemedor Chivo Chopper Clamagore Cobbler Cochino
+			Corporal Cubera Cusk Diodon Dogfish Greenfish Halfbeak Dugong Eel Espada Jawfish Ono Garlopa Garrupa Goldring Hardhead Hawkbill Icefish Jallao
+			Kete Kraken Lagarto Lamprey Lizardfish Loggerhead Macabi Mapiro Menhaden Mero Needlefish Nerka "Sand Lance" Picuda Pampanito Parche Bang
+			Pilotfish Pintado Pipefish Piranha Plaice Pornfret Sterlet Queenfish Razorback Redfish Ronquil Scabbardfish Segundo "Sea Cat" "Sea Devil"
+			"Sea Fox" Atule Spikefish "Sea Owl" "Sea Poacher" "Sea Robin" Sennet Piper Threadfin Spadefish Trepang Spot Springer Stickleback Tiru
+			Trumpetfish Tusk Turbot Ulua Unicorn Vendace Walrus Whitefish Wolffish Chicolar Porpoise Pike Tarpon Pickerel Permit Plunger Pollack
+			Pompano Salmon Seal Skipjack Snapper Stingray Sturgeon Sargo Saury Spearfish Sculpin Squalus Swordfish Seadragon Searaven Seawolf Tambor
+			Tautog Thresher Triton Trout Tuna Gar Grampus Grayback Grayling Grenadier Gudgeon Mackerel Marlin Albacore Barb Cavalia Cobia Cod Corvina
+			Darter Finback Flasher Growler Grunion Halibut Harder Mingo Trigger Tunny Wahoo Tench Thornback Tigrone Tirante Trutta Toro Torsk
+			Quillback Corsair Runner Conger Cutlass Diablo Medregal Requin Irex "Sea Leopard" Odax Sirago Pomodon Remora Sarda Spinax Volador
+			Amberjack "Sea Panther" Tiburon Rowan Davis Allen Wilkes Shaw Caldwell Craven Gwin Conner Stockton Manley "Aaron Ward" Abbot Anthony
+			Babbitt Badger Bagley Barney Bell Bernadou Biddle Blakeley Boggs Breckinridge Breese Buchanan Burns Bush Champlin Chew Claxton Colhoun
+			Cowell Crane Crosby Crowninshield DeLong Dent Dickerson Dorsey "Du Pont" Dyer Elliot Ellis Evans Fairfax Foote Gamble Greer Gregory Hale
+			Hamilton Haraden Harding Hart Hazelwood Herbert Hogan Hopewell Ingraham Israel "J. Fred Talbott" "Jacob Jones" Kalk Kennison Kilty Kimberly
+			Lamberton Lansdale Leary Little Luce Ludlow MacKenzie Maddox Maury McKean McKee Meredith Montgomery Mugford Murray O'Bannon Palmer Philip
+			Radford Ramsay Rathburne Renshaw Rizal Robinson Roper Schenck Sigourney Sproston Stansbury Stevens Stribling Stringham Talbot Tarbell
+			Tattnall Taylor Thatcher Thomas Tillman Twiggs Upshur Walker Ward Waters Wickes Williams Woolsey Yarnall "Abel P. Upshur" Alden Aulick Bailey
+			Ballard Bancroft Barker Belknap Billingsley Borie Breck Brooks Broome Bruce Bulmer Case Chandler "Charles Ausburn" Chase Chauncey Childs Clemson
+			Coghlan Converse Corry Dahlgren Dale Dallas Delphy Doyen Edsall Edwards Farenholt Farquhar Flusser Fox Fuller "George E. Badger" Gillis Gilmer
+			Goff Goldsborough Graham Greene Hatfield Henshaw Herndon Hopkins Hovey Hulbert Hull Humphreys Hunt Isherwood "James K. Paulding" "John D. Edwards"
+			"John D. Ford" "John Francis Burnes" Kane Kennedy Kidder King "La Vallette" Lamson Lardner Laub Lawrence Litchfield Long Macdonough MacLeish
+			Marcus McCalla McCawley McCook McCormick McDermut McFarland McLanahan Meade Melvin Mervine Meyer Moody Morris Mullany Nicholas Noa Osborne
+			"Osmond Ingram" Overton Parrott Peary Percival Perry Pillsbury Pope Preston Pruitt Putnam Reid Reno "Reuben James" "Robert Smith" Rodgers
+			"S. P. Lee" Sands Satterlee Selfridge Semmes Sharkey Shirk Shubrick Sicard Simpson Sinclair Sloat "Smith Thompson" Somers Southard Stewart
+			Stoddert Sturtevant Sumner Swasey Thompson Thornton Tingey Toucey Tracy Trever Wasmuth "Welborn C. Wood" Welles Whipple "William B. Preston"
+			"William Jones" Williamson Wood Woodbury Worden Yarborough Young Zane Zeilin Dewey Monaghan Aylwin McDougal Winslow Phelps Clark Moffett Balch
+			Cummings Drayton Conyngham Cassin Tucker Downes Cushing Perkins Smith Dunlap Fanning McCall Blue Helm "Ralph Talbot" Henley Patterson Jarvis
+			Somers Warrington Jouett Benham Ellet Lang Mayrant Trippe Rhind Stack Wilson Sims Hughes Anderson Hammann O'Brien Walke Roe Wainwright Buck
+			Benson Mayo Madison "Hilary P. Jones" "Charles F. Hughes" Laffey Woodworth Barton Boyle Murphy Parker Frazier Gansevoort Gillespie Hobby
+			Kendrick Nields Ordronaux Gleaves Niblack Livermore Eberle Plunkett Kearny Grayson Monssen Edison Ericsson Nicholson Swanson Bristol Ellyson
+			Hambleton Rodman Emmons Macomb Forrest Fitch Hobson Duncan Lansdowne Quick Carmick Doyle Endicott McCook Frankford Davison Glennon Jeffers
+			Nelson Baldwin Cowie Knight Doran Earle Butler Gherardi Beatty Stevenson Thorn Turner Fletcher "Abner Read" "Albert W. Grant" Ammen Bache Beale
+			Bearss Bennett Bennion Black Boyd Bradford Braine Brown Brownson Bryant Bullard Callaghan Caperton Capps "Cassin Young" "Charles Ausburne"
+			"Charles J. Badger" Charrette Chevalier "Clarence K. Bronson" Cogswell Colahan Conway Cony Cotten Daly Dashiell "David W. Taylor" "De Haven"
+			Dortch Dyson Eaton Erben Franks Fullam Gatling Guest Haggard Halford Hall Halligan "Halsey Powell" Healy Heermann "Heywood L. Edwards" Hickox
+			Hoel Howorth Hudson Hutchins Ingersoll Irwin Izard Jenkins "John D. Henley" "John Hood" "John Rodgers" Johnston Killen Knapp Laws Leutze
+			"Lewis Hancock" Longshaw Marshall McCord McGowan McNair Mertz Metcalf Miller Newcomb "Norman Scott" Owen Picking Porterfield Prichett Pringle Remey
+			"Richard P. Leary" Ringgold Rooks Rowe Saufley Schroeder Shields Sigsbee Smalley Spence Stanly Stembel "Stephen Potter" Stockham Stoddard Strong Terry
+			Trathen Twining Uhlmann "Van Valkenburgh" Wadleigh Wadsworth Waller Watson Watts Wedderburn Wiley "William D. Porter" Wren "Allen M. Sumner" Moale
+			Cooper English "Charles S. Sperry" Ault Waldron Haynsworth "John W. Weeks" Hank "Wallace L. Lind" Compton Gainard Soley "Harlan R. Dickson" "Hugh Purvis"
+			Mansfield "Lyman K. Swenson" Collett Hyman "Mannert L. Abele" Purdy Drexler Brush Taussig "Samuel N. Moore" "Harry E. Hubbard" "Alfred A. Cunningham"
+			"John R. Pierce" "Frank E. Evans" "John A. Bole" Lofberg "John W. Thomason" Lowry "Hugh W. Hadley" "Willard Keith" "James C. Owens" Zellars Massey
+			Stormes "Robert K. Huntington" "Robert H. Smith" "Thomas E. Fraser" Shannon "Harry F. Bauer" Adams Tolman "Henry A. Wiley" Shea "J. William Ditter" Lindsey
+			Agerholm "Arnold J. Isbell" Basilone Bausell Benner Bordelon "Brinkley Bass" Carpenter "Charles H. Roan" "Charles P. Cecil" "Charles R. Ware" Cone Damato
+			"Dennis J. Buckley" Dyess Epperson "Ernest G. Small" "Eugene A. Greene" "Everett F. Larson" Eversole Fechteler Fiske "Floyd B. Parks" "Forrest Royal"
+			"Frank Knox" "Fred T. Berry" Furse Gearing "George K. MacKenzie" Goodrich Gurke Gyatt Hamner Hanson "Harold J. Ellison" Harwood Hawkins "Henry W. Tucker"
+			"Herbert J. Thomas" Higbee Holder Hollister "James E. Kyes" "John R. Craig" "Joseph P. Kennedy Jr." "Kenneth D. Bailey" Keppler "Leonard F. Mason"
+			"Lloyd Thomas" McCaffery "Myles C. Fox" New "Newman K. Perry" Norris O'Hare Orleck Ozbourn Power Rich "Richard B. Anderson" "Richard E. Kraus" "Robert A. Owens"
+			"Robert H. McCard" "Robert L. Wilson" Rogers Rupertus "Samuel B. Roberts" Sarsfield Shelton Southerland Steinaker Stickell "Theodore E. Chandler" Timmerman
+			Vesole Vogelgesang "William C. Lawe" "William M. Wood" "William R. Rush" Wiltsie Witek "John Warner" "Henry M. Jackson" "Leon Panetta"
+		}
+
+		destroyer = {
+			"Arleigh Burke" Bainbridge Barry Bulkeley Carney Chafee Chung-Hoon Cole "Curtis Wilbur" Decatur "Donald Cook" Farragut Fitzgerald
+			"Forrest Sherman" Gonzalez Gravely Gridley Higgins Hopper Howard "James E. Williams" "Jason Dunham" "Jennifer Lopez" "John Finn"
+			"John Paul Jones" "John S. McCain" Kidd Laboon Lassen "Lindsay Lohan" Mahan Mason McCampbell McFaul "Michael Monsoor" "Michael Murphy"
+			Milius Mitscher Momsen Mustin Nitze O'Kane "Oscar Austin" "Paul Hamilton" Pinckney Porter Preble "Rafael Peralta" "Ralph Johnson"
+			"Ralph Wiggum" Ramage Roosevelt Ross Russell "Russell Crowe" Sampson Shoup Spruance Sterett Stethem Stockdale Stout "The Sullivans"
+			"Thomas Hudner" Truxtun "Wayne E. Meyer" "William P. Lawrence" "Winston S. Churchill" Zumwalt "Randy Marsh" "Gerald Broflovski"
+			"Mel Gibson" "Ronald L. Ermey" "John P. Ryan" "John Clark" "Domingo Chavez" "Tom Clancy" "Kenny Loggins" "Roger Goodell"
+			"Steven J. McGarrett" Ortega "Catherine Rollins" "Anuhea Kamaauoha" "Kelani Mele" "Keaka Kalei" "Uilama Alamea" "Diego Garcia"
+			"Phil Dunphy" Henderson "Bob Hendley" "Jack Bauer" "Rick Sanchez" "Stan Smith" "John Oliver" "Red Foreman" "Bob Belcher" "Cleveland Brown"
+			Barracuda Bass Bonita Argonaut Narwhal Nautilus Dolphin Cachalot Cuttlefish Balao Billfish Bowfin Cabrilla Capelin Cisco Crevalle Devilfish
+			Dragonet Escolar Hackleback Lancetfish Ling Lionfish Manta Moray Roncador Sabalo Sablefish Seahorse Skate Tang Tilefish Apogon Aspro
+			Batfish Archerfish Burrfish Perch Shark Sealion Barbel Barbero Baya Becuna Bergall Besugo Blackfin Caiman Blenny Blower Blueback Boarfish
+			Charr Chub Brill Bugara Bullhead Bumper Cabezon Dentuda Capitaine Carbonero Carp Catfish Entemedor Chivo Chopper Clamagore Cobbler Cochino
+			Corporal Cubera Cusk Diodon Dogfish Greenfish Halfbeak Dugong Eel Espada Jawfish Ono Garlopa Garrupa Goldring Hardhead Hawkbill Icefish Jallao
+			Kete Kraken Lagarto Lamprey Lizardfish Loggerhead Macabi Mapiro Menhaden Mero Needlefish Nerka "Sand Lance" Picuda Pampanito Parche Bang
+			Pilotfish Pintado Pipefish Piranha Plaice Pornfret Sterlet Queenfish Razorback Redfish Ronquil Scabbardfish Segundo "Sea Cat" "Sea Devil"
+			"Sea Fox" Atule Spikefish "Sea Owl" "Sea Poacher" "Sea Robin" Sennet Piper Threadfin Spadefish Trepang Spot Springer Stickleback Tiru
+			Trumpetfish Tusk Turbot Ulua Unicorn Vendace Walrus Whitefish Wolffish Chicolar Porpoise Pike Tarpon Pickerel Permit Plunger Pollack
+			Pompano Salmon Seal Skipjack Snapper Stingray Sturgeon Sargo Saury Spearfish Sculpin Squalus Swordfish Seadragon Searaven Seawolf Tambor
+			Tautog Thresher Triton Trout Tuna Gar Grampus Grayback Grayling Grenadier Gudgeon Mackerel Marlin Albacore Barb Cavalia Cobia Cod Corvina
+			Darter Finback Flasher Growler Grunion Halibut Harder Mingo Trigger Tunny Wahoo Tench Thornback Tigrone Tirante Trutta Toro Torsk
+			Quillback Corsair Runner Conger Cutlass Diablo Medregal Requin Irex "Sea Leopard" Odax Sirago Pomodon Remora Sarda Spinax Volador
+			Amberjack "Sea Panther" Tiburon Rowan Davis Allen Wilkes Shaw Caldwell Craven Gwin Conner Stockton Manley "Aaron Ward" Abbot Anthony
+			Babbitt Badger Bagley Barney Bell Bernadou Biddle Blakeley Boggs Breckinridge Breese Buchanan Burns Bush Champlin Chew Claxton Colhoun
+			Cowell Crane Crosby Crowninshield DeLong Dent Dickerson Dorsey "Du Pont" Dyer Elliot Ellis Evans Fairfax Foote Gamble Greer Gregory Hale
+			Hamilton Haraden Harding Hart Hazelwood Herbert Hogan Hopewell Ingraham Israel "J. Fred Talbott" "Jacob Jones" Kalk Kennison Kilty Kimberly
+			Lamberton Lansdale Leary Little Luce Ludlow MacKenzie Maddox Maury McKean McKee Meredith Montgomery Mugford Murray O'Bannon Palmer Philip
+			Radford Ramsay Rathburne Renshaw Rizal Robinson Roper Schenck Sigourney Sproston Stansbury Stevens Stribling Stringham Talbot Tarbell
+			Tattnall Taylor Thatcher Thomas Tillman Twiggs Upshur Walker Ward Waters Wickes Williams Woolsey Yarnall "Abel P. Upshur" Alden Aulick Bailey
+			Ballard Bancroft Barker Belknap Billingsley Borie Breck Brooks Broome Bruce Bulmer Case Chandler "Charles Ausburn" Chase Chauncey Childs Clemson
+			Coghlan Converse Corry Dahlgren Dale Dallas Delphy Doyen Edsall Edwards Farenholt Farquhar Flusser Fox Fuller "George E. Badger" Gillis Gilmer
+			Goff Goldsborough Graham Greene Hatfield Henshaw Herndon Hopkins Hovey Hulbert Hull Humphreys Hunt Isherwood "James K. Paulding" "John D. Edwards"
+			"John D. Ford" "John Francis Burnes" Kane Kennedy Kidder King "La Vallette" Lamson Lardner Laub Lawrence Litchfield Long Macdonough MacLeish
+			Marcus McCalla McCawley McCook McCormick McDermut McFarland McLanahan Meade Melvin Mervine Meyer Moody Morris Mullany Nicholas Noa Osborne
+			"Osmond Ingram" Overton Parrott Peary Percival Perry Pillsbury Pope Preston Pruitt Putnam Reid Reno "Reuben James" "Robert Smith" Rodgers
+			"S. P. Lee" Sands Satterlee Selfridge Semmes Sharkey Shirk Shubrick Sicard Simpson Sinclair Sloat "Smith Thompson" Somers Southard Stewart
+			Stoddert Sturtevant Sumner Swasey Thompson Thornton Tingey Toucey Tracy Trever Wasmuth "Welborn C. Wood" Welles Whipple "William B. Preston"
+			"William Jones" Williamson Wood Woodbury Worden Yarborough Young Zane Zeilin Dewey Monaghan Aylwin McDougal Winslow Phelps Clark Moffett Balch
+			Cummings Drayton Conyngham Cassin Tucker Downes Cushing Perkins Smith Dunlap Fanning McCall Blue Helm "Ralph Talbot" Henley Patterson Jarvis
+			Somers Warrington Jouett Benham Ellet Lang Mayrant Trippe Rhind Stack Wilson Sims Hughes Anderson Hammann O'Brien Walke Roe Wainwright Buck
+			Benson Mayo Madison "Hilary P. Jones" "Charles F. Hughes" Laffey Woodworth Barton Boyle Murphy Parker Frazier Gansevoort Gillespie Hobby
+			Kendrick Nields Ordronaux Gleaves Niblack Livermore Eberle Plunkett Kearny Grayson Monssen Edison Ericsson Nicholson Swanson Bristol Ellyson
+			Hambleton Rodman Emmons Macomb Forrest Fitch Hobson Duncan Lansdowne Quick Carmick Doyle Endicott McCook Frankford Davison Glennon Jeffers
+			Nelson Baldwin Cowie Knight Doran Earle Butler Gherardi Beatty Stevenson Thorn Turner Fletcher "Abner Read" "Albert W. Grant" Ammen Bache Beale
+			Bearss Bennett Bennion Black Boyd Bradford Braine Brown Brownson Bryant Bullard Callaghan Caperton Capps "Cassin Young" "Charles Ausburne"
+			"Charles J. Badger" Charrette Chevalier "Clarence K. Bronson" Cogswell Colahan Conway Cony Cotten Daly Dashiell "David W. Taylor" "De Haven"
+			Dortch Dyson Eaton Erben Franks Fullam Gatling Guest Haggard Halford Hall Halligan "Halsey Powell" Healy Heermann "Heywood L. Edwards" Hickox
+			Hoel Howorth Hudson Hutchins Ingersoll Irwin Izard Jenkins "John D. Henley" "John Hood" "John Rodgers" Johnston Killen Knapp Laws Leutze
+			"Lewis Hancock" Longshaw Marshall McCord McGowan McNair Mertz Metcalf Miller Newcomb "Norman Scott" Owen Picking Porterfield Prichett Pringle Remey
+			"Richard P. Leary" Ringgold Rooks Rowe Saufley Schroeder Shields Sigsbee Smalley Spence Stanly Stembel "Stephen Potter" Stockham Stoddard Strong Terry
+			Trathen Twining Uhlmann "Van Valkenburgh" Wadleigh Wadsworth Waller Watson Watts Wedderburn Wiley "William D. Porter" Wren "Allen M. Sumner" Moale
+			Cooper English "Charles S. Sperry" Ault Waldron Haynsworth "John W. Weeks" Hank "Wallace L. Lind" Compton Gainard Soley "Harlan R. Dickson" "Hugh Purvis"
+			Mansfield "Lyman K. Swenson" Collett Hyman "Mannert L. Abele" Purdy Drexler Brush Taussig "Samuel N. Moore" "Harry E. Hubbard" "Alfred A. Cunningham"
+			"John R. Pierce" "Frank E. Evans" "John A. Bole" Lofberg "John W. Thomason" Lowry "Hugh W. Hadley" "Willard Keith" "James C. Owens" Zellars Massey
+			Stormes "Robert K. Huntington" "Robert H. Smith" "Thomas E. Fraser" Shannon "Harry F. Bauer" Adams Tolman "Henry A. Wiley" Shea "J. William Ditter" Lindsey
+			Agerholm "Arnold J. Isbell" Basilone Bausell Benner Bordelon "Brinkley Bass" Carpenter "Charles H. Roan" "Charles P. Cecil" "Charles R. Ware" Cone Damato
+			"Dennis J. Buckley" Dyess Epperson "Ernest G. Small" "Eugene A. Greene" "Everett F. Larson" Eversole Fechteler Fiske "Floyd B. Parks" "Forrest Royal"
+			"Frank Knox" "Fred T. Berry" Furse Gearing "George K. MacKenzie" Goodrich Gurke Gyatt Hamner Hanson "Harold J. Ellison" Harwood Hawkins "Henry W. Tucker"
+			"Herbert J. Thomas" Higbee Holder Hollister "James E. Kyes" "John R. Craig" "Joseph P. Kennedy Jr." "Kenneth D. Bailey" Keppler "Leonard F. Mason"
+			"Lloyd Thomas" McCaffery "Myles C. Fox" New "Newman K. Perry" Norris O'Hare Orleck Ozbourn Power Rich "Richard B. Anderson" "Richard E. Kraus" "Robert A. Owens"
+			"Robert H. McCard" "Robert L. Wilson" Rogers Rupertus "Samuel B. Roberts" Sarsfield Shelton Southerland Steinaker Stickell "Theodore E. Chandler" Timmerman
+			Vesole Vogelgesang "William C. Lawe" "William M. Wood" "William R. Rush" Wiltsie Witek "John Warner" "Henry M. Jackson" "Leon Panetta"
+		}
+
+		cruiser = {
+			Antietam Anzio "Cape St. George" Chancellorsville Chosin Cowpens Gettyburg "Hue City" "Lake Champlain" "Lake Erie" "Leyte Gulf" "Mobile Bay"
+			Monterey Normandy "Philippine Sea" "Port Royal" Princeton "San Jacinto" Shiloh "Vella Gulf" Vicksburg Philippines Samoa Pensacola "Salt Lake City"
+			Northampton Chester Louisville Chicago Houston Augusta Portland Indianapolis "New Orleans" Astoria Minneapolis Tuscaloosa San Francisco Quincy Vincennes
+			"Hyman G. Rickover" Wichita Baltimore Boston Canberra Quincy Pittsburgh "Saint Paul" Columbus Helena Bremerton "Fall River" Macon Toledo "Los Angeles"
+			"Oregon City" Albany Rochester Cambridge Bridgeport "Kansas City" Tulsa Norfolk Scranton "Des Moines" Salem Dallas "Newport News" Omaha Milwaukee Cincinnati
+			Raleigh Detroit Richmond Concord Trenton Marblehead Memphis Brooklyn Philadelphia Savannah Nashville Phoenix Boise Honolulu "St. Louis" Atlanta Juneau
+			"San Diego" "San Juan" Oakland Reno Flint Tucson Cleveland Columbia Montpelier Denver Amsterdam "Santa Fe" Tallahassee Birmingham Mobile Pasadena Springfield
+			Topeka "New Haven" Huntington Dayton Wilmington Biloxi Providence Manchester Buffalo Fargo Duluth Newark Miami "Oklahoma City" "Little Rock" Galveston
+			Youngstown Portsmouth Wilkes-Barre Vallejo Roanoke Cheyenne Chattanooga Spokane Fresno Alexandria Annapolis Asheville Charlotte Greeneville Hampton Hartford
+			"Jefferson City" "Key West" Olympia "Washington D.C." "Long Island" Fairsea Altamaha Barnes "Block Island" Bogue Breton Card Copahee Core Croatan Hamlin
+			Nassau "St. George" "Prince William" Chatham Glacier Pybus Baffins Bolinas Bastian Carnegie Cordova Delgada Edisto Estero Jamaica Keweenaw Prince Niantic
+			Perdido Sunset "St. Andrews" "St. Joseph" "St. Simon" Vermillion Willapa Winjah Sangamon Suwannee Chenango Santee "Admiralty Islands" Attu "Bismarck Sea"
+			Bougainville "Cape Esperance" Casablanca "Coral Sea" Corregidor "Fanshaw Bay" "Gambier Bay" Guadalcanal "Hoggatt Bay" Hollandia "Kadashan Bay" "Kalinin Bay"
+			"Kasaan Bay" Kwajalein "Liscome Bay" "Lunga Point" "Makassar Strait" "Makin Island" "Manila Bay" "Marcus Island" Matanikau "Mission Bay" Munda "Natoma Bay"
+			"Nehenta Bay" "Ommaney Bay" "Petrof Bay" Roi "Rudyerd Bay" "Saginaw Bay" Midway "St. Lo" Salamaua "Sargent Bay" "Savo Island" "Shamrock Bay" "Shipley Bay"
+			"Sitkoh Bay" Solomons "Steamer Bay" "Takanis Bay" "Thetis Bay" Tripoli Tulagi "Wake Island" "White Plains" "Windham Bay" "Commencement Bay" "Gilbert Islands"
+			"Kula Gulf" "Cape Gloucester" "Salerno Bay" Siboney "Puget Sound" Rendova Bairoko "Badoeng Strait" Saidor Sicily "Point Cruz" Mindoro Rabaul Palau
+			Tinian Bastogne Eniwetok Lingayen Okinawa Independence "Belleau Wood" Cowpens Monterey Langley Cabot Bataan "San Jacinto" Saipan Wright Ehrenberg Spookane
+		}
+
+		StrikeCruiser = {
+			Antietam Anzio "Cape St. George" Chancellorsville Chosin Cowpens Gettyburg "Hue City" "Lake Champlain" "Lake Erie" "Leyte Gulf" "Mobile Bay"
+			Monterey Normandy "Philippine Sea" "Port Royal" Princeton "San Jacinto" Shiloh "Vella Gulf" Vicksburg Philippines Samoa Pensacola "Salt Lake City"
+			Northampton Chester Louisville Chicago Houston Augusta Portland Indianapolis "New Orleans" Astoria Minneapolis Tuscaloosa San Francisco Quincy Vincennes
+			"Hyman G. Rickover" Wichita Baltimore Boston Canberra Quincy Pittsburgh "Saint Paul" Columbus Helena Bremerton "Fall River" Macon Toledo "Los Angeles"
+			"Oregon City" Albany Rochester Cambridge Bridgeport "Kansas City" Tulsa Norfolk Scranton "Des Moines" Salem Dallas "Newport News" Omaha Milwaukee Cincinnati
+			Raleigh Detroit Richmond Concord Trenton Marblehead Memphis Brooklyn Philadelphia Savannah Nashville Phoenix Boise Honolulu "St. Louis" Atlanta Juneau
+			"San Diego" "San Juan" Oakland Reno Flint Tucson Cleveland Columbia Montpelier Denver Amsterdam "Santa Fe" Tallahassee Birmingham Mobile Pasadena Springfield
+			Topeka "New Haven" Huntington Dayton Wilmington Biloxi Providence Manchester Buffalo Fargo Duluth Newark Miami "Oklahoma City" "Little Rock" Galveston
+			Youngstown Portsmouth Wilkes-Barre Vallejo Roanoke Cheyenne Chattanooga Spokane Fresno Alexandria Annapolis Asheville Charlotte Greeneville Hampton Hartford
+			"Jefferson City" "Key West" Olympia "Washington D.C." "Long Island" Fairsea Altamaha Barnes "Block Island" Bogue Breton Card Copahee Core Croatan Hamlin
+			Nassau "St. George" "Prince William" Chatham Glacier Pybus Baffins Bolinas Bastian Carnegie Cordova Delgada Edisto Estero Jamaica Keweenaw Prince Niantic
+			Perdido Sunset "St. Andrews" "St. Joseph" "St. Simon" Vermillion Willapa Winjah Sangamon Suwannee Chenango Santee "Admiralty Islands" Attu "Bismarck Sea"
+			Bougainville "Cape Esperance" Casablanca "Coral Sea" Corregidor "Fanshaw Bay" "Gambier Bay" Guadalcanal "Hoggatt Bay" Hollandia "Kadashan Bay" "Kalinin Bay"
+			"Kasaan Bay" Kwajalein "Liscome Bay" "Lunga Point" "Makassar Strait" "Makin Island" "Manila Bay" "Marcus Island" Matanikau "Mission Bay" Munda "Natoma Bay"
+			"Nehenta Bay" "Ommaney Bay" "Petrof Bay" Roi "Rudyerd Bay" "Saginaw Bay" Midway "St. Lo" Salamaua "Sargent Bay" "Savo Island" "Shamrock Bay" "Shipley Bay"
+			"Sitkoh Bay" Solomons "Steamer Bay" "Takanis Bay" "Thetis Bay" Tripoli Tulagi "Wake Island" "White Plains" "Windham Bay" "Commencement Bay" "Gilbert Islands"
+			"Kula Gulf" "Cape Gloucester" "Salerno Bay" Siboney "Puget Sound" Rendova Bairoko "Badoeng Strait" Saidor Sicily "Point Cruz" Mindoro Rabaul Palau
+			Tinian Bastogne Eniwetok Lingayen Okinawa Independence "Belleau Wood" Cowpens Monterey Langley Cabot Bataan "San Jacinto" Saipan Wright Ehrenberg Spookane
+		}
+
+		Battlecruiser = {
+			Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky
+			Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada "New Hampshire" "New Jersey"
+			"New Mexico" "New York" "North Carolina" "North Dakota" Ohio Oklahoma Oregon Pennsylvania "Puerto Rico" "Rhode Island" "South Carolina"
+			"South Dakota" Tennessee Texas Utah Vermont Virginia Washington "West Virginia" Wisconsin Wyoming "District of Columbia" "American Samoa"
+			Guam "Mariana Islands" "Virgin Islands" Lexington Saratoga Ranger Yorktown Enterprise Hornet Wasp Essex Intrepid Franklin Ticonderoga Randolph
+			"Bunker Hill" Hancock Bennington Boxer "Bon Homme Richard" Leyte Kearsarge Oriskany Reprisal Antietam Princeton Shangri-La "Lake Champlain" Tarawa
+			"Valley Forge" "Iwo Jima" "Philippine Sea" Midway "Franklin D. Roosevelt" "Coral Sea" "Abraham Lincoln" "Carl Vinson" "Dwight D. Eisenhower"
+			"George Washington" "George H.W. Bush" "Gerald R. Ford" "Harry S. Truman" "John C. Stennis" Nimitz "Ronald Reagan" "Theodore Roosevelt" "John F. Kennedy"
+			"John Adams" "Thomas Jefferson" "James Madison" "Ulysses S. Grant" "Woodrow Wilson" "Bill Clinton" "George W. Bush" "Barack Obama" "Joe Biden"
+			"Alexandria Ocasio-Cortez" "Kevin McCarthy" "Herbert Hoover" "James McCain"
+		}
+
+		LightCarrier = {
+			Antietam Anzio "Cape St. George" Chancellorsville Chosin Cowpens Gettyburg "Hue City" "Lake Champlain" "Lake Erie" "Leyte Gulf" "Mobile Bay"
+			Monterey Normandy "Philippine Sea" "Port Royal" Princeton "San Jacinto" Shiloh "Vella Gulf" Vicksburg Philippines Samoa Pensacola "Salt Lake City"
+			Northampton Chester Louisville Chicago Houston Augusta Portland Indianapolis "New Orleans" Astoria Minneapolis Tuscaloosa San Francisco Quincy Vincennes
+			"Hyman G. Rickover" Wichita Baltimore Boston Canberra Quincy Pittsburgh "Saint Paul" Columbus Helena Bremerton "Fall River" Macon Toledo "Los Angeles"
+			"Oregon City" Albany Rochester Cambridge Bridgeport "Kansas City" Tulsa Norfolk Scranton "Des Moines" Salem Dallas "Newport News" Omaha Milwaukee Cincinnati
+			Raleigh Detroit Richmond Concord Trenton Marblehead Memphis Brooklyn Philadelphia Savannah Nashville Phoenix Boise Honolulu "St. Louis" Atlanta Juneau
+			"San Diego" "San Juan" Oakland Reno Flint Tucson Cleveland Columbia Montpelier Denver Amsterdam "Santa Fe" Tallahassee Birmingham Mobile Pasadena Springfield
+			Topeka "New Haven" Huntington Dayton Wilmington Biloxi Providence Manchester Buffalo Fargo Duluth Newark Miami "Oklahoma City" "Little Rock" Galveston
+			Youngstown Portsmouth Wilkes-Barre Vallejo Roanoke Cheyenne Chattanooga Spokane Fresno Alexandria Annapolis Asheville Charlotte Greeneville Hampton Hartford
+			"Jefferson City" "Key West" Olympia "Washington D.C." "Long Island" Fairsea Altamaha Barnes "Block Island" Bogue Breton Card Copahee Core Croatan Hamlin
+			Nassau "St. George" "Prince William" Chatham Glacier Pybus Baffins Bolinas Bastian Carnegie Cordova Delgada Edisto Estero Jamaica Keweenaw Prince Niantic
+			Perdido Sunset "St. Andrews" "St. Joseph" "St. Simon" Vermillion Willapa Winjah Sangamon Suwannee Chenango Santee "Admiralty Islands" Attu "Bismarck Sea"
+			Bougainville "Cape Esperance" Casablanca "Coral Sea" Corregidor "Fanshaw Bay" "Gambier Bay" Guadalcanal "Hoggatt Bay" Hollandia "Kadashan Bay" "Kalinin Bay"
+			"Kasaan Bay" Kwajalein "Liscome Bay" "Lunga Point" "Makassar Strait" "Makin Island" "Manila Bay" "Marcus Island" Matanikau "Mission Bay" Munda "Natoma Bay"
+			"Nehenta Bay" "Ommaney Bay" "Petrof Bay" Roi "Rudyerd Bay" "Saginaw Bay" Midway "St. Lo" Salamaua "Sargent Bay" "Savo Island" "Shamrock Bay" "Shipley Bay"
+			"Sitkoh Bay" Solomons "Steamer Bay" "Takanis Bay" "Thetis Bay" Tripoli Tulagi "Wake Island" "White Plains" "Windham Bay" "Commencement Bay" "Gilbert Islands"
+			"Kula Gulf" "Cape Gloucester" "Salerno Bay" Siboney "Puget Sound" Rendova Bairoko "Badoeng Strait" Saidor Sicily "Point Cruz" Mindoro Rabaul Palau
+			Tinian Bastogne Eniwetok Lingayen Okinawa Independence "Belleau Wood" Cowpens Monterey Langley Cabot Bataan "San Jacinto" Saipan Wright Ehrenberg Spookane
+		}
+
+		escortcarrier = {
+			Antietam Anzio "Cape St. George" Chancellorsville Chosin Cowpens Gettyburg "Hue City" "Lake Champlain" "Lake Erie" "Leyte Gulf" "Mobile Bay"
+			Monterey Normandy "Philippine Sea" "Port Royal" Princeton "San Jacinto" Shiloh "Vella Gulf" Vicksburg Philippines Samoa Pensacola "Salt Lake City"
+			Northampton Chester Louisville Chicago Houston Augusta Portland Indianapolis "New Orleans" Astoria Minneapolis Tuscaloosa San Francisco Quincy Vincennes
+			"Hyman G. Rickover" Wichita Baltimore Boston Canberra Quincy Pittsburgh "Saint Paul" Columbus Helena Bremerton "Fall River" Macon Toledo "Los Angeles"
+			"Oregon City" Albany Rochester Cambridge Bridgeport "Kansas City" Tulsa Norfolk Scranton "Des Moines" Salem Dallas "Newport News" Omaha Milwaukee Cincinnati
+			Raleigh Detroit Richmond Concord Trenton Marblehead Memphis Brooklyn Philadelphia Savannah Nashville Phoenix Boise Honolulu "St. Louis" Atlanta Juneau
+			"San Diego" "San Juan" Oakland Reno Flint Tucson Cleveland Columbia Montpelier Denver Amsterdam "Santa Fe" Tallahassee Birmingham Mobile Pasadena Springfield
+			Topeka "New Haven" Huntington Dayton Wilmington Biloxi Providence Manchester Buffalo Fargo Duluth Newark Miami "Oklahoma City" "Little Rock" Galveston
+			Youngstown Portsmouth Wilkes-Barre Vallejo Roanoke Cheyenne Chattanooga Spokane Fresno Alexandria Annapolis Asheville Charlotte Greeneville Hampton Hartford
+			"Jefferson City" "Key West" Olympia "Washington D.C." "Long Island" Fairsea Altamaha Barnes "Block Island" Bogue Breton Card Copahee Core Croatan Hamlin
+			Nassau "St. George" "Prince William" Chatham Glacier Pybus Baffins Bolinas Bastian Carnegie Cordova Delgada Edisto Estero Jamaica Keweenaw Prince Niantic
+			Perdido Sunset "St. Andrews" "St. Joseph" "St. Simon" Vermillion Willapa Winjah Sangamon Suwannee Chenango Santee "Admiralty Islands" Attu "Bismarck Sea"
+			Bougainville "Cape Esperance" Casablanca "Coral Sea" Corregidor "Fanshaw Bay" "Gambier Bay" Guadalcanal "Hoggatt Bay" Hollandia "Kadashan Bay" "Kalinin Bay"
+			"Kasaan Bay" Kwajalein "Liscome Bay" "Lunga Point" "Makassar Strait" "Makin Island" "Manila Bay" "Marcus Island" Matanikau "Mission Bay" Munda "Natoma Bay"
+			"Nehenta Bay" "Ommaney Bay" "Petrof Bay" Roi "Rudyerd Bay" "Saginaw Bay" Midway "St. Lo" Salamaua "Sargent Bay" "Savo Island" "Shamrock Bay" "Shipley Bay"
+			"Sitkoh Bay" Solomons "Steamer Bay" "Takanis Bay" "Thetis Bay" Tripoli Tulagi "Wake Island" "White Plains" "Windham Bay" "Commencement Bay" "Gilbert Islands"
+			"Kula Gulf" "Cape Gloucester" "Salerno Bay" Siboney "Puget Sound" Rendova Bairoko "Badoeng Strait" Saidor Sicily "Point Cruz" Mindoro Rabaul Palau
+			Tinian Bastogne Eniwetok Lingayen Okinawa Independence "Belleau Wood" Cowpens Monterey Langley Cabot Bataan "San Jacinto" Saipan Wright Ehrenberg Spookane
+		}
+
+		battleship = {
+			Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky
+			Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada "New Hampshire" "New Jersey"
+			"New Mexico" "New York" "North Carolina" "North Dakota" Ohio Oklahoma Oregon Pennsylvania "Puerto Rico" "Rhode Island" "South Carolina"
+			"South Dakota" Tennessee Texas Utah Vermont Virginia Washington "West Virginia" Wisconsin Wyoming "District of Columbia" "American Samoa"
+			Guam "Mariana Islands" "Virgin Islands" Lexington Saratoga Ranger Yorktown Enterprise Hornet Wasp Essex Intrepid Franklin Ticonderoga Randolph
+			"Bunker Hill" Hancock Bennington Boxer "Bon Homme Richard" Leyte Kearsarge Oriskany Reprisal Antietam Princeton Shangri-La "Lake Champlain" Tarawa
+			"Valley Forge" "Iwo Jima" "Philippine Sea" Midway "Franklin D. Roosevelt" "Coral Sea" "Abraham Lincoln" "Carl Vinson" "Dwight D. Eisenhower"
+			"George Washington" "George H.W. Bush" "Gerald R. Ford" "Harry S. Truman" "John C. Stennis" Nimitz "Ronald Reagan" "Theodore Roosevelt" "John F. Kennedy"
+			"John Adams" "Thomas Jefferson" "James Madison" "Ulysses S. Grant" "Woodrow Wilson" "Bill Clinton" "George W. Bush" "Barack Obama" "Joe Biden"
+			"Alexandria Ocasio-Cortez" "Kevin McCarthy" "Herbert Hoover" "James McCain"
+		}
+
+		titan = {
+			Constitution Columbia "Uncle Sam" "Liberty Bell" Liberty Freedom "Pursuit of Happiness" "Equality" "Justice" "America" "Unity" "Federation" "United States" "Free Nation"
+			"Above and Beyond" Democracy "Separation of Powers" "Rule of Law" "Manifest Destiny" "Full Metal Jacket"
+		}
+
+		colossus = {
+			Constitution Columbia "Uncle Sam" "America" "Unity" "Federation" "United States" "Liberty" "Freedom" "Equality" "Justice" "Free Nation"
+			"Above and Beyond" Democracy "Separation of Powers" "Rule of Law" "Liberty Bell" "Manifest Destiny" "Full Metal Jacket"
+		}
+
+		Carrier = {
+			Lexington Saratoga Ranger Yorktown Enterprise Hornet Wasp Essex Intrepid Franklin Ticonderoga Randolph
+			"Bunker Hill" Hancock Bennington Boxer "Bon Homme Richard" Leyte Kearsarge Oriskany Reprisal Antietam Princeton Shangri-La "Lake Champlain" Tarawa
+			"Valley Forge" "Iwo Jima" "Philippine Sea" Midway "Franklin D. Roosevelt" "Coral Sea" "Abraham Lincoln" "Carl Vinson" "Dwight D. Eisenhower"
+			"George Washington" "George H.W. Bush" "Gerald R. Ford" "Harry S. Truman" "John C. Stennis" Nimitz "Ronald Reagan" "Theodore Roosevelt" "John F. Kennedy"
+			"John Adams" "Thomas Jefferson" "James Madison" "Ulysses S. Grant" "Woodrow Wilson" "Bill Clinton" "George W. Bush" "Barack Obama" "Joe Biden"
+			"Alexandria Ocasio-Cortez" "Kevin McCarthy" "Herbert Hoover" "James McCain"
+		}
+
+		Dreadnought = {
+			Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky
+			Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada "New Hampshire" "New Jersey"
+			"New Mexico" "New York" "North Carolina" "North Dakota" Ohio Oklahoma Oregon Pennsylvania "Puerto Rico" "Rhode Island" "South Carolina"
+			"South Dakota" Tennessee Texas Utah Vermont Virginia Washington "West Virginia" Wisconsin Wyoming "District of Columbia" "American Samoa"
+			Guam "Mariana Islands" "Virgin Islands"
+		}
+
+		Superdreadnought = {
+			Constitution Columbia "Uncle Sam" "Liberty Bell" Liberty Freedom "Pursuit of Happiness" "Equality" "Justice" "America" "Unity" "Federation" "United States" "Free Nation"
+			"Above and Beyond" Democracy "Separation of Powers" "Rule of Law" "Manifest Destiny" "Full Metal Jacket"
+		}
+
+		Flagship = {
+			Constitution Columbia "Uncle Sam" "America" "Unity" "Federation" "United States" "Liberty" "Freedom" "Equality" "Justice" "Free Nation"
+			"Above and Beyond" Democracy "Separation of Powers" "Rule of Law" "Liberty Bell" "Manifest Destiny" "Full Metal Jacket"
+		}
+
+		Headquarters = {
+			USSPACOM
+		}
+
+		science = {
+			"Manifest Destiny" "Meriwether Lewis" "William Clark" "Charles Floyd" "John Ordway" "Nathaniel Pryor" "Zebulon Pike" "Richard Warfington" "Rio Grande"
+			"Colorado River" "Mississipi River" "Hudson River" York "Albion" "Allegheny" "Amargosa" "American River" "Americano Creek" Anacostia Potomac Appomattox
+			"Arkansas River" "Jefferson River" "Red Rock River" "Big Muddy"
+		}
+
+		ScienceCruiser = {
+			"Manifest Destiny" "Meriwether Lewis" "William Clark" "Charles Floyd" "John Ordway" "Nathaniel Pryor" "Zebulon Pike" "Richard Warfington" "Rio Grande"
+			"Colorado River" "Mississipi River" "Hudson River" York "Albion" "Allegheny" "Amargosa" "American River" "Americano Creek" Anacostia Potomac Appomattox
+			"Arkansas River" "Jefferson River" "Red Rock River" "Big Muddy"
+		}
+
+		explorationship = {
+			"Manifest Destiny" "Meriwether Lewis" "William Clark" "Charles Floyd" "John Ordway" "Nathaniel Pryor" "Zebulon Pike" "Richard Warfington" "Rio Grande"
+			"Colorado River" "Mississipi River" "Hudson River" York "Albion" "Allegheny" "Amargosa" "American River" "Americano Creek" Anacostia Potomac Appomattox
+			"Arkansas River" "Jefferson River" "Red Rock River" "Big Muddy"
+		}
+
+		colonizer = {
+			"Manifest Destiny" "Great Track" "New Territories" "Gold Rush" Pioneer Steps Statehood "Expanding Freedom" Federation "E Pluribus Unum"
+		}
+
+		sponsored_colonizer = {
+		Facebook Apple Microsoft Airbus "AT&T" Valve "American Express" "Bank of America" NFL NHL NBA "Guild of Writers" UPS
+		}
+
+		constructor = {
+			"Manifest Destiny" "Patrick Gass" "Henry Ford" "John D. Rockefeller" Dollar "Andrew Carnegie" "Cornelius Vanderbilt" "Alexander G. Bell" "Bill Gates"
+			"Steve Jobbs"
+		}
+
+		ConstructionCruiser = {
+			"Manifest Destiny" "Patrick Gass" "Henry Ford" "John D. Rockefeller" Dollar "Andrew Carnegie" "Cornelius Vanderbilt" "Alexander G. Bell" "Bill Gates"
+			"Steve Jobbs"
+		}
+
+		transport = {
+			Waikiki "Big Island" Highway Rail Airway Parcel Boeing McDonnell "Northrop Grumman" Sikorsky Greyhound
+		}
+
+		military_station_small = {
+			Bastion Protector Border "Pearl Harbor" "Fort Sumter" Fort Peacekeeper Smith'n'Wesson Colt Browning Lockheed Boeing McDonnell "Northrop Grumman"
+			"United Defense"
+		}
+
+		military_station_medium = {
+			Bastion Protector Border "Pearl Harbor" "Fort Sumter" Fort Peacekeeper Smith'n'Wesson Colt Browning Lockheed Boeing McDonnell "Northrop Grumman"
+			"United Defense"
+		}
+
+		military_station_large = {
+			Bastion Protector Border "Pearl Harbor" "Fort Sumter" Fort Peacekeeper Smith'n'Wesson Colt Browning Lockheed Boeing McDonnell "Northrop Grumman"
+			"United Defense"
+		}
+
+		ion_cannon = {
+			Liberator Peacekeeper Smith'n'Wesson Colt Browning "General Electric" Stormeye Silvereye "Big Iron"
+		}
+
+		xl_cannon = {
+			Liberator Peacekeeper Smith'n'Wesson Colt Browning "General Electric" Stormeye Silvereye "Big Iron"
+		}
+
+	}
+	fleet_names = {
+		random_names = {
+			
+		}
+		sequential_name = "Task Force %C%"
+	}
+	
+	army_names = {
+		generic = { 
+			sequential_name = "%O% Army"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Storm Army"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Army"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Assaultron Army"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Sentrybot Army"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Army"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Beast Army"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Enhanced Army"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Security Army"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Securitron Army"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Equatoria Duality "Twilight Horizons" Eternity Columbia Paradise Heaven Honey Spring Freedom Liberty Lush Floston Perfection Mayflower Santa
+				"Sweet Home" Glory Serenity Destiny Valentia "Crimson Green" Sousa "Pursuit of Happiness" "New Yellowstone" "Life Springs" Cotorra "Youth Springs"
+				"Twilight Forests" Lumia Glow Gloam Crepuscule Duskwood "Dusk Retreat" Mammoth Meramec Carlsbad "Ruby Falls" Kartchner Luray Blanchard Craighead
+				Salty "Grand White" "New Lueneburg" "Big Waste" "Red Flow" Creation Genesis Alpha Pacifica Atlantica Admiralty Anchor Miramar Pearl
+				Current "New Hawaii" "New Atlantis" Violet Lobelia Crocus Iris Lavender Wisteria Dignity Gump Seasons Bravery "New Allegheny" "New Angeles"
+				"New Tongass" "Beaver Paradise" "Cascade Falls" "New Tacoma" "New Seattle" "New Portland" "Eugena Nova" Puget Olympic "New Olympia" Spookane Beaverton
+				"New Florida" Greene Bayou "New Louisiana" "New Alabama" Sissipi Presley "Swampy Pearl" "New Guam" "New Key West" "Bermuda Libre" Aloha Mahalo
+				"El Paradiso" "New Bahama" Laniakea "New Polynesia" Caribica "New Honolulu" "New Roraima" "New Guyana" "Angel Falls" "New Orinoco" "High Green" "Lush Mesa"
+				"New Louisiana" Mangrooves "Saudi Israelia" "New Jerusalem" Dune Sandsea "Dusty Sphere" "Ultra Vivid" "Scorched Plains" "Burning Seas" "Sandy Shores"
+				"Life Haven" "Blue Eyes" "Green Isles" "Nuevo El Centro" "New Dallas" "New Texas" "New Arizona" Coconino Tonto Wayne Frontier Wild Ehrenberg "New Tucson" Crowe
+				Nulutans "Wide North" "New Juneau" Freeze Beaufort Bering Yukon Kodiak "Northern Pearl" Celeste "Cold Waters" Helaron Azura
+				"Monument Valley" "Red Expanse" "New Wyoming" Atac "Cold Sands" Dustfog "Dry Fog" "New Latinia" Citrus Mediterranea Liguria "Azure Coasts"
+				"New Tripoli" Flyovah "St. Augustine" Macon Baxley Vidalia Sylvania Flatlands "New Hannover" Pioneer "Grand Track" Progress Manifest "Manifest Destiny"
+				Nulaska "New Chugach" "New Prudhoe" Borealis Clammy Damp "Disk Roofs" Molder Moldy "Big Bog" "Wet Gardens" "Ranger Lakes" Strangmoor "New Glacier Parks"
+				"New Dakota" "New Minnesota" Northlight Norneigh "Copper Harbor" Roseau "New Anchourage" Cascades "Heavenly Isles"
+				"Diamond Sea" Beacon "Guiding Light" "Circle of Life Graveyard" Rejuvenation Nanoforest Unnatural "Strange Mix" Nerdwood
+				"New Alexandria" "Grand Library" "Fountain of Wisdom" "Green Haven" Perfection Unisono Roosevelt Utopia "Pursuit of Happiness" "Free Minds" "Liberty Center"
+				"Liberty Prime" "Freedom of Steel" "Democracy Manufactury" "New Chernobyl" "Radium Hell" "Grand Division" Devoid Terrence Phillipp Abyss Hellhole Mustafar
+				Hothouse "New Venus"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"New Nevada" "Navajo Reborn" Paso "New Phoenix" Aguila "New Yuma" "Life Valley"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				"New Florida" Greene Bayou "New Louisiana" "New Alabama" Sissipi Presley "Swampy Pearl"
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				"New Dallas" "New Texas" "New Arizona" Coconino Tonto Wayne Frontier Wild Ehrenberg "New Tucson" Crowe "Monument Valley" "New Latinia"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Columbia Manifest "New California" "New Coasts" Vespucci Seasons Patriot Courage Valor Mayflower Bravery Serenity Valentia Sousa "New Hannover"
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Columbia Paradise Heaven Honey Spring Freedom Liberty Lush Floston Perfection Mayflower Santa "Sweet Home" Glory Serenity Destiny Valentia
+				Sousa "Pursuit of Happiness"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				"New Guam" Pacifica Atlantica Liberty "New Key West" Admiralty Freedom Anchor "Bermuda Libre" Pearl Aloha Mahalo "El Paradiso" "New Bahama"
+				Miramar Current Laniakea "New Polynesia" Serenity "New Hawaii" Caribica "New Honolulu"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				"New Dakota" "New Minnesota" Northlight Norneigh "Copper Harbor" Roseau "New Anchourage" Cascades "Northern Pearl" Laniakea
+				"New Wyoming" Borealis
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Nulaska "Wide North" "New Juneau" Freeze "New Chugach" "New Prudhoe" Beaufort Bering Yukon Kodiak "Northern Pearl" Celeste Laniakea
+				"Grand White" Borealis
+			}
+		}
+		
+		pc_savannah = {
+			names = {
+				"New Tripoli" Flyovah Peach "New Georgia" "St. Augustine" Macon "Big Cypress" Baxley Vidalia Sylvania "New Latinia" Citrus
+			}
+		}
+		
+		pc_alpine = {
+			names = {
+				Appalachia Rocky Medusa Range Donner Sierra "Echo Summit" Gap "New Truckee" "New Yosemite" Borealis
+			}
+		}
+	}
+	
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+			first_names_male = {
+				John Brian Peter James William Jacob Christopher Joshua Michael Ethan Joseph Matthew Anthony Daniel Samuel Kevin
+				David Logan Carter Andrew Henry Nicholas Gavin Owen Jack Wyatt Wayne Walter Charles Louis Merritt Earl Alfred Vernon
+				Edward George Paul Greg Thomas Robert Gene Glen Ronald Francis Stephen Jon Richard Mark Marcus Scott Duncan Felix
+				Douglas Keith Howard Russell Clayton Lee Steve Clay Oliver Kenny Ralph Andy Tony Tyrone Lawrence Patrick Harry Alan
+				Eugene Frank Craig Jason Harrison Connor Sean Cooper Stanley Calhoun Neil Jeffrey Harold Raymond Fred Johnston
+				Marshall Silas Roy Jesse Ken Bruce Norris Horatio Clarence Lloyd Duane Martin Ben Ernest Warren Graham Marvin Orson
+				Jackson Dwight Harlan Arthur Percival Montgomery Clyde Rodney Franklin Jake Horace Irving Seth Randolph Floyd Carl
+				Brent Cliff Malcolm Timothy Wallace Pierce Edmund Gary Nathan Eric Albert Robin Geoffrey Larry Ian Leonard Gordon Derek
+				Maxwell Bernard Stuart Rupert Dean Philip Ross Colin Darren Melvin Justin Zack Elliot Simon Morgan Clark Xavier Jared
+				Edgar Crispin Nelson Emmett Trevor Travis Lance Adrian Desmond Brendan Brett Ambrose Basil Kieran Conan Dermot Dudley
+				Finn Oscar Sidney Aaron Vincent Angus Grant Luke Miles Morton Randall Reginald Herbert Wesley Nigel Alexander Dominic
+				Liam Dirk Vance Kyle Chester Donald Gerald Bob Fredrick Arnold Benjamin Stirling Stan Ryan Red Steven Antonio Bradley
+				Jose Jesus Alejandro Miguel Angel Eduardo "Jose Luis" Juan "Juan Carlos" Fernando Diego Troy Peyton Tom Mel Gerard
+				Randy Jacquan Jacquille Jonathan Heath Alec Adam Gregory Jay Abraham Homer Bartholomew Barack Rick Collin Hiram Will
+				Morty Jerry Roger Stelios Luis Ace Davy Germaine Arleigh Bill Barry Jax Winston Otto Joe Werner Cole Curtis Steward
+				Bryan Charlie Forrest Alfredo Spiro Sam Isaac Moses Austin Rafael Raphael Lawson Ira Ray Herald Elmo Domingo Clancy Max
+				Maximillian Lou Burt Kamekona Duke Chin Ho "Chin Ho" Alex Masi Cleveland Allen Tunis Augustus Joel Fitz Worth Barney
+				Mahlon Marlon Nehemiah Robley Archibald Ezekiel Pollard Frederick Stanton Lewis Hugh Presley Cadwalader Isaiah Kidder
+				Winfield Cornelius Josiah Levi Lambert Melancthon Abel Theodor Theodorus Adolph Roscoe Reuben Earle Norman Gustavus Gus
+				Esek Elisha Kane Elie Roswell Kenneth Bowman Tod Rod Ned Roderick Weedon Osmond Macon Edwin Preston Welborn Gideon Zane
+				Victor Jeremiah Bartlett Selim Guert Cary Mons Ted Claude Marc Theodore LeRoy Richmond Zachary Smedley Bancroft Abner
+				Mervyn Gamaliel Washington Cassin Godfrey Lyman Perry Heywood Royal Noble Thornton Elias Sherwood Seaton Purser Fabius
+				Willford Mannert Reigart Willard Cecil Hutch Aquilla Everett Caspar Lofton Reinhardt Chuck Sheldon Lennard Kiefer Kay
+				Django Solomon Woodrow Meriwether York Darnell Cristobal Tyler Jayden Mason Noah Hyman Grover Hank Dennis Littleton
+				Nathaniel Ulysses Leon Benedict Matt Carlos Seymour Mitchell Quinn Cody Channing Ramsey Humphry Indiana Israel Boyd
+				Spencer Boris Jeremy Jasper Cyrus Davidge Byron Phillips Cameron Lincoln Quentin Pete Isambard
+			}
+			first_names_female = {
+				Olivia Emily Sophie Jessica Alice Scarlett Emma Daisy Eve Phoebe Sienna Anna Mary Megan Elizabeth Amy Darcy Matilda Erin
+				Lucy Grace Evelyn Amber Harriet Caitlyn Jasmine Madison Kate Eleanor Alexandra Sarah Martha Bethany Rebecca Victoria
+				Gabriella Naomi Lauren Clara Laura Kayla Nicole Skye Eliza Patricia Linda Barbara Jennifer Maria Susan Margaret Dorothy
+				Lisa Nancy Helen Sandra Donna Carol Ruth Sharon Michelle Kimberly Deborah Amelia Charlotte Isabella Ruby Addison Alyssa
+				Abigail Julia Samantha Brooklyn Ashley Natalia Brianna Chloe Hailey Lillian Judith Alison Amanda Angela Audrey Beatrice
+				Brenda Bridget Caroline Cassandra Charity Cecilia Anne Clarissa Christabel Cheryl Cynthia Cadence Cordelia Daphne Deanna
+				Denise Dolores Doreen Drusilia Edith Edna Eleonor Eileen Edwina Ellen Estelle Ethel Felicity Fiona Genevieve Gertie Gwen
+				Gwendolyn Henrietta Imogene Iris Imelda Jacqueline Jane Jenna Joanna Josephine Julianne Kathleen Kierra Kaylee Leah Lois
+				Loretta Lorna Louisa Lynnette Lucinda Mabel Marcia Marilyn Marissa Marjorie Maud Melanie Myrna Mavis Nadine Paula Penelope
+				Philippa Priscilla Rhonda Rita Roberta Rosamund Rosemary Roxanne Sabrina Selma Selina Sibyl Suzanne Tara Tabitha Thelma
+				Teresa Tiffany Vanessa Vivian Melissa Wanda Wendy Winifred Yvette Vera Zelda Joan Pamela Sherry Adrienne Monica Natalie
+				Irene Heather Lindsay Gillian Kristen Odette Felicia Christina Candace Arlene Tisha Majel Fran Doris Julie Courtney Shelly
+				Frances Mandy Mindy Rachel Miranda Virginia Gina Karla Tricia Diane Phyllis Sally Elaine Kara Shannon Susie Elle Gail Ann
+				Kathryn Tina Carrie Miriam Vivica Tamara Judy Willow Hilary Danielle Teri Jackie Kelly Bonnie Holly Janice Brittney Betty
+				Bianca Stephanie Natasha Lydia Mona Meredith Lynda Erica Heidi Paige Carmen Hayden Mallory Mercedes Marion Winona Jill
+				Molly Constance Jenny Penny Meryl Jodie Veronica April Sigourney Jillian Honor Kitty Sofia Valentina Fernanda Minnie Shirley
+				Juana Camila Valeria Claire Margharet Marge Alex Hayley Summer Beth Louis Rafaela Raphaela Ira Catherine Kona Kono Debra
+				Lori Tani Noelani Joelie Hillary Lea Tracy Carie Curie Robin Lily Katie Carly Claudette Claudia Jordan Rosa Lenah Daliah
+				Karen Brittany Hannah Alexis Ava Sophia Celeste Malory Elliott Cameron Rowena Sylvia Sylvie Cybele Diana
+			}
+			second_names = {
+				Smith Jones Williams Taylor Brown Davies Evans Wilson Johnson Robinson Wright Thompson Walker White Roberts Green Hall
+				Wood Jackson Clark Lewis Mason Mitchell Cox Campbell Stewart Quinn Murphy Hamilton Moore Murray McLaughlin Martin O'Neill
+				Anderson Scott MacDonald Reid Ross Watson Patterson Morrison Sanders Harris Hughes Driscoll Price Jenkins Morgan Moss
+				Sinclair Simpson Zimmerman Young York Youngfellow Winters Worley Woodard Whitley Wheeler Wentworth West Weaver Webb Welsh
+				Sparks Spencer Stafford Stanley Steel Sterling Stevens Stone Sullivan Swanson Sweeney Swift Sykes Terrell Thornton
+				Tipton Turner Tyler Underwood Vincent Voight Wade Washington Watts O'Connor O'Donnell O'Hara Owens Page Palmer Parker
+				Perry Parson Paxton Payne Perkins Peters Pershing Phillips Pitt Potter Reynolds Reaves Reese Richardson Rivers Robbins
+				Robertson Roswell Ryan Salinger Samuels Sandler Savage Saxton Schneider Scowley Sedgwick Shannon Flint Sibbett Silverman
+				Silverstone Smart Snow Kruger Landau Lawrence Lawson Lee Leonard Little Lowell Michaels McGillis McKinnon McSwain McCoy
+				McCarthy McCormick McCreary Marshall Lynch Miller Montgomery Morris Nash Newman Nichols North Masterson Mayfield McCall
+				Hansen Harrington Hart Hendricks Holmes Higgins Hoffman Hood Hutchinson Hyland Knight Kirk King Kenway Kennedy Kelly
+				Kane Nathanson Jennings Jacobs Jefferies Irwin Gilbert Glass Glover Goldberg Goldstein Goodman Goodwin Graham Grant Graves
+				Gray Greenberg Gorney Griffin Halley Hunter Holloway Hoover Hutchins Hill Hines Holden Harvey Handler Cohen Collins Conrad
+				Conroy Cook Conley Compton Cody Crouch Crosby Curtis Fields Farrell Felton Fisher Fleming Forrest Foster Fox Freeman
+				Futterman Gardner Garrett Gates Garfield Gabriel Daniels Darling Easterbrook Edwards Edelstein Elliott Emerson Ericson
+				Duncan Dickinson Alexander Allen Austin Bauer Bancroft Baker Bailey Banks Barks Bassett Brewster Brooks Breckenridge Booth
+				Bloom Sherman Sheridan Billingsley Billings Bergman Bates Becker Bell Bellflower Bains Bean Cartwright Carpenter Buckland
+				Burness Burnett Bush Butler French England Carroll Carter Cavanaugh Chaffin Chase Channing Chapman Arnold Fry Milton
+				Sharp Durston Howell Mead Poole Ashton Brockbank Cooper Cursham Dixon Baxter Drake Garland Wells Hargreaves Houghton
+				Haygarth Hurst Kingsford Lindsay Rawson Walden Walters Whitfield Bennett Cross Buxton Dyson McMillan Russell Beauclerk
+				Ward Howard Lloyd Tanner Nicholas Matthews Ellis Whyting Whittaker Barton Hawkins Garrovick Spector Reeves Vernon McNiven
+				Rowley Sandford Fawcett Lockhart Lang Oliphant Wilkins Balfour Appleby Buchanan Yardley Shaw Stokes Allenby Cockburn Mundy
+				Franklin Armstrong Chamberlain Powell Abbott Blair "Van Hoof" "Van Rijn" Burnside Schofield Farnsworth Ford Warner Porter
+				Barksdale Polk Gibbons Archer Pickett Houston Pearson Lucas Horner Bainbridge Rollins Casey Cochrane Merchant
+				Bowden Douglas Muldoon Wickham Milligan Bradley Findley Spooner Harper Shepard Kingston Knox Colbeck Shields Burns Gibson
+				Burton Crutchley Gilligan Bridges Richter Fowler Novak Longfield Seabrook Hazelton Kingsley Doggart Wilcox Hudson Hooks Hicks
+				Cameron Hammond Knotts Jefferson Coffey Adams Babcock Baldwin Bannister Purcell Baumgartner Birch Blackwood Blake Bolander
+				Bolton Brock Brannigan Burke Weyland Burrows Cairns Carlyle Carson Charlesworth Church Clancy Cullen Dufresne Bixby Featherstone
+				Ferguson Foley Funk Gorman Haddock Grisdale Grimes Hoffmeyer Holt Ingram Kaiser Kearns Keeler Kellerman Kinnear Kurtz Kyle
+				Laidlaw Lankshear Lessard Lowe MacKenzie MacNevin MacInnis Madigan Maloney Marsh McAllister McBain Myers Nicholson Olsen
+				O'Malley Peacock Peckham Murdoch Prefontaine Pratt Popovic Pritchard Quackenbush Penebscott Pfaffenbach Ramsey Quincey
+				Reilly Reinhart Renaud Rolston Shoebottom Skinner Sloan Snell Snider Sorensen Spiller Spurgeon Stanfield Stackhouse Stiles
+				Sutherland Sutton Taggart Townsend Traynor Stark Strudwick MacArthur Barnes Atkins Ballard Biggs Baird Fredericks Humphry
+				Colt Dillard Cunningham DeStefano Finks Fletcher Galloway Kirby Sutter Preston Tucker Trump Kowalski McDougal Winslow
+				Rabinowitz Feldman Katz Roykirk Decker Nixon Roosevelt Clinton Clint Eastwood Westwood Northwood Southwood Truman Liman
+				Schwarzenegger Cartman Browslowski Claus Carver Foreman Burkhart Kelso Hyde Pinciotti Leone Corleone Tattaglia
+				Barzini Cuneo Solozzo Stracci Hernandez Garcia Lopez Martinez Rodriguez Gonzalez Perez Sanchez Cortez Gomez Flores Angelo
+				Zao Chen Liu Zhang Li Wang San Wei Sheu Eng Hong Kao Koon Lam Lim Mui Ping Som Sui Tam Zee Le Mai Nguyen Munn Quan Tran
+				Chinh Huynh Wong Chau Vu Dang Hoang Nga Dung Jao Pham Eklund Bellicheck Brady "Van Toai" Cao Thuy Thien Do "Qui Duc"
+				Flora Dinh McClure Manning Reagan Ledger Isaacs Newton Karyo Brenner Logue Wilkinson Johanson Benner
+				House Lerman Fitzsimmon Revere Madison Williamson Bartlett Huang Yang Trang Uyen Nhuan Vuong
+				Floyd Hooper Heyward Hewes Harrison Hancock Gwinnett Gerry Hopkins Hopkinson Huntington Livingston McKean
+				Middleton Morton Nelson Paca Paine Penn Read Rodney Rush Rutledge Coolidge Stockton Macfarlane Norris
+				Walton Whipple Witherspoon Wolcott Wythe Black Blue Orange Red Cyan Burr Jay Dunphy Pritchett
+				Lincoln Eustis Randolph Obama Nimitz McArthur Patton Eisenhower Braun Hausner Contos Conway Furse
+				Ace Rodgers Burk Burkhardt Barry Dole Teller Winston Churchill Bismarck Crusher Bulkeley Carney Chafee Chung-Hoon
+				Cole Wayne Wilbur Decatur Dewey Farragut Fitzgerald Francis Gump McGump O'Gump Alfredo Agnew McCain
+				Gravely Gridley Hopper Wollowitz Dunham Finn Kidd Laboon Lassen Mahan McCampbell McFaul Monsoor Milius Mitscher Momsen Pellham
+				Mustin Nitze Nitzsche O'Kane Crown Pinckney Preble Cronkite O'Brian O'Brien O'Bryan Rafael Raphael Peralta Wiggum Ramage
+				Lohan Crowe Sampson Shoup Spruance Sterett Stethem Stockdale Stout O'Sullivan McSullivan Hudner Truxtun Meyer Mayer Major Mayor
+				Zumwalt Kent Chavez Loggins Ermey Erlenmeyer Goodell McGarrett O'Kelly Grover Weston Wesson Kalakaua Ortega Rey Reyez
+				Tupuola Lukela Cunha Noshimuri O'Loughlin Caan Kim Oka Masi McBride O'Bride McFly Rowan Davis Wilkes Caldwell Craven
+				Macdonough Gwin Conner Manley Abbot Anthony Babbitt Badger Bagley Barney Gumble Bernadou Biddle Blakeley Johnston Boggs Breckinridge
+				Breese Delano Champlin Chew Claxton Colhoun Cowell Crane Crowninshield DeLong Dent Dickerson Brando Dorsey "Du Pont" Dyer Elliot
+				Dunglison Fairfax Foote Gamble Greer Gregory Hale Haraden Harding Hazelwood Herbert Hogan Hopewell Ingraham Israel Talbott Kalk
+				Kennison Kilty Kimberly Ashfield Lamberton Lansdale "Van Horne" Lea Leary McLeary O'Leary Luce Ludlow Maddox Thayer Maury Fontaine
+				Wister McKee Meredith Mugford O'Bannon Presley Philip Radford Munroe Ramsay Rathburne Renshaw Rizal Roper Schenck Schley Winfield
+				Sigourney Sproston Stansbury Thomas Stribling Kinchiloe Stringham Horton Talbot Tarbell Tattnall Thatcher Tillman Twiggs Upshur
+				Waters Wickes Woolsey Yarnall Alden Aulick Barker Belknap Branch Breck Broome Bruce Willis Bulmer Case Chandler Eaton Ausburne
+				Ausburn Chauncey Winchester Childs Clemson Coghlan Converse Corry Dahlgren Dale Dallas Delphy Doyen Edsall Farenholt Farquhar Flusser
+				Fuller Gillis O'Gillis Guiness McGuiness O'Guiness Gilmer Goff Goldsborough Greene Hatfield Henshaw Herndon Hovey Hulbert Hull Humphreys
+				Hunt Isherwood Kirke Paulding Donaldson McDonald O'Donald Kidder Ragan "La Vallette" Lamson Lardner Laub Litchfield Long MacLeish
+				Marcus McCalla McCawley Crowley Crawley McCrowley McCrawley O'Crowley O'Crawley McCook O'Cook Flanders McDermut Dermut McFarland
+				Farland McLanahan Tenant Meade Dafoe Melvin Mervine Moody Mullany Noa Osborne Osbourne Bourne Miles Overton Parrott Peary Percival
+				Pillsbury Pope Garvey Pruitt Putnam Reno James Satterlee Selfridge Semmes Sharkey Shirk Shubrick Sicard Sloat Somers Southard Stoddert
+				Sturtevant Sumner Swasey Tingey Toucey Tracy Trever Welles Maxwell Woodbury Worden Yarborough Zane Zeilin Monaghan Aylwin Soley
+				Ancrum McRae Phelps Stowell Moffett Balch Cummings Drayton Conyngham Cassin Downes Cushing Dunlap Fanning Henley Jarvis
+				Jouett Benham Ellet Mayrant Trippe Rhind Colden Stack Sims Hammann Walke Roe Asbury Wainwright Buck Benson Mayo Woodworth Boyle
+				Frazier Gansevoort Gillespie Hobby Kendrick McKendrick O'Kendrick Nields Ordronaux Gleaves Niblack Livermore Eberle Plunkett Kearny
+				Travers Grayson Monssen Edison Ericsson Eriksen Mosbey Aldrin Stinson Scherbatsky McConnell O'Connell Connell Bristol Ellyson Hambleton
+				Rodman Emmons Macomb Fitch Hobson Lansdowne Quick Carmick Doyle Endicott Frankford Davison Glennon Jeffers Cowie Power Powers
+				Doran Earle Gherardi Kubrick Beatty McBeatty O'Beatty Stevenson Thorn Abner Ammen Bache Beale Bearss Bennion Boyd
+				Bradford Braine Brownson Bryant Bullard Callaghan McCallaghan O'Callaghan Caperton Capps Charrette Chevalier Bronson Cogswell Colahan
+				Cony Cotten Daly Dashiell "De Haven" Haven Dortch Erben Franks Fullam Gatling Guest Haggard Hailey Halford Halligan Healy Heermann Hickox
+				Hoel Howorth Ingersoll Izard Killen Knapp Laws Leutze Longshaw McCord McGowan McNair Mertz Metcalf Newcomb Owen Picking Porterfield
+				Pringle Remey Ringgold Rooks Rowe Saufley Schroeder Sigsbee Smalley Spence Stanly Stembel Stockham Stoddard Strong Terry Trathen Twining
+				"Van Valkenburgh" Wadleigh Wadsworth Waller Wedderburn Wiley Wren Moale English Sperry Ault Waldron Haynsworth Weeks Hank Lind Gainard
+				Dickson Purvis Mansfield Swenson Collett Hyman Abele Purdy Drexler Brush Taussig Westmoreland Hubbard Pierce Brosnan Bole
+				Thomason Lowry Hadley Keith McKeith O'Keith Zellars Massey Stormes Fraser Tolman Shea Ditter Lindsey Agerholm Isbell Basilone Bausell
+				Bordelon Brinkley Bass Roan Cecil Ware Cone Damato Buckley Dyess Epperson Small Larson Eversole Fechteler Fiske Mayweather Parks Royal
+				Gearing Goodrich Gurke Gyatt Hamner Hanson Ellison Harwood Torchwood Henderson Higbee Holder Hollister Kyes Craig Keppler McCaffery New
+				O'Hare Orleck Ozbourn Rich McMaster McMasters Kraus Card McCard O'Card Rogers Rupertus Sarsfield Shelton Southerland Steinaker
+				Timmerman Vesole Fiorentino Vogelgesang Lawe Wiltsie Witek Rickover Barre Solomon Vinson Stennis Gass Ordway Warfington Pike Rockefeller
+				Vanderbilt Jobbs McDonnell Earheart Montana Fishburne Hemmingway Ambrose Uhlmann Carnegie Stickell Prichett Lofberg Panetta
+				Eastmoreland Northmoreland Southmoreland Oates Oldfellow Goldman Sachs Oldman Big Nordberg Prone Tatum Diaz Mahoney Bogart Kissinger
+				Walpole Wolsey Corbin Bercow Blackford Whiteford Blueford Greenford Redford Yellowford Orangeford Mallard Starling Woodcock Bayntun
+				Bazely Berry Blackwood Whitewood Bluewood Greenwood Yellowwood Redwood Orangewood Burges Capel Cooke Dacres Domett Drury Gardiner
+				Garlies Goodall Goodson Gore Gould Grindall Hoste Inglis Inman Keats Kempthorne Kingsmill Lawford Loring Louis Manners Moorsom
+				Mounsey Pasley Affleck Aylmer Bentinck Bentley Bickerton Bligh Braithwaite Bullen Byard Byron Calder Conn Cosby Cotton Cranstoun Cubitt
+				Curzon Dakins Deane Duckworth Duff Ekins Essington Fitzroy Halsted Hargood Hotham Narborough Redmill Blackmill Whitemill Bluemill Greenmill
+				Yellowmill Orangemill Retalick Riou Rupert Rutherford Seymour Spragge Stayner Thornborough Torrington Trollope Waldegrave Whitaker Pitcairn
+				Dalrymple Dampier Brighton Broadwater Broadway Burnham Burwell Codrington Elphinstone Kempenfelt Kelvin Tarantino Forte Raleigh Frobisher Cavendish
+				Anson Howe Monck Cornwallis Montagu Dundas Pellew McNamara Hewlett Packard Brunel Lettwin Rhodes Windsor
+			}
+
+			regnal_first_names_male = {
+				Arthur Charles John Henry Max Robert Victor George Theodor
+			}
+
+			regnal_first_names_female = {
+				Jacqueline Theodora Miranda Cordelia Henrietta
+
+			}
+			regnal_second_names = {
+				Washington Jefferson Franklin Revere Johnson Adams Madison Williamson Fitzsimmon Hamilton Bartlett Hoover Kennedy
+			}
+		}
+		
+	}
+}

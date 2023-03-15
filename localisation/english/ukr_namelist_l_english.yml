@@ -1,0 +1,24 @@
+﻿l_english:
+ ####################################
+ # Misc
+ ####################################
+ name_list_UKRR1:0 "Ukrainian"
+ name_list_UKRR1_desc:0 "Ukrainian Names for Ships and maybe other stuff"
+ UKRR1_xxFLEET_ORD:0 "$O$ Flot"
+ UKRR1_xxPLANETARYGUARD_ORD:0 "$O$ Planetary Guard"
+ UKRR1_xxEXPEDITIONARYFORCE_ORD:0 "$O$ Expeditionary Force"
+ UKRR1_xxINDENTUREDRIFLES_ORD:0 "$O$ Indentured Rifles"
+ UKRR1_xxCLONEARMY_ORD:0 "$O$ Clone Army"
+ UKRR1_xxDREADCOMMANDO_ORD:0 "$O$ Dread Commando"
+ UKRR1_xxHUNTERKILLERGROUP_ORD:0 "$O$ Hunter-Killer Group"
+ UKRR1_xxGROUNDDEFENSEMATRIX_ORD:0 "$O$ Ground Defense Matrix"
+ UKRR1_xxPSICOMMANDO_ORD:0 "$O$ Psi Commando"
+ UKRR1_xxBIOWARFAREDIVISION_ORD:0 "$O$ Bio-Warfare Division"
+ UKRR1_xxBIOENGINEEREDSQUADRON_ORD:0 "$O$ Bio-Engineered Squadron"
+ UKRR1_xxGARRISONFORCE_ORD:0 "$O$ Garrison Force"
+ UKRR1_xxMECHANIZEDGARRISON_ORD:0 "$O$ Mechanized Garrison"
+ UKRR1_PRIMITIVEARMYxx_SEQ:0 "Cossack Polk $C$"
+ UKRR1_INDUSTRIALARMYxx_SEQ:0 "Mechanizovana Dyvizia $C$"
+ UKRR1_POSTATOMICARMYxx_SEQ:0 "Tankova Dyvizia $C$"
+ 
+ 

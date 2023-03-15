@@ -1,0 +1,242 @@
+﻿### Ukrainian 1
+### Created by Kamepin
+
+UKRR1 = {
+	category = "Humanoid"
+	ship_names = {
+
+		generic = {
+			Pryluky Sloviansk Starobilsk Skadovsk Akkerman Kremenchuk Lubny Vyshhorod Kostopil "Hola Prystan" Svatove Henichesk Malyn Stanislav Fastiv Sambir Drohobych Pustomyty Prydniprovia Tsiurupynsk Artemivsk Horlivka Svitlovodsk Izmail Kahovka Brianka Donbass Pereiaslav Chyhyryn Smila "Nova Kahovka" Netishyn Sokal Balta Shostka Korec Slavutych "Velyka Oleksandrivka" Skvyra Kremenets Olvia Vilnohirsk Enerhodar Borschiv Yevpatoria Dzhankoi Yalta "Novhorod-Siverskyi" Bilyaivka Makiyivka Bakhmach "Novyi Buh" Berdychiv Korosten Artsyz Kovel Feodosia Romny Dobropillia Pivdennyi Chornomorsk Novoozerne Dybno Kalanchak Myrhorod Berestechko Kaharlyk Sarny Khmilnyk Zolotonosha Tokmak Lisozavodsk Amethyst Oniks Dynai Darnytsia Obolon Bakhchysarai Bilohirsk "Yani Qapu" Qurman Haisyn Zhmerynka "Mohyliv-Podilskyi" Tulchyn Volodymyr "Kamin-Kashyrskyi" Novomoskovsk Synelnykove Volnovakha Kalmiuske Pokrovsk "Novohrad-Volynskyi" Berehove Mukachevo Rakhiv Tiachiv Khust Berdyansk Vasylivka Polohy Verkhovyna Kalush Kolomyia Kosiv Nadvirna Boryspil Brovary Bucha Obukhiv Holovanivsk Novoukrainka Oleksandriia Dovzhansk Rovenky Novoaidar Zolochiv Chervonohrad Yavoriv Bashtanka Pervomaisk Berezivka "Bilhorod-Dnistrovskyi" Bolhrad Podilsk Rozdilna Varash Dubno Konotop Okhtyrka Bohodukhiv Izium Krasnohrad Kupiansk Lozova Chuhuiv Beryslav "Nova Kakhovka" "Kamianets-Podilskyi" Shepetivka Zvenyhorodka Uman Vyzhnytsia Kelmentsi Koriukivka Nizhyn Chronobaivka Kyiv Kharkiv Dnipro Odesa Donetsk Zaporizhzhia Lviv "Kryvyi Rih" Mykolaiv Mariupol Luhansk Makiivka Vinnytsia Simferopol Sevastopol Kherson Poltava Chernihiv Sumy Horlivka Zhytomyr Kamianske Kropyvnytskyi Khmelnystkyi Rivne Chernivtsi Kremenchuk Ternopil "Ivano-Frankivsk" Lutsk "Bila Tserkva" Kramatorsk Melitopol Kerch Nikopol Sloviansk Berdiansk Severodonetsk Alchevsk Pavlohrad Uzhhorod Hostomel "Bohdan Khmelnytsky" "Yurii Khmelnytsky" "Ivan Vyhovsky" "Pavlo Teteria" "Petro Doroshenko" "Ivan Briukhovetsky" "Ivan Mazepa" "Ivan Skoropadsky" "Pylyp Orlyk" "Ivan Mazepa" "Pavlo Skoropadsky" "Kyi" "Askold" "Volodymyr Velykyi" "Yaroslav Mydryi" "Kniahynia Olha" "Danylo Halytskyi" "Mykhailo Hrushevsky" "Kost Levytsky" "Symon Petliura" "Volodymyr Vynnychenko" "Viktor Yushchenko" "Petro Poroshenko" "Volodymyr Zelenskyy" Halychyna Podillya Polisia Carpaty Volyn Slobozhanshchyna Donbas Bucovyna Siveria Ruthenia Krym Taurida Zakarpattya Pryazovia Budzhak Pokuttia Zenit Cyclone Maiak "Sunyi Vody" Korsyn Berestechko Makivka Kruty Chortkiv Voznesensk Ilovaisk Debalstseve Zmiinyi Ivankiv Vasylkiv Bulat Oplot Yanhan Dozor Spartan Cougar Cobra Shrek Raptor Fortecia Kozak Varta Polozhenia Phantom Manhust Varan Otaman Harmata Falconet Vasylisk Mortyra Porok Catapulta Fort Vulkan Alligator T-Rex Korsar Skif Stuhna Javelin Nlaw Milan Strila Stinger Starstreak Bastion Hrad Pechora Narva Bohdana Kamerton Molot Berest Verba Vilcha Hrim Korshun Neptun Sapsan Chaika Tavria Sich Bayraktar "Sviata Varvara" "Roman Velykyi" "Knyaz Vitov" "Taras Triasylo" "Kost Hordienko" "Yakov Handziuk" "Roman Dashkevych" "Viktor Pavlenko" "Mykhailo Ostorohradskyi" "Mykhailo Bilynskyi" "Yurii Tiutiunyk" "Konstiantyn Pestushko" "Holodnyi Yar" "Chorni Zaporozhtsi" Himars
+			}
+		
+		corvette = { 
+			Pryluky Sloviansk Starobilsk Skadovsk Akkerman Kremenchuk Lubny Vyshhorod Kostopil "Hola Prystan" Svatove Henichesk Malyn Stanislav Fastiv Sambir Drohobych Pustomyty Prydniprovia Tsiurupynsk Artemivsk Horlivka Svitlovodsk Izmail Kahovka Brianka Donbass Pereiaslav Chyhyryn Smila "Nova Kahovka" Netishyn Sokal Balta Shostka Korec Slavutych "Velyka Oleksandrivka" Skvyra Kremenets Olvia Vilnohirsk Enerhodar Borschiv Yevpatoria Dzhankoi Yalta "Novhorod-Siverskyi" Bilyaivka Makiyivka Bakhmach "Novyi Buh" Berdychiv Korosten Artsyz Kovel Feodosia Romny Dobropillia Pivdennyi Chornomorsk Novoozerne Dybno Kalanchak Myrhorod Berestechko Kaharlyk Sarny Khmilnyk Zolotonosha Tokmak Lisozavodsk Amethyst Oniks Dynai Darnytsia Obolon Bakhchysarai Bilohirsk "Yani Qapu" Qurman Haisyn Zhmerynka "Mohyliv-Podilskyi" Tulchyn Volodymyr "Kamin-Kashyrskyi" Novomoskovsk Synelnykove Kalmiuske Pokrovsk "Novohrad-Volynskyi" Berehove Mukachevo Rakhiv Tiachiv Khust Berdyansk Vasylivka Polohy Verkhovyna Kalush Kolomyia Kosiv Nadvirna Boryspil Brovary Obukhiv Holovanivsk Novoukrainka Oleksandriia Dovzhansk Rovenky Novoaidar Zolochiv Chervonohrad Yavoriv Bashtanka Pervomaisk Berezivka "Bilhorod-Dnistrovskyi" Bolhrad Podilsk Rozdilna Varash Dubno Konotop Bohodukhiv Izium Krasnohrad Kupiansk Lozova Chuhuiv Beryslav "Nova Kakhovka" "Kamianets-Podilskyi" Shepetivka Zvenyhorodka Uman Vyzhnytsia Kelmentsi Koriukivka Nizhyn Chronobaivka
+			}
+		
+		destroyer = {
+			Kyiv Kharkiv Dnipro Odesa Donetsk Zaporizhzhia Lviv "Kryvyi Rih" Mykolaiv Mariupol Luhansk Makiivka Vinnytsia Simferopol Sevastopol Kherson Poltava Chernihiv Sumy Horlivka Zhytomyr Kamianske Kropyvnytskyi Khmelnystkyi Rivne Chernivtsi Kremenchuk Ternopil "Ivano-Frankivsk" Lutsk "Bila Tserkva" Kramatorsk Melitopol Kerch Nikopol Sloviansk Berdiansk Severodonetsk Alchevsk Pavlohrad Uzhhorod Hostomel Volnovakha Bucha Okhtyrka
+		}
+		
+		cruiser = {
+			"Bohdan Khmelnytsky" "Yurii Khmelnytsky" "Ivan Vyhovsky" "Pavlo Teteria" "Petro Doroshenko" "Ivan Briukhovetsky" "Ivan Mazepa" "Ivan Skoropadsky" "Pylyp Orlyk" "Ivan Mazepa" "Pavlo Skoropadsky" "Kyi" "Askold" "Volodymyr Velykyi" "Yaroslav Mydryi" "Kniahynia Olha" "Danylo Halytskyi" "Mykhailo Hrushevsky" "Kost Levytsky" "Symon Petliura" "Volodymyr Vynnychenko" "Viktor Yushchenko" "Petro Poroshenko" "Volodymyr Zelenskyy"
+		}
+		
+		battleship = {
+			Halychyna Podillya Polisia Karpaty Volyn Slobozhanshchyna Donbas Bucovyna Siveria Ruthenia Krym Taurida Zakarpattya Pryazovia Budzhak Pokuttia Chaika Tavria Sich Bayraktar
+		}
+
+		titan = {
+			Zenit Cyclone Mayak
+		}
+
+		colossus = {
+			Satana Chornobyl
+		}
+		
+		science = {
+			Korolyov Pirotsky Puluy Sikorsky Kondratyuk Smakula Antonov Romankiv Vernadsky Mechnikov Paton Chelomey "Lozino-Lozinskiy" Glushko
+		}
+		
+		colonizer = {
+			"Zelenyi Klyn" "Malynovyi Klyn" "Siryi Klyn" "Zhovtyi Klyn" "Chervonyi Klyn" "Sunyi Klyn" "Bilyi Klyn" "Holybyi Klyn" "Orandzhevyi Klyn"
+		}
+		
+		constructor = {
+			Dnipro Kilchen "Pivdenny Buh" Dnister "Siversky Donets" Desna Horyn Inhulets Psel Slych Styr "Zahidnyi Buh" Teteriv Sula Inhul Vorskla Ros Oril Uday Vovcha Samara Khorol Prut Prypiat Uzh Zbruch Seret Stryi Dunai 
+		}
+
+		transport = {
+			"Sunyi Vody" Korsyn Berestechko Makivka Kruty Chortkiv Voznesensk Ilovaisk Debalstseve Zmiinyi Ivankiv Vasylkiv Bulat Oplot Yanhan Dozor Spartan Cougar Cobra Shrek Raptor Fortecia Kozak Varta Polozhenia Phantom Manhust Varan Otaman "Sviata Varvara" "Roman Velykyi" "Knyaz Vitov" "Taras Triasylo" "Kost Hordienko" "Yakov Handziuk" "Roman Dashkevych" "Viktor Pavlenko" "Mykhailo Ostorohradskyi" "Mykhailo Bilynskyi" "Yurii Tiutiunyk" "Konstiantyn Pestushko" "Holodnyi Yar" "Chorni Zaporozhtsi"
+		}
+	
+		military_station_small = {
+			"Zaporizhska Sich" Khortytsia Tomakivka Bazavluk Mykytyn Chortomlyk Kamyanka Oleshky Pidpilnenska Zadunaiska
+		}
+
+		ion_cannon = {
+			Harmata Falconet Vasylisk Mortyra Porok Catapulta Fort Vulkan Alligator T-Rex Korsar Skif Stuhna Javelin Nlaw Milan Strila Stinger Starstreak Bastion Hrad Pechora Narva Bohdana Kamerton Molot Berest Verba Vilcha Hrim Korshun Neptun Sapsan Himars
+			}
+	}
+
+	ship_class_names = {
+		generic = {
+			Chaika Baidak Halera Lodia Zenit Cyclone Maiak Dnipro Svytiaz Kyiv Kharkiv Dnipro Odesa Donetsk Zaporizhzhia Lviv Donbas Tavria Sich Bayraktar
+		}		
+	}
+
+	fleet_names = {
+		sequential_name = UKRR1_xxFLEET_ORD
+	}
+	
+	army_names = {
+
+		machine_defense = {
+			sequential_name = UKRR1_xxPLANETARYGUARD_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = UKRR1_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = UKRR1_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = UKRR1_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		defense_army = {
+			sequential_name = UKRR1_xxPLANETARYGUARD_ORD
+		}
+
+		assault_army = {
+			sequential_name = UKRR1_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		slave_army = {
+			sequential_name = UKRR1_xxINDENTUREDRIFLES_ORD
+		}
+
+		clone_army = {
+			sequential_name = UKRR1_xxCLONEARMY_ORD
+		}
+
+		undead_army = {
+			sequential_name = UKRR1_xxDREADCOMMANDO_ORD
+		}
+
+		robotic_army = {
+			sequential_name = UKRR1_xxHUNTERKILLERGROUP_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = UKRR1_xxGROUNDDEFENSEMATRIX_ORD
+		}
+
+		psionic_army = {
+			sequential_name = UKRR1_xxPSICOMMANDO_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = UKRR1_xxBIOWARFAREDIVISION_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = UKRR1_xxBIOENGINEEREDSQUADRON_ORD
+		}
+
+		occupation_army = {
+			sequential_name = UKRR1_xxGARRISONFORCE_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = UKRR1_xxMECHANIZEDGARRISON_ORD
+		}
+
+		primitive_army = {
+			sequential_name = UKRR1_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = UKRR1_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = UKRR1_POSTATOMICARMYxx_SEQ
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Kyiv Kharkiv Dnipro Odesa Donetsk Zaporizhzhia Lviv "Kryvyi Rih" Mykolaiv Mariupol Luhansk Makiivka Vinnytsia Simferopol Sevastopol Kherson Poltava Chernihiv Sumy Horlivka Zhytomyr Kamianske Kropyvnytskyi Khmelnystkyi Rivne Chernivtsi Kremenchuk Ternopil "Ivano-Frankivsk" Lutsk "Bila Tserkva" Kramatorsk Melitopol Kerch Nikopol Sloviansk Berdiansk Severodonetsk Alchevsk Pavlohrad Uzhhorod
+				}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	character_names = {
+		default = {
+			first_names_male = {
+				Oleksandr Maksym Vladyslav Dmytro Artem Ivan Illia Mykyta Nikita Danylo Daniil Kyrylo Andrii Volodymyr Bogdan
+				Nazar Zakharii Luka Liubomyr Radomir Yelysei Matvii Lavrentii Makar Savelii Boryslav Serhii Leonid Hryhorii Heorhii
+				Yaroslav Mykhailo Vasyl Valentyn Viktor
+			}
+			first_names_female = {
+				Anastasia Anna Sophia Yelyzaveta Maria Kateryna Hanna Daryna Viktoria Veronika Khrystyna Yulia Oleksandra Valeria
+				Diana Evelina Mstyslava Zlata Solomia Roksolana Marfa Uliana Vasylyna Svitlana Natalia Oksana Iryna Halyna Olena
+				Olga Liubov Nina Lidia Nadia Larysa Yaroslava Maia
+			}
+			second_names_male = {
+				Melnyk Shevchenko Bondarenko Kovalenko Boiko Tkachenko Kravchenko Kovalchuk Koval Shevchuk Polyshchuk Bondar
+				Olyinyk Lysenko Moroz Marchenko Tkachuk Savchenko Rudenko Petrenko Klymenko Pavlenko Kolesnyk Kravchuk Kuzmenko
+				Ponomarenko Savchuk Vasylenko Levchenko Sydorenko Kharchenko Diachenko Karpenko Shvets Havrylyuk Lytvynenko Melnychuk Myroshnychenko
+			}
+			second_names_female = {
+				Melnyk Shevchenko Bondarenko Kovalenko Boiko Tkachenko Kravchenko Kovalchuk Koval Shevchuk Polyshchuk Bondar
+				Olyinyk Lysenko Moroz Marchenko Tkachuk Savchenko Rudenko Petrenko Klymenko Pavlenko Kolesnyk Kravchuk Kuzmenko
+				Ponomarenko Savchuk Vasylenko Levchenko Sydorenko Kharchenko Diachenko Karpenko Shvets Havrylyuk Lytvynenko Melnychuk Myroshnychenko
+			}
+			regnal_first_names_male = {
+				Oleksandr Maksym Vladyslav Dmytro Artem Ivan Illia Mykyta Nikita Danylo Daniil Kyrylo Andrii Volodymyr Bogdan
+				Nazar Zakharii Luka Liubomyr Radomir Yelysei Matvii Lavrentii Makar Savelii Boryslav Serhii Leonid Hryhorii Heorhii
+				Yaroslav Mykhailo Vasyl Valentyn Viktor
+			}
+			regnal_first_names_female = {
+				Anastasia Anna Sophia Yelyzaveta Maria Kateryna Hanna Daryna Viktoria Veronika Khrystyna Yulia Oleksandra Valeria
+				Diana Evelina Mstyslava Zlata Solomia Roksolana Marfa Uliana Vasylyna Svitlana Natalia Oksana Iryna Halyna Olena
+				Olga Liubov Nina Lidia Nadia Larysa Yaroslava Maia
+			}
+			regnal_second_names = {
+				Melnyk Shevchenko Bondarenko Kovalenko Boiko Tkachenko Kravchenko Kovalchuk Koval Shevchuk Polyshchuk Bondar
+				Olyinyk Lysenko Moroz Marchenko Tkachuk Savchenko Rudenko Petrenko Klymenko Pavlenko Kolesnyk Kravchuk Kuzmenko
+				Ponomarenko Savchuk Vasylenko Levchenko Sydorenko Kharchenko Diachenko Karpenko Shvets Havrylyuk Lytvynenko Melnychuk Myroshnychenko
+			}
+		}
+	}
+}
