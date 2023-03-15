@@ -1,0 +1,17 @@
+music = {
+	name = "lel27"
+	file = "lel27.ogg"
+	volume = 0.7
+}
+
+music = {
+	name = "RuleBritannia"
+	file = "RuleBritannia.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "creationandbeyond"
+	file = "creationandbeyond.ogg"
+	volume = 0.80
+}
