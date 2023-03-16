@@ -1208,7 +1208,7 @@ ship_rank_elite = {
 # Country modifiers
 ##########################################################################
 over_starbase_capacity = {
-	starbases_upkeep_mult = 0.25
+	starbases_upkeep_mult = 0.15
 }
 
 ruler_ship = {
