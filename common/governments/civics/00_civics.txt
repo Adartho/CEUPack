@@ -2383,7 +2383,7 @@ civic_ascensionists = {
 	modifier = {
 		planetary_ascension_effect_mult = 0.25
 		planetary_ascension_cost_mult = -0.1
-		tradition_cost_empire_size_mult = -0.25
+		tradition_cost_empire_size_mult = -0.60
 	}
 }
 
