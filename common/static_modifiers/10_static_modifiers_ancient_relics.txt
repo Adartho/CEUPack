@@ -426,3 +426,10 @@ mask_of_transformation = {
 	terraform_speed_mult = 0.10
 	terraforming_cost_mult = -0.10
 }
+
+zroni_storm = {
+	ship_shield_reduction = 1.0
+	ship_speed_reduction = 0.5
+	ship_accuracy_mult = -0.3
+	ship_fire_rate_mult = -0.3
+}

@@ -9,6 +9,11 @@
 @EdictMedPrio = 10
 @EdictLowPrio = 3
 
+### CIVIC PICKS
+@civic_default_random_weight = 5
+@civic_uncommon_random_weight = 3
+@civic_rare_random_weight = 1
+
 ### EVENT REWARDS
 
 @tier1materialreward = 6
@@ -155,7 +160,9 @@
 @base_moon_distance = 10
 
 # TECH COSTS
-@tier0cost1 = 500
+@tier0cost1 = 1000
+@tier0cost2 = 1250
+@tier0cost3 = 1500
 
 @tier1cost1 = 2000
 @tier1cost2 = 2500
@@ -227,6 +234,11 @@
 @traderOpinion3 = 3
 
 # BUILDINGS
+@b0_time = 180
+@b0_minerals = 200
+@b0_upkeep = 1
+@b0_jobs = 2
+
 @b1_time = 360
 @b1_minerals = 400
 @b1_upkeep = 2
@@ -262,6 +274,7 @@
 @ap_technological_ascendancy_rare_tech = 1.5
 @ap_grasp_the_void_travel_tech = 1.5
 @federation_perk_factor = 2
+@eager_explorer_effect = 5
 
 @lithoid_trait_resource_production = 0.025
 @drake_scaled_trait_resource_production = 0.025
@@ -308,6 +321,15 @@
 @robots_ai_tech_factor = 2 	# Extra AI chance for robot-related techs.
 @housing_ai_tech_factor = 1.5 	# Extra AI chance for housing-related techs.
 @building_slots_ai_tech_factor = 1.5 	# Extra AI chance for more building slots.
+
+# AI civic picks
+@ai_civic_default_base_weight = 5
+@ai_civic_uncommon_base_weight = 3
+@ai_civic_rare_base_weight = 1
+@ai_civic_personality_match_factor = 3
+@ai_civic_personality_mismatch_factor = 0.2
+@ai_civic_personality_forbid_factor = 0
+
 
 # Toxoids
 @exotic_metabolism = 0.125

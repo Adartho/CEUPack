@@ -1,5 +1,8 @@
 # From observation station mission
 native_indoctrination = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_alien_propaganda.dds"
+	icon_frame = 1
+
 	pop_ethics_shift_speed_mult = 3
 }
 
@@ -199,12 +202,24 @@ covenant_whisperers_in_the_void_0 = {
 	country_unity_produces_mult = -0.07
 }
 
+covenant_whisperers_in_the_void_0_fircon = {
+	ship_cloaking_strength_add = 1
+}
+
 covenant_whisperers_in_the_void = {
 	all_technology_research_speed = 0.10
 	country_influence_produces_mult = 0.15
 	intel_decryption_add = 2
 	planet_stability_add = -7
 	country_unity_produces_mult = -0.15
+}
+
+covenant_whisperers_in_the_void_fircon = {
+	ship_cloaking_strength_add = 2
+}
+
+covenant_detection_first_contact = {
+	ship_cloaking_detection_add = 5
 }
 
 covenant_composer_of_strands_0 = {

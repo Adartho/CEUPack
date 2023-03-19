@@ -379,6 +379,6 @@ federation_name_format = {
 			has_federation_type = spiritualist_federation
 		}
 	}
-	lookups = "{<spiritualist_federation_names_1_1> {<spiritualist_federation_names_1_2>}}"
+	format = "{<spiritualist_federation_names_1_1> {<spiritualist_federation_names_1_2>}}"
 }
 

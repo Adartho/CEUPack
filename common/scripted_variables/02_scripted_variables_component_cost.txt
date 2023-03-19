@@ -124,6 +124,16 @@
 @titanic_t7_rare = 8.79
 
 #################
+# MINOR ARTIFACTS
+#################
+
+@minor_artifacts_cost_s = 8
+@minor_artifacts_cost_m = 10
+@minor_artifacts_cost_l = 12
+
+@minor_artifacts_cost_xl = 45
+
+#################
 # SHIELDS
 #################
 
@@ -357,3 +367,100 @@
 @regen_S7 = 2.00
 @regen_M7 = 5.00
 @regen_L7 = 12.50
+
+############
+# Cloaking #
+############
+
+# Corvette/Destroyer/Defensive Platforms
+
+@cloak_s_t1_cost_alloys = 20
+@cloak_s_t2_cost_alloys = 25
+@cloak_s_t3_cost_alloys = 35
+@cloak_s_t4_cost_alloys = 45
+@cloak_s_t5_cost_alloys = 55
+
+@cloak_s_t1_cost_strategic_resources = 5
+@cloak_s_t2_cost_strategic_resources = 7
+@cloak_s_t3_cost_strategic_resources = 9
+@cloak_s_t4_cost_strategic_resources = 11
+@cloak_s_t5_cost_strategic_resources = 14
+
+@cloak_s_cost_sr_dark_matter = 0.125
+@cloak_s_cost_sr_zro = 0.125
+
+@cloak_s_t1_upkeep_energy = 0.100
+@cloak_s_t1_upkeep_alloys = 0.020
+@cloak_s_t2_upkeep_energy = 0.125
+@cloak_s_t2_upkeep_alloys = 0.025
+@cloak_s_t3_upkeep_energy = 0.175
+@cloak_s_t3_upkeep_alloys = 0.035
+@cloak_s_t4_upkeep_energy = 0.225
+@cloak_s_t4_upkeep_alloys = 0.045
+@cloak_s_t5_upkeep_energy = 0.275
+@cloak_s_t5_upkeep_alloys = 0.055
+
+# Cruisers
+@cloak_m_t1_cost_alloys = 40
+@cloak_m_t2_cost_alloys = 50
+@cloak_m_t3_cost_alloys = 70
+@cloak_m_t4_cost_alloys = 90
+@cloak_m_t5_cost_alloys = 110
+
+@cloak_m_t1_cost_strategic_resources = 10
+@cloak_m_t2_cost_strategic_resources = 13
+@cloak_m_t3_cost_strategic_resources = 17
+@cloak_m_t4_cost_strategic_resources = 22
+@cloak_m_t5_cost_strategic_resources = 29
+
+@cloak_m_cost_sr_dark_matter = 0.25
+@cloak_m_cost_sr_zro = 0.25
+
+@cloak_m_t1_upkeep_energy = 0.20
+@cloak_m_t1_upkeep_alloys = 0.040
+@cloak_m_t2_upkeep_energy = 0.25
+@cloak_m_t2_upkeep_alloys = 0.050
+@cloak_m_t3_upkeep_energy = 0.35
+@cloak_m_t3_upkeep_alloys = 0.070
+@cloak_m_t4_upkeep_energy = 0.45
+@cloak_m_t4_upkeep_alloys = 0.090
+@cloak_m_t5_upkeep_energy = 0.55
+@cloak_m_t5_upkeep_alloys = 0.110
+
+# Battleships/Titans
+@cloak_l_t1_cost_alloys = 80
+@cloak_l_t2_cost_alloys = 100
+@cloak_l_t3_cost_alloys = 140
+@cloak_l_t4_cost_alloys = 180
+@cloak_l_t5_cost_alloys = 220
+
+@cloak_l_t1_cost_strategic_resources = 20
+@cloak_l_t2_cost_strategic_resources = 26
+@cloak_l_t3_cost_strategic_resources = 34
+@cloak_l_t4_cost_strategic_resources = 44
+@cloak_l_t5_cost_strategic_resources = 57
+
+@cloak_l_cost_sr_dark_matter = 0.50
+@cloak_l_cost_sr_zro = 0.50
+
+@cloak_l_t1_upkeep_energy = 0.40
+@cloak_l_t1_upkeep_alloys = 0.080
+@cloak_l_t2_upkeep_energy = 0.50
+@cloak_l_t2_upkeep_alloys = 0.100
+@cloak_l_t3_upkeep_energy = 0.70
+@cloak_l_t3_upkeep_alloys = 0.140
+@cloak_l_t4_upkeep_energy = 0.90
+@cloak_l_t4_upkeep_alloys = 0.180
+@cloak_l_t5_upkeep_energy = 0.110
+@cloak_l_t5_upkeep_alloys = 0.220
+
+# #######################
+# AUX COMPONENT WEIGHTS #
+#########################
+
+@T1_weight	= 5
+@T2_weight	= 10
+@T3_weight	= 15
+@T4_weight	= 20
+@T5_weight	= 25
+@T6_weight	= 30

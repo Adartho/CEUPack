@@ -11,6 +11,7 @@
 @speed_default = 120
 @speed_fast = 140
 @speed_very_fast = 160
+@speed_event_super_slow = 0.5
 
 @station_civilian_hp = 2000
 @station_small_hp = 3000

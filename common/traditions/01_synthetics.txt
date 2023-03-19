@@ -26,6 +26,21 @@ tr_synthetics_adopt = {
 			factor = 1
 		}
 	}
+	on_enabled = {
+		hidden_effect = {
+			if = {
+				limit = {
+					any_planet_within_border = {
+						has_planet_flag = fotd_seperatist_planet@root
+						owner = {
+							has_country_flag = fotd_seperatist_country@root
+						}
+					}
+				}
+				country_event = { id = origin.6099 days = 5 random = 2 }
+			}
+		}
+	}
 }
 
 tr_synthetics_finish = {

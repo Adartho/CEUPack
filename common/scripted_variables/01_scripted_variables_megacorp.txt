@@ -2,6 +2,8 @@
 # @something = 42
 # They can be overridden in each normal script file.
 
+@galactic_market_nomination_period = 1800
+
 @fleet1dealdecay = 4800
 @fleet2dealdecay = 4800
 @fleet3dealdecay = 4800

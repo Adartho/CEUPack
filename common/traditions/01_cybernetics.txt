@@ -162,6 +162,18 @@ tr_cybernetics_modular_cybernetics = {
 		weight = {
 			factor = 1
 		}
+		on_enabled = {
+			hidden_effect = {
+				if = {
+					limit = {
+						any_pre_ftl_within_border = {
+							has_country_flag = fotd_seperatist_country@root
+						}
+					}
+					country_event = { id = origin.6096 days = 3 }
+				}
+			}
+		}
 	}
 	tradition_swap = {
 		name = tr_cybernetics_modular_cybernetics_2
@@ -178,6 +190,18 @@ tr_cybernetics_modular_cybernetics = {
 		}
 		weight = {
 			factor = 2
+		}
+		on_enabled = {
+			hidden_effect = {
+				if = {
+					limit = {
+						any_pre_ftl_within_border = {
+							has_country_flag = fotd_seperatist_country@root
+						}
+					}
+					country_event = { id = origin.6096 days = 3 }
+				}
+			}
 		}
 	}
 	tradition_swap = {
@@ -196,6 +220,30 @@ tr_cybernetics_modular_cybernetics = {
 		}
 		weight = {
 			factor = 3
+		}
+		on_enabled = {
+			hidden_effect = {
+				if = {
+					limit = {
+						any_pre_ftl_within_border = {
+							has_country_flag = fotd_seperatist_country@root
+						}
+					}
+					country_event = { id = origin.6096 days = 3 }
+				}
+			}
+		}
+	}
+	on_enabled = {
+		hidden_effect = {
+			if = {
+				limit = {
+					any_pre_ftl_within_border = {
+						has_country_flag = fotd_seperatist_country@root
+					}
+				}
+				country_event = { id = origin.6096 days = 3 }
+			}
 		}
 	}
 }

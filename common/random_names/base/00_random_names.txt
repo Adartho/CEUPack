@@ -2077,6 +2077,42 @@ star_names = {
 	Denebola
 	Celeth
 	Cuzuni
+	
+	# 2023 onwards
+	Valemar
+	Feryj
+	Coundra
+	Veliko
+	Beals
+	Andzans
+	Ghelli
+	Avishek
+	Choudin
+	Emer
+	Abrez
+	Emmajo
+	Fellix
+	Lie
+	Fridar
+	Mordred
+	Hannar
+	Dilen
+	Linkirk
+	Drak-Brok
+	Enberg
+	Petren
+	Matolm
+	Radnitz
+	Jolun
+	Olegis
+	Laback
+	Nihlwing
+	Austeen
+	Nallo
+	Emillind
+	Hakalax
+	Marineb
+	Shcher-bak
 }
 
 nebula_names = {

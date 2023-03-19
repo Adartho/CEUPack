@@ -138,7 +138,17 @@ infinity_beckons = {
 }
 
 into_the_unknown = {
+	icon = "gfx/interface/icons/modifiers/mod_ship_accuracy_add.dds"
 	country_starbase_influence_cost_distance_mult = -0.75
+	catapult_spread_mult = 0.5
+}
+
+quantic_ambush = {
+	ship_fire_rate_mult = 0.33
+}
+
+quantic_ambush_specialists = {
+	ship_fire_rate_mult = 0.17
 }
 
 ########################################
@@ -848,6 +858,11 @@ pm_shroudwalker_teacher = {
 
 salvage_overseer = {
 	scavenge_debris_mult = 0.5
+}
+
+shroudwalker_zro_tithe = {
+	icon = "gfx/interface/icons/modifiers/mod_resource_sr_zro_mult.dds"
+	country_sr_zro_produces_mult = -0.1
 }
 
 ##########################

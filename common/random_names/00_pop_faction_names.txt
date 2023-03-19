@@ -323,7 +323,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "technologist"
 		}
 	}
-	format = "{<technologist_names_2> {<technologist_names_1>}}"
+	format = "{<technologist_names_1> {<technologist_names_2>}}"
 }
 
 ## Traditionalists

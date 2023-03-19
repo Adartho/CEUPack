@@ -145,7 +145,7 @@ infectious_disease = {
 }
 pyramid_wars = {
 	pop_happiness = -0.4
-	icon = "gfx/interface/icons/planet_modifiers/pm_unknown.dds"
+	icon = "gfx/interface/icons/planet_modifiers/pm_unrest.dds"
 	icon_frame = 3
 }
 spiritualist_attraction = {
@@ -467,6 +467,31 @@ low_stellar_output_3 = {
 	pop_environment_tolerance = -0.20
 	planet_stability_add = -10
 }
+planet_political_frontier = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_alien_propaganda.dds"
+	icon_frame = 2 # yellow
+	pop_ethics_shift_speed_mult = 0.5
+}
+planet_political_safezone = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_alien_propaganda.dds"
+	icon_frame = 2 # yellow
+	planet_jobs_unity_produces_mult = -0.2
+	pop_government_ethic_attraction = 0.1
+	planet_stability_add = 10
+}
+planet_political_crackdown = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_alien_propaganda.dds"
+	icon_frame = 2 # yellow
+	planet_jobs_unity_produces_mult = -0.1
+	pop_government_ethic_attraction = 0.2
+	planet_stability_add = 5
+}
+planet_political_admittance = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_smugglers_in_bar.dds"
+	planet_jobs_society_research_produces_mult = 0.20
+	planet_jobs_unity_produces_mult = -0.1
+}
+
 ##########################################################################
 # Empire Modifiers
 ##########################################################################
@@ -701,7 +726,6 @@ development_aides_regular = {
 	country_energy_produces_mult = 0.05
 	country_food_produces_mult = 0.05
 }
-
 
 ##########################################################################
 # Ship Modifiers
