@@ -414,16 +414,6 @@ HMMBN = {
 			"Thales Protector" "Please leave my space"
 		}
 
-		military_station_medium = {
-			"BAE Defender" "Britten-Norman Guardian" "Lockheed Martin Vanquisher" "Marshall Aerospace Annihilator" "Skyrora Limiter" "Rolls-Royce Eradicator"
-			"Thales Protector" "Please leave my space"
-		}
-
-		military_station_large = {
-			"BAE Defender" "Britten-Norman Guardian" "Lockheed Martin Vanquisher" "Marshall Aerospace Annihilator" "Skyrora Limiter" "Rolls-Royce Eradicator"
-			"Thales Protector" "Please leave my space"
-		}
-
 		ion_cannon = {
 			Excalibur Punisher Arbitrator
 		}

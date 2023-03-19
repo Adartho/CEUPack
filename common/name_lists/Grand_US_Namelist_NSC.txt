@@ -332,16 +332,6 @@ GUSNamelistNSC = {
 			"United Defense"
 		}
 
-		military_station_medium = {
-			Bastion Protector Border "Pearl Harbor" "Fort Sumter" Fort Peacekeeper Smith'n'Wesson Colt Browning Lockheed Boeing McDonnell "Northrop Grumman"
-			"United Defense"
-		}
-
-		military_station_large = {
-			Bastion Protector Border "Pearl Harbor" "Fort Sumter" Fort Peacekeeper Smith'n'Wesson Colt Browning Lockheed Boeing McDonnell "Northrop Grumman"
-			"United Defense"
-		}
-
 		ion_cannon = {
 			Liberator Peacekeeper Smith'n'Wesson Colt Browning "General Electric" Stormeye Silvereye "Big Iron"
 		}

@@ -1,8 +1,7 @@
-version="1.2.2"
+name="CEUPack Dev Build"
 tags={
 	"Balance"
 }
-name="CEUPack Dev Build"
-supported_version="3.7.2"
-
+version="1.2.3"
 picture="thumbnail.png"
+supported_version="3.7.*"
