@@ -1,15 +1,14 @@
 setup_scenario = {
 	name = "medium"
 	priority = 4					#priority decides in which order the scenarios are listed
-	default = yes
 	num_stars = 600
 	radius = 400					#should be less than 500, preferably less than ~460
-	num_empires = { min = 0 max = 18 }	#limits player customization
+	num_empires = { min = 0 max = 36 }	#limits player customization
 	num_empire_default = 9
 	fallen_empire_default = 2
-	fallen_empire_max = 3
+	fallen_empire_max = 6
 	marauder_empire_default = 2
-	marauder_empire_max = 2
+	marauder_empire_max = 4
 	advanced_empire_default = 2
 	colonizable_planet_odds = 1.0
 	primitive_odds = 1.0
