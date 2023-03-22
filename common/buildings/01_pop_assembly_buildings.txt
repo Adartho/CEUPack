@@ -987,14 +987,14 @@ building_clone_vats = {
 				exists = owner
 				owner = { is_lithoid_empire = no }
 			}
-			food = 30
+			food = 20
 		}
 		upkeep = {
 			trigger = {
 				exists = owner
 				owner = { is_lithoid_empire = yes }
 			}
-			minerals = 30
+			minerals = 20
 		}
 	}
 
