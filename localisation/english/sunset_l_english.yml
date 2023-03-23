@@ -23,6 +23,9 @@
  civic_frame_slavery:0 "Frame Slavery"
  civic_frame_slavery_desc:0 "This society believes that people should all collectively have a role in producing entertainement, usually through state-forced slavery."
 
+ civic_islam:0 "Islam"
+ civic_islam_desc:0 "This society follows the teachings of Prophet Muhammad."
+
  NAME_Um:0 "Um"
  NAME_Ankoo:0 "Ankoo"
  NAME_Tarkoo:0 "Tarkoo"
