@@ -24,9 +24,9 @@ col_default = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -54,9 +54,9 @@ col_default_machine = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -551,9 +551,9 @@ col_industrial = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	triggered_planet_modifier = {
@@ -661,9 +661,9 @@ col_foundry = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -787,9 +787,9 @@ col_factory = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -886,9 +886,9 @@ col_bureau = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	triggered_planet_modifier = {
@@ -982,9 +982,9 @@ col_bureau_spiritualist = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	triggered_planet_modifier = {
@@ -1096,9 +1096,9 @@ col_bureau_hive = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -1173,9 +1173,9 @@ col_bureau_machine = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -1437,9 +1437,9 @@ col_capital = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -1470,9 +1470,9 @@ col_capital_hive = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -1503,9 +1503,9 @@ col_capital_machine = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -3711,9 +3711,9 @@ col_trophy_machine = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
@@ -3847,9 +3847,9 @@ col_crucible = {
 
 	triggered_planet_modifier = {
 		potential = { uses_district_set = ring_world }
-		pop_growth_speed = 0.1
-		planet_pop_assembly_mult = 0.1
-		planet_pop_assembly_organic_mult = 0.1
+		pop_growth_speed = 0.25
+		planet_pop_assembly_mult = 0.25
+		planet_pop_assembly_organic_mult = 0.25
 	}
 
 	weight_modifier = {
