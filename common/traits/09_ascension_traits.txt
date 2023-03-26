@@ -55,7 +55,7 @@ trait_rapid_breeders_lithoid = {
 # Old Genetic Ascension Traits
 
 trait_delicious = {
-	cost = 1
+	cost = 0
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}
