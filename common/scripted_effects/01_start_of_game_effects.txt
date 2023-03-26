@@ -3812,3 +3812,8 @@ low_tech_start_add_research_options_effect = {
 	add_research_option = tech_basic_science_lab_1
 	add_research_option = tech_planetary_government
 }
+
+
+origins_give_megaengineering_technology = {
+	add_research_option = tech_mega_engineering
+}
