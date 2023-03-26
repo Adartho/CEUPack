@@ -1080,6 +1080,7 @@ origin_imperial_vassal = {
 
 	playable = {
 		has_overlord_dlc = yes
+		always = no
 	}
 
 	possible = {
