@@ -6,7 +6,7 @@ tr_politics_adopt = {
 	
 	custom_tooltip = tr_politics_adopt_desc
 	modifier = {
-		envoys_add = 1
+		envoys_add = 2
 		#Envoys generate influence, handled in the leaders script
 	}
 }
@@ -14,7 +14,7 @@ tr_politics_adopt = {
 tr_politics_finish = {
 	modifier = {
 		custom_tooltip = tr_politics_finish_desc
-		diplo_weight_mult = 0.10
+		diplo_weight_mult = 0.25
 		ascension_perks_add = 1
 		#Also unlocks 4 special resolutions
 	}
@@ -34,8 +34,8 @@ tr_politics_gravitas = {
 	custom_tooltip = tr_politics_gravitas_desc
 
 	modifier = {
-		resolutions_cost_mult = -0.25
-		diplo_weight_envoys_mult = 0.025
+		resolutions_cost_mult = -0.50
+		diplo_weight_envoys_mult = 0.050
 	}
 
 	ai_weight = {
@@ -76,8 +76,8 @@ tr_politics_extraordinary_powers = {
 	}
 
 	modifier = {
-		veto_cooldown_mult = -0.25
-		emergency_measures_cooldown_mult = -0.25
+		veto_cooldown_mult = -0.50
+		emergency_measures_cooldown_mult = -0.50
 	}
 
 	ai_weight = {
