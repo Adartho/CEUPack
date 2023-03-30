@@ -833,7 +833,7 @@ soundeffect = {
 	max_audible = 1
 	max_audible_behaviour = fail
 	fade_out = 0.3
-	volume = 0.25
+	volume = 0.15
 	playbackrate_random_offset = { -10.0 10.0 }
 }
 soundeffect = {
