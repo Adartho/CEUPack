@@ -1073,7 +1073,7 @@ soundeffect =
 soundeffect =
 {
     name = "pc_hive"
-    volume = 0.3
+    volume = 0.1
     max_audible = 1
 	max_audible_behaviour = fail
 	playbackrate_random_offset = { -10.0 10.0 }
@@ -1090,7 +1090,7 @@ soundeffect =
 soundeffect =
 {
     name = "amb_planet_world_relic"
-    volume = 1
+    volume = 0.5
     loop = yes
     is3d = yes
     max_audible = 5
@@ -1108,7 +1108,7 @@ soundeffect =
 soundeffect =
 {
     name = "pc_relic"
-    volume = 0.2
+    volume = 0.1
     max_audible = 1
 	max_audible_behaviour = fail
 	playbackrate_random_offset = { -10.0 10.0 }
