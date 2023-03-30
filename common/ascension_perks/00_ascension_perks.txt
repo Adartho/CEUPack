@@ -963,7 +963,7 @@ ap_executive_vigor = {
 ap_transcendent_learning = {
 	modifier = {
 		leader_skill_levels = 2
-		species_leader_exp_gain = 0.50
+		species_leader_exp_gain = 1.0
 	}
 
 	potential = {

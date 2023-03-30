@@ -741,7 +741,7 @@
  tr_psionics_adopt_shroudwalker_tooltip:0 "Research option gained:\n £society£ §Y$tech_telepathy$§!"
 
  tr_psionics_finish:0 "Psionic Traditions Finished"
- tr_psionics_finish_desc:0 "Unlocks a §YSpecial Project§! to form a Covenant.\n$MOD_COUNTRY_EDICT_FUND_ADD$: §G+50§!\nAscension Perks Unlocked: §G+1§!"
+ tr_psionics_finish_desc:0 "Unlocks a §YSpecial Project§! to form a Covenant.\nEdicts Upkeep: §G-33%§!\nAscension Perks Unlocked: §G+1§!"
 
  tr_psionics_psi_corps:0 "Psi-Corps"
  tr_psionics_psi_corps_desc:0 "$ALLOW_PSI_CORPS$\nResearch option gained:\n £society£ §Y$tech_thought_enforcement$§!"
@@ -921,7 +921,7 @@
  tradition_politics_desc:0 "The Galactic stage is set, and we intend to have the leading role."
 
  tr_politics_adopt:0 "$tradition_politics$ Traditions"
- tr_politics_adopt_desc:0 "§G+1§! Envoy\nEnvoys assigned to the §YGalactic Community§! now produce 0.1 £influence£ §YInfluence§!."
+ tr_politics_adopt_desc:0 "Available Envoys: §G+2§!\nEnvoys assigned to the §YGalactic Community§! now produce 0.1 £influence£ §YInfluence§!."
 
  tr_politics_finish:0 "$tr_politics_adopt$ Finished"
  tr_politics_finish_desc:0 "§G+10%§! £diplo_weight£ Diplomatic Weight\nUnlocks 4 special §YResolutions§! in the Galactic Community.\n$TRADITIONS_FINISH_AP$"
@@ -932,7 +932,7 @@
  MESSAGE_FAVOR_GAINED_POLITICS_TRADITION_DESC:0 "Since we supported their resolution, the $WHO|Y$ now owes us a §YFavor§!."
 
  tr_politics_gravitas:0 "Gravitas"
- tr_politics_gravitas_desc:0 "§G-25%§! £influence£ §YInfluence§! cost to veto or propose Resolutions\nEach §YEnvoy§! assigned to the Galactic Community provides an additional §G2.5%§! £diplo_weight£ Diplomatic Weight. "
+ tr_politics_gravitas_desc:0 "§G-50%§! £influence£ §YInfluence§! cost to veto or propose Resolutions\nEach §YEnvoy§! assigned to the Galactic Community provides an additional §G5%§! £diplo_weight£ Diplomatic Weight. "
  tr_politics_gravitas_delayed:0 "Politics is the art of illusions. By showing others what they want to see, we'll grow our influence in the community."
 
  tr_politics_extraordinary_powers:0 "Extraordinary Powers"
