@@ -1,0 +1,1421 @@
+category = {
+ name = "Effects"
+ soundeffects = {
+
+	event_bad_omen
+	event_big_door_opening
+	event_collapsing_ruins
+	event_dig_site
+	event_trap_laser
+	event_trap_spikes
+	event_dangerous_animals
+	event_door_opening
+	event_drilling
+	event_energy_field
+	event_finding_loot
+	event_machinery
+	event_metal_fatigue
+	event_power_down
+	event_screams
+	event_trap_arrows
+	event_whispering
+	event_wind_ruins
+	precursor_event_baol_organism_animation
+	archeology_log_entry_negative
+	archeology_log_entry_neutral
+	archeology_log_entry_positive
+	archeology_notifications_chapter_complete
+	archeology_notifications_new_dig_site
+	archeology_notifications_random_event
+	archeology_notifications_dig_site_complete
+	pc_hive
+	pc_machine
+	pc_relic
+	relic_activation_blade_of_the_huntress
+	relic_activation_cybrex_war_forge
+	relic_activation_ether_drake_trophy
+	relic_activation_extradimensional_warlock
+	relic_activation_generic
+	relic_activation_head_of_zarqlan
+	relic_activation_intact_zro_soulstone
+	relic_activation_isolated_contingency_core
+	relic_activation_javorian_pox_sample
+	relic_activation_khans_throne
+	relic_activation_miniature_galaxy
+	relic_activation_prethoryn_blood_queen
+	relic_activation_scales_of_the_worm
+	relic_activation_the_galatron
+	relic_activation_the_last_baol
+	relic_activation_the_omnicodex
+	relic_activation_the_rubricator
+	relic_activation_the_surveyor
+	relic_activation_vultaum_real_perforator
+	relic_activation_yuht_cryo_core
+
+
+ }
+}
+
+category = {
+ name = "Ambient"
+ soundeffects = {
+
+	amb_planet_world_hive
+	amb_planet_world_machine
+	amb_planet_world_relic
+	
+ }
+}
+
+#########################################################
+#														#
+#					     ASSETS			    			#
+#														#
+#########################################################
+
+	
+############### PLANET SOUNDS
+
+######### HIVEMIND WORLD
+
+sound = 
+{
+    name = "sfx_world_hivemind_show_planet_01"
+    file = "sfx_world_hivemind_show_planet_01.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_hivemind_show_planet_02"
+    file = "sfx_world_hivemind_show_planet_02.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_hivemind_show_planet_03"
+    file = "sfx_world_hivemind_show_planet_03.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_hive_amb_loop"
+    file = "sfx_world_hive_amb_loop.wav"
+    always_load = no    
+    volume = 1
+}
+
+######### MACHINE WORLD
+	
+sound = 
+{
+    name = "sfx_world_machine_show_planet_01"
+    file = "sfx_world_machine_show_planet_01.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_machine_show_planet_02"
+    file = "sfx_world_machine_show_planet_02.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_machine_show_planet_03"
+    file = "sfx_world_machine_show_planet_03.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_machine_amb_loop"
+    file = "sfx_world_machine_amb_loop.wav"
+    always_load = no    
+    volume = 1
+}
+
+
+######### RELIC WORLD
+
+sound = 
+{
+    name = "sfx_world_relic_show_planet_01"
+    file = "sfx_world_relic_show_planet_01.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_relic_show_planet_02"
+    file = "sfx_world_relic_show_planet_02.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_relic_show_planet_03"
+    file = "sfx_world_relic_show_planet_03.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_world_relic_amb_loop"
+    file = "sfx_world_relic_amb_loop.wav"
+    always_load = no    
+    volume = 0.15
+}
+
+
+############### ALERTS, EVENTS & GUI
+
+
+########## EVENTS
+
+sound =
+{
+	name = "sfx_archeology_event_bad_omen_01"
+	file = "sfx_archeology_event_bad_omen_01.wav"
+	volume = 0.4
+}
+
+sound =
+{
+	name = "sfx_archeology_event_bad_omen_02"
+	file = "sfx_archeology_event_bad_omen_02.wav"
+	volume = 0.4
+}
+
+sound =
+{
+	name = "sfx_archeology_event_begin_expedition"
+	file = "sfx_archeology_event_begin_expedition.wav"
+	volume = 1
+}
+
+sound =
+{
+	name = "sfx_archeology_event_big_door_opening_01"
+	file = "sfx_archeology_event_big_door_opening_01.wav"
+	volume = 1
+}
+	
+sound =
+{
+	name = "sfx_archeology_event_big_door_opening_02"
+	file = "sfx_archeology_event_big_door_opening_02.wav"
+	volume = 1
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_collapsing_ruins_01"
+    file = "sfx_archeology_event_collapsing_ruins_01.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_collapsing_ruins_02"
+    file = "sfx_archeology_event_collapsing_ruins_02.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_dig_site"
+    file = "sfx_archeology_event_dig_site.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_trap_laser_01"
+    file = "sfx_archeology_event_trap_laser_01.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_trap_laser_02"
+    file = "sfx_archeology_event_trap_laser_02.wav"
+    volume = 0.6
+}
+	
+sound = 
+	{
+	    name = "sfx_archeology_event_trap_laser_03"
+	    file = "sfx_archeology_event_trap_laser_03.wav"
+	    volume = 0.6
+	}
+
+sound = 
+{
+    name = "sfx_archeology_event_trap_spikes_01"
+    file = "sfx_archeology_event_trap_spikes_01.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_trap_spikes_02"
+    file = "sfx_archeology_event_trap_spikes_02.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_trap_spikes_03"
+    file = "sfx_archeology_event_trap_spikes_03.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_dangerous_animals_01"
+    file = "sfx_archeology_event_dangerous_animals_01.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_dangerous_animals_02"
+    file = "sfx_archeology_event_dangerous_animals_02.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_dangerous_animals_03"
+    file = "sfx_archeology_event_dangerous_animals_03.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_door_opening_01"
+    file = "sfx_archeology_event_door_opening_01.wav"
+    volume = 0.8
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_door_opening_02"
+    file = "sfx_archeology_event_door_opening_02.wav"
+    volume = 0.8
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_door_opening_03"
+    file = "sfx_archeology_event_door_opening_03.wav"
+    volume = 0.8
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_drilling_01"
+    file = "sfx_archeology_event_drilling_01.wav"
+    volume = 0.8
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_energy_field_01"
+    file = "sfx_archeology_event_energy_field_01.wav"
+    volume = 0.3
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_energy_field_02"
+    file = "sfx_archeology_event_energy_field_02.wav"
+    volume = 0.3
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_energy_field_03"
+    file = "sfx_archeology_event_energy_field_03.wav"
+    volume = 0.3
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_finding_loot_01"
+    file = "sfx_archeology_event_finding_loot_01.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_finding_loot_02"
+    file = "sfx_archeology_event_finding_loot_02.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_finding_loot_03"
+    file = "sfx_archeology_event_finding_loot_03.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_machinery_01"
+    file = "sfx_archeology_event_machinery_01.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_machinery_02"
+    file = "sfx_archeology_event_machinery_02.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_metal_fatigue_01"
+    file = "sfx_archeology_event_metal_fatigue_01.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_metal_fatigue_02"
+    file = "sfx_archeology_event_metal_fatigue_02.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_metal_fatigue_03"
+    file = "sfx_archeology_event_metal_fatigue_03.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_power_down_01"
+    file = "sfx_archeology_event_power_down_01.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_power_down_02"
+    file = "sfx_archeology_event_power_down_02.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_power_down_03"
+    file = "sfx_archeology_event_power_down_03.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_screams_01"
+    file = "sfx_archeology_event_screams_01.wav"
+    volume = 0.45
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_screams_02"
+    file = "sfx_archeology_event_screams_02.wav"
+    volume = 0.45
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_trap_arrows_01"
+    file = "sfx_archeology_event_trap_arrows_01.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_trap_arrows_02"
+    file = "sfx_archeology_event_trap_arrows_02.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_whispering_01"
+    file = "sfx_archeology_event_whispering_01.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_whispering_02"
+    file = "sfx_archeology_event_whispering_02.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_whispering_03"
+    file = "sfx_archeology_event_whispering_03.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_wind_ruins_01"
+    file = "sfx_archeology_event_wind_ruins_01.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_wind_ruins_02"
+    file = "sfx_archeology_event_wind_ruins_02.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_archeology_event_wind_ruins_03"
+    file = "sfx_archeology_event_wind_ruins_03.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_precursor_event_baol_organism_animation"
+    file = "sfx_precursor_event_baol_organism_animation.wav"
+    volume = 0.5
+}
+
+########## DIG SITE LOG 
+
+
+sound = 
+{
+    name = "sfx_archeology_log_entry_negative"
+    file = "sfx_archeology_log_entry_negative.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_archeology_log_entry_neutral"
+    file = "sfx_archeology_log_entry_neutral.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_archeology_log_entry_positive"
+    file = "sfx_archeology_log_entry_positive.wav"
+    volume = 1
+}
+
+
+########## NOTIFICATIONS
+
+sound = 
+{
+    name = "sfx_archeology_notifications_chapter_complete"
+    file = "sfx_archeology_notifications_chapter_complete.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_archeology_notifications_new_dig_site"
+    file = "sfx_archeology_notifications_new_dig_site.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_archeology_notifications_random_event"
+    file = "sfx_archeology_notifications_random_event.wav"
+    volume = 1
+}
+
+
+########## RELIC ACTIVATION
+
+sound = 
+{
+    name = "sfx_relic_activation_blade_of_the_huntress"
+    file = "sfx_relic_activation_blade_of_the_huntress.wav"
+    volume = 1
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_cybrex_war_forge"
+    file = "sfx_relic_activation_cybrex_war_forge.wav"  
+    volume = 0.7
+}
+
+
+sound = 
+{
+    name = "sfx_relic_activation_ether_drake_trophy"
+    file = "sfx_relic_activation_ether_drake_trophy.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_extradimensional_warlock"
+    file = "sfx_relic_activation_extradimensional_warlock.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_generic"
+    file = "sfx_relic_activation_generic.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_head_of_zarqlan"
+    file = "sfx_relic_activation_head_of_zarqlan.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_intact_zro_soulstone"
+    file = "sfx_relic_activation_intact_zro_soulstone.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_isolated_contingency_core"
+    file = "sfx_relic_activation_isolated_contingency_core.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_javorian_pox_sample"
+    file = "sfx_relic_activation_javorian_pox_sample.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_khans_throne"
+    file = "sfx_relic_activation_khans_throne.wav"
+    volume = 0.7
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_miniature_galaxy"
+    file = "sfx_relic_activation_miniature_galaxy.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_prethoryn_blood_queen"
+    file = "sfx_relic_activation_prethoryn_blood_queen.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_scales_of_the_worm"
+    file = "sfx_relic_activation_scales_of_the_worm.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_the_galatron"
+    file = "sfx_relic_activation_the_galatron.wav"
+    volume = 0.8
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_the_last_baol"
+    file = "sfx_relic_activation_the_last_baol.wav"
+    volume = 0.65
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_the_omnicodex"
+    file = "sfx_relic_activation_the_omnicodex.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_the_rubricator"
+    file = "sfx_relic_activation_the_rubricator.wav"
+    volume = 0.6
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_the_surveyor"
+    file = "sfx_relic_activation_the_surveyor.wav"
+    volume = 0.55
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_vultaum_real_perforator"
+    file = "sfx_relic_activation_vultaum_real_perforator.wav"
+    volume = 0.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_yuht_cryo_core"
+    file = "sfx_relic_activation_yuht_cryo_core.wav"
+    volume = 0.7
+}
+
+
+
+
+#########################################################
+#														#
+#					  SOUNDEFFECTS		    			#
+#														#
+#########################################################
+
+
+
+############### ALERTS, EVENTS & GUI
+
+############ NOTIFICATIONS
+
+soundeffect =
+	{
+	    name = "archeology_notifications_chapter_complete"
+	    volume = 0.25
+	    max_audible = 1
+		max_audible_behaviour = fail
+	    sounds = {
+	        sound = sfx_archeology_notifications_chapter_complete
+		}
+	}
+
+soundeffect =
+	{
+	    name = "archeology_notifications_new_dig_site"
+	    volume = 0.25
+	    max_audible = 1
+		max_audible_behaviour = fail
+	    sounds = {
+	        sound = sfx_archeology_notifications_new_dig_site
+		}
+	}
+
+soundeffect =
+	{
+	    name = "archeology_notifications_random_event"
+	    volume = 0.3
+	    max_audible = 1
+		max_audible_behaviour = fail
+	    sounds = {
+	        sound = sfx_archeology_notifications_random_event
+		}
+	}
+
+soundeffect =
+	{
+	    name = "archeology_notifications_dig_site_complete"
+	    volume = 0.3
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+	        sound = sfx_archeology_event_begin_expedition
+		}
+	}
+
+
+
+
+############ DIG SITE LOG
+
+soundeffect =
+	{
+	    name = "archeology_log_entry_negative"
+	    volume = 0.3
+	    max_audible = 1
+		max_audible_behaviour = fail
+	    sounds = {
+	        sound = sfx_archeology_log_entry_negative
+		}
+	}
+
+soundeffect =
+	{
+	    name = "archeology_log_entry_neutral"
+	    volume = 0.3
+	    max_audible = 1
+		max_audible_behaviour = fail
+	    sounds = {
+	        sound = sfx_archeology_log_entry_neutral
+		}
+	}
+
+soundeffect =
+	{
+	    name = "archeology_log_entry_positive"
+	    volume = 0.3
+	    max_audible = 1
+		max_audible_behaviour = fail
+	    sounds = {
+	        sound = sfx_archeology_log_entry_positive
+		}
+	}
+
+
+############ EVENTS
+
+soundeffect =
+	{
+	    name = "event_dangerous_animals"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_dangerous_animals_01	        		
+			sound = sfx_archeology_event_dangerous_animals_02		
+			sound = sfx_archeology_event_dangerous_animals_03		
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_door_opening"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_door_opening_01
+			sound = sfx_archeology_event_door_opening_02
+			sound = sfx_archeology_event_door_opening_03
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_drilling"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_drilling_01
+		}
+	}
+
+
+soundeffect =
+	{
+	    name = "event_energy_field"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_energy_field_01			
+			sound = sfx_archeology_event_energy_field_02
+			sound = sfx_archeology_event_energy_field_03			
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_finding_loot"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_finding_loot_01
+			sound = sfx_archeology_event_finding_loot_02
+			sound = sfx_archeology_event_finding_loot_03
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_machinery"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_machinery_01
+			sound = sfx_archeology_event_machinery_02
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_metal_fatigue"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_metal_fatigue_01			
+			sound = sfx_archeology_event_metal_fatigue_02			
+			sound = sfx_archeology_event_metal_fatigue_03	    
+		}
+	}
+
+
+soundeffect =
+	{
+	    name = "event_power_down"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_power_down_01
+			sound = sfx_archeology_event_power_down_02
+			sound = sfx_archeology_event_power_down_03
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_screams"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_screams_01
+			sound = sfx_archeology_event_screams_02
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_trap_arrows"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_trap_arrows_01
+			sound = sfx_archeology_event_trap_arrows_02
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_whispering"
+	    volume = 0.5
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_whispering_01
+			sound = sfx_archeology_event_whispering_02
+			sound = sfx_archeology_event_whispering_03
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_wind_ruins"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+			sound = sfx_archeology_event_wind_ruins_01
+			sound = sfx_archeology_event_wind_ruins_02
+			sound = sfx_archeology_event_wind_ruins_03
+		}
+	}
+
+soundeffect =
+	{
+	    name = "precursor_event_baol_organism_animation"
+	    volume = 0.5
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 30
+	    sounds = {
+			sound = sfx_precursor_event_baol_organism_animation
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_bad_omen"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+	        sound = sfx_archeology_event_bad_omen_01
+	        sound = sfx_archeology_event_bad_omen_02
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_big_door_opening"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+	        sound = sfx_archeology_event_big_door_opening_01
+	        sound = sfx_archeology_event_big_door_opening_02
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_collapsing_ruins"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+	        sound = sfx_archeology_event_collapsing_ruins_01
+	        sound = sfx_archeology_event_collapsing_ruins_02
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_dig_site"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+	        sound = sfx_archeology_event_dig_site
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_trap_laser"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+	        sound = sfx_archeology_event_trap_laser_01
+	        sound = sfx_archeology_event_trap_laser_02
+	        sound = sfx_archeology_event_trap_laser_03
+		}
+	}
+
+soundeffect =
+	{
+	    name = "event_trap_spikes"
+	    volume = 0.4
+	    max_audible = 1
+		max_audible_behaviour = fail
+		fade_out = 0.3
+	    sounds = {
+	        sound = sfx_archeology_event_trap_spikes_01
+	        sound = sfx_archeology_event_trap_spikes_02
+	        sound = sfx_archeology_event_trap_spikes_03
+		}
+	}		
+
+
+########### PLANETS #############
+
+	
+############### HIVEMIND WORLD
+
+soundeffect =
+{
+    name = "amb_planet_world_hive"
+    volume = 0.3
+    loop = yes
+    is3d = yes
+    max_audible = 5
+	max_audible_behaviour = fail
+    falloff = falloff_ambient
+    #delay_random_offset = { 0.0 0.5 }
+    sounds = {
+        sound = sfx_world_hive_amb_loop
+	}
+    fade_in = 0.5
+    fade_out = 0.0
+}
+
+soundeffect =
+{
+    name = "pc_hive"
+    volume = 0.3
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+    sounds = {
+        sound = sfx_world_hivemind_show_planet_01
+        sound = sfx_world_hivemind_show_planet_02
+        sound = sfx_world_hivemind_show_planet_03
+	}
+}
+
+############### RELIC WORLD
+
+soundeffect =
+{
+    name = "amb_planet_world_relic"
+    volume = 1
+    loop = yes
+    is3d = yes
+    max_audible = 5
+	max_audible_behaviour = fail
+    falloff = falloff_ambient
+    #delay_random_offset = { 0.0 0.5 }
+    sounds = {
+        sound = sfx_world_relic_amb_loop
+	}
+    fade_in = 0.5
+    fade_out = 0.0
+}
+
+
+soundeffect =
+{
+    name = "pc_relic"
+    volume = 0.2
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+    sounds = {
+        sound = sfx_world_relic_show_planet_01
+        sound = sfx_world_relic_show_planet_02
+        sound = sfx_world_relic_show_planet_03
+	}
+}
+
+
+############### MACHINE WORLD
+
+soundeffect =
+{
+    name = "amb_planet_world_machine"
+    volume = 0.2
+    loop = yes
+    is3d = yes
+    max_audible = 5
+	max_audible_behaviour = fail
+    falloff = falloff_ambient
+    #delay_random_offset = { 0.0 0.5 }
+    sounds = {
+        sound = sfx_world_machine_amb_loop
+	}
+    fade_in = 0.5
+    fade_out = 0.0
+}
+
+soundeffect =
+{
+    name = "pc_machine"
+    volume = 0.3`
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+    sounds = {
+        sound = sfx_world_machine_show_planet_01
+        sound = sfx_world_machine_show_planet_02
+        sound = sfx_world_machine_show_planet_03
+	}
+}
+
+
+
+
+############### RELIC ACTIVATION
+
+ soundeffect =
+{
+    name = "relic_activation_blade_of_the_huntress"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_blade_of_the_huntress
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_cybrex_war_forge"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_cybrex_war_forge
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_ether_drake_trophy"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_ether_drake_trophy
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_extradimensional_warlock"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_extradimensional_warlock
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_generic"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_generic
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_head_of_zarqlan"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_head_of_zarqlan
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_intact_zro_soulstone"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_intact_zro_soulstone
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_isolated_contingency_core"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_isolated_contingency_core
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_javorian_pox_sample"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_javorian_pox_sample
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_khans_throne"
+    volume = 0.8
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_khans_throne
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_miniature_galaxy"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_miniature_galaxy
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_prethoryn_blood_queen"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_prethoryn_blood_queen
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_scales_of_the_worm"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_scales_of_the_worm
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_the_galatron"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_the_galatron
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_the_last_baol"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_the_last_baol
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_the_omnicodex"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_the_omnicodex
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_the_rubricator"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_the_rubricator
+	}
+}
+
+ soundeffect =
+{
+    name = "relic_activation_the_surveyor"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_the_surveyor
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_vultaum_real_perforator"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_vultaum_real_perforator
+	}
+}
+
+soundeffect =
+{
+    name = "relic_activation_yuht_cryo_core"
+    volume = 0.5
+    max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_yuht_cryo_core
+	}
+}
