@@ -11956,6 +11956,8 @@
  war_goal_wg_humiliation:0 "Humiliate"
  #war_goal_wg_humiliation_desc: "Wage war to destroy the enemy's chain of command, disrupt their logistical flows, undermine the public's faith in their institutions, and destabilize the regime."
  war_goal_wg_humiliation_desc:0 "War is waged to undermine the enemy regime and the populace's faith in their institutions."
+ war_goal_wg_payback_msi_humiliation:0 "$war_goal_wg_humiliation$"
+ war_goal_wg_payback_msi_humiliation_desc:0 "$war_goal_wg_humiliation_desc$"
  war_goal_wg_force_ideology:0 "Impose Ideology"
  war_goal_wg_force_ideology_desc:1 "War is waged to force one's ethos and government form on the enemy.\n\nIn the event of a Status Quo peace, systems we occupy will be released as a new ideological ally if they include at least one planet."
  war_goal_wg_fe_humiliation:0 "Humiliate"

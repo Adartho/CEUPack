@@ -912,7 +912,9 @@ country_event = {
 		}
 
 		if = {
-			limit = { is_low_tech_start = no }
+			limit = {
+				is_low_tech_start = no
+			}
 
 			create_fleet = {
 				set_take_point = yes
@@ -977,6 +979,28 @@ country_event = {
 						}
 						set_location = prev.capital_star
 					}
+				}
+			}
+		}
+
+		else_if = {
+			limit = {
+				has_civic = civic_hive_cordyceptic_drones
+				has_civic = civic_hive_stargazers
+			}
+			create_fleet = {
+				set_take_point = yes
+				effect = {
+					set_owner = prev
+					while = {
+						count = 3
+						create_ship = {
+							name = NAME_Reanimated_Small_Space_Organism
+							design = NAME_Reanimated_Small_Space_Organism
+							prefix = yes
+						}
+					}
+					set_location = prev.capital_star
 				}
 			}
 		}

@@ -994,7 +994,7 @@ building_clone_vats = {
 				exists = owner
 				owner = { is_lithoid_empire = yes }
 			}
-			minerals = 20
+			minerals = 25
 		}
 	}
 
@@ -1138,6 +1138,7 @@ building_clone_army_clone_vat = {
 	}
 
 	is_essential = yes
+	ai_estimate_without_unemployment = yes
 }
 
 #############

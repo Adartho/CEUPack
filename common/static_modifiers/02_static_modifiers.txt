@@ -509,12 +509,15 @@ media_coverage_positive_high = {
 	pop_happiness = 0.4
 }
 media_coverage_negative_low = {
+	icon = "gfx/interface/icons/modifiers/mod_negative_pop_happiness.dds"
 	pop_happiness = -0.1
 }
 media_coverage_negative_medium = {
+	icon = "gfx/interface/icons/modifiers/mod_negative_pop_happiness.dds"
 	pop_happiness = -0.2
 }
 media_coverage_negative_high = {
+	icon = "gfx/interface/icons/modifiers/mod_negative_pop_happiness.dds"
 	pop_happiness = -0.3
 }
 health_discovery = {
