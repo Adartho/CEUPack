@@ -707,7 +707,7 @@ trait_uplifted = {
 }
 
 trait_conformists = {
-	cost = 2
+	cost = 1
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}
@@ -734,7 +734,7 @@ trait_deviants = {
 		can_do_advanced_gene_modding = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	modifier = { pop_government_ethic_attraction = -0.15 }
+	modifier = { pop_government_ethic_attraction = -0.30 }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 
@@ -756,7 +756,7 @@ trait_venerable = {
 		always = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	modifier = { leader_age = 80 }
+	modifier = { leader_age = 70 }
 	opposites = { "trait_enduring" "trait_fleeting" "trait_fleeting_lithoid" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	slave_cost = {
@@ -773,7 +773,7 @@ trait_enduring = {
 		always = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	modifier = { leader_age = 40 }
+	modifier = { leader_age = 35 }
 	opposites = { "trait_venerable" "trait_fleeting" "trait_fleeting_lithoid" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	slave_cost = {
@@ -782,12 +782,12 @@ trait_enduring = {
 }
 
 trait_fleeting = {
-	cost = -1
+	cost = -2
 	species_potential_add = {
 		can_do_advanced_gene_modding = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	modifier = { leader_age = -10 }
+	modifier = { leader_age = -20 }
 	opposites = { "trait_venerable" "trait_enduring" "trait_fleeting_lithoid" }
 	allowed_archetypes = { BIOLOGICAL }
 	ai_weight = {

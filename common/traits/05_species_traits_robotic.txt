@@ -228,7 +228,7 @@ trait_robot_emotion_emulators = {
 	opposites = { "trait_robot_uncanny" }
 	allowed_archetypes = { MACHINE }
 	modifier = {
-		pop_job_amenities_mult = 0.20
+		pop_job_amenities_mult = 0.15
 	}
 	slave_cost = {
 		energy = 750
@@ -240,7 +240,7 @@ trait_robot_uncanny = {
 	opposites = { "trait_robot_emotion_emulators" }
 	allowed_archetypes = { MACHINE }
 	modifier = {
-		pop_job_amenities_mult = -0.20
+		pop_job_amenities_mult = -0.15
 	}
 	ai_weight = {
 		factor = 0
