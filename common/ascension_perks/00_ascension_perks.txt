@@ -946,8 +946,7 @@ ap_imperial_prerogative = {
 
 ap_executive_vigor = {
 	modifier = {
-		country_edict_fund_add = 100
-		edicts_upkeep_mult = -0.25
+		country_edict_fund_add = 150
 	}
 
 	potential = {

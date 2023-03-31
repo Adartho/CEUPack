@@ -69,7 +69,7 @@ tr_psionics_finish = {
 		}
 	}
 	modifier = {
-		edicts_upkeep_mult = -0.33
+		edicts_upkeep_mult = -0.20
 		shroud_delve_cooldown = -0.2
 		ascension_perks_add = 1
 	}

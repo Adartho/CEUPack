@@ -741,7 +741,7 @@
  tr_psionics_adopt_shroudwalker_tooltip:0 "Research option gained:\n £society£ §Y$tech_telepathy$§!"
 
  tr_psionics_finish:0 "Psionic Traditions Finished"
- tr_psionics_finish_desc:0 "Unlocks a §YSpecial Project§! to form a Covenant.\nEdicts Upkeep: §G-33%§!\nAscension Perks Unlocked: §G+1§!"
+ tr_psionics_finish_desc:0 "Unlocks a §YSpecial Project§! to form a Covenant.\nEdicts Upkeep: §G-20%§!\nShroud Delve Cooldown: §G-20%§!\nAscension Perks Unlocked: §G+1§!"
 
  tr_psionics_psi_corps:0 "Psi-Corps"
  tr_psionics_psi_corps_desc:0 "$ALLOW_PSI_CORPS$\nResearch option gained:\n £society£ §Y$tech_thought_enforcement$§!"
