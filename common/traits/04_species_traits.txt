@@ -917,7 +917,7 @@ trait_gluttonous = {
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
 		planet_pops_food_upkeep_mult = 0.5
-		planet_pops_minerals_upkeep_mult = 0.5
+		planet_pops_minerals_upkeep_mult = 0.25
 	}
 	ai_weight = {
 		weight = 0
