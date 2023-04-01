@@ -747,6 +747,17 @@ trait_deviants = {
 	}
 }
 
+trait_immortal = {
+	cost = 5
+	allowed_archetypes = { BIOLOGICAL }
+	ai_weight = { weight = 0 } 
+	immortal_leaders = yes
+	icon = "gfx/interface/icons/traits/trait_immortal.dds"
+	opposites = {
+		trait_enduring trait_venerable trait_robust trait_fleeting
+	}   
+}
+
 trait_venerable = {
 	cost = 2
 	species_possible_remove = {
