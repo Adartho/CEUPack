@@ -72,3 +72,8 @@
 
  trait_immortal:0 "Immortal"
  trait_immortal_desc:0 "This species is immortal."
+
+ mod_planet_pops_food_upkeep_mult:0 "Pop Food Upkeep"
+ mod_planet_pops_minerals_upkeep_mult:0 "Pop Minerals Upkeep"
+ trait_gluttonous:0 "Gluttonous"
+ trait_gluttonous_desc:0 "§LThis species has a naturally high calorie intake, requiring significantly more sustenance than most.§!\n"
