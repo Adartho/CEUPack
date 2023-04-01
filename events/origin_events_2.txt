@@ -460,7 +460,7 @@ country_event = {
 				}
 				add_tech_progress = {
 					tech = tech_gateway_activation
-					progress = 0.65
+					progress = 0.90
 				}
 			}
 			else_if = {
@@ -470,7 +470,7 @@ country_event = {
 				add_research_option = tech_gateway_activation
 				add_tech_progress = {
 					tech = tech_gateway_activation
-					progress = 0.45
+					progress = 0.80
 				}
 			}
 			else = {
@@ -770,14 +770,14 @@ country_event = {
 			add_research_option = tech_gateway_construction
 			add_tech_progress = {
 				tech = tech_gateway_construction
-				progress = 0.2
+				progress = 0.80
 			}
 		}
 		else_if = {
 			limit = { has_tech_option = tech_gateway_construction }
 			add_tech_progress = {
 				tech = tech_gateway_construction
-				progress = 0.2
+				progress = 0.90
 			}
 		}
 	}
