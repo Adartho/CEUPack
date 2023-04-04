@@ -8,11 +8,11 @@ spy_orb_0 = {
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @phase_0_entity_x y = @phase_0_entity_y }
-	build_time = 1800
+	build_time = 900
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 5000
+			alloys = 2500
 			unity = 2500
 		}
 
@@ -147,11 +147,11 @@ spy_orb_1 = {
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	build_time = 1800
+	build_time = 900
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 10000
+			alloys = 5000
 			unity = 2500
 		}
 
@@ -180,11 +180,11 @@ spy_orb_2 = {
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	build_time = 1800
+	build_time = 900
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 10000
+			alloys = 5000
 			unity = 2500
 		}
 
@@ -214,11 +214,11 @@ spy_orb_3 = {
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	build_time = 1800
+	build_time = 900
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 10000
+			alloys = 5000
 			unity = 2500
 		}
 
@@ -246,11 +246,11 @@ spy_orb_4 = {
 	portrait = "GFX_megastructure_spy_orb_background"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	build_time = 1800
+	build_time = 900
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 10000
+			alloys = 5000
 			unity = 2500
 		}
 
@@ -313,11 +313,11 @@ spy_orb_restored = {
 	portrait = "GFX_megastructure_spy_orb_background"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	build_time = 4800
+	build_time = 2400
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 15000
+			alloys = 7500
 			unity = 3500
 		}
 
